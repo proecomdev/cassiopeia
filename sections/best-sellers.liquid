@@ -1,0 +1,84 @@
+<style>
+  #shopify-section-{{ section.id }} {
+    padding-top: 116px;
+    background-color: #EDECE7;
+  }
+  #shopify-section-{{ section.id }} .collection__title h2.title {
+    font-family: 'Faberge';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 96px;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: #281D15;
+    margin: 0;
+  }
+</style>
+
+<div class="collection section-{{ section.id }}-padding">
+  <div class="collection__title title-wrapper title-wrapper--no-top-margin page-width">
+    <h2 class="title {{ section.settings.heading_size }}">{{ section.settings.title | escape }}</h2>
+  </div>
+  <div class="slick-container">
+    <div class="slick-slider-best">
+      {%- for block in section.blocks -%}
+        <a href="#" class="product">
+          <img src="{{ block.settings.image | img_url: 'master' }}">
+          <div class="product-detail">
+            <p class="product-name">{{ block.settings.name }}</p>
+            <p class="product-price">{{ block.settings.price }}</p>
+          </div>
+        </a>
+      {%- endfor -%}
+    </div>
+  </div>
+</div>
+
+
+{% schema %}
+{
+  "name": "Best Sellers",
+  "tag": "section",
+  "class": "section",
+  "disabled_on": {
+    "groups": ["header", "footer"]
+  },
+  "settings": [
+    {
+      "type": "text",
+      "id": "title",
+      "default": "BEST SELLERS",
+      "label": "t:sections.featured-collection.settings.title.label"
+    }
+  ],
+  "blocks": [
+    {
+      "name": "images",
+      "type": "product",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "Image"
+        },
+        {
+          "type": "text",
+          "id": "name",
+          "label": "Name"
+        },
+        {
+          "type": "text",
+          "id": "price",
+          "label": "Price"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Best Sellers"
+    }
+  ]
+}
+{% endschema %}

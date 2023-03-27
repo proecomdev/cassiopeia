@@ -1,0 +1,82 @@
+<style>
+  #shopify-section-{{ section.id }} {
+    padding-top: 136px;
+    padding-bottom: 134px;
+  }
+  #shopify-section-{{ section.id }} .collection__title h2.title {
+    font-family: 'Faberge';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 96px;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: #281D15;
+    margin: 0;
+  }
+  #shopify-section-{{ section.id }} .slick-container {
+    width: 100%;
+    padding-left: 0;
+    padding-right: 12px;
+  }
+  #shopify-section-{{ section.id }} .title-wrapper {
+    margin-bottom: 24px;
+  }
+  #shopify-section-{{ section.id }} .slick-container .slick-next,
+  #shopify-section-{{ section.id }} .slick-container .slick-prev {
+    top: -63px;
+  }
+</style>
+
+<div class="collection section-{{ section.id }}-padding">
+  <div class="collection__title title-wrapper title-wrapper--no-top-margin page-width">
+    <h2 class="title {{ section.settings.heading_size }}">{{ section.settings.title | escape }}</h2>
+  </div>
+  <div class="slick-container">
+    <div class="follow-us-on-social">
+      {%- for block in section.blocks -%}
+        <a href="#" class="product">
+          <img src="{{ block.settings.image | img_url: 'master' }}">
+        </a>
+      {%- endfor -%}
+    </div>
+  </div>
+</div>
+
+
+{% schema %}
+{
+  "name": "Follow Us On Social",
+  "tag": "section",
+  "class": "section",
+  "disabled_on": {
+    "groups": ["header", "footer"]
+  },
+  "settings": [
+    {
+      "type": "text",
+      "id": "title",
+      "default": "BEST SELLERS",
+      "label": "t:sections.featured-collection.settings.title.label"
+    }
+  ],
+  "blocks": [
+    {
+      "name": "images",
+      "type": "product",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "Image"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Follow Us On Social"
+    }
+  ]
+}
+{% endschema %}

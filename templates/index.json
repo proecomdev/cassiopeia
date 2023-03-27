@@ -1,0 +1,368 @@
+{
+  "sections": {
+    "image_banner": {
+      "type": "image-banner",
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "The Larimar Collection",
+            "heading_size": "h0"
+          }
+        },
+        "text": {
+          "type": "text",
+          "settings": {
+            "text": "Explore our Larimar collection on offer or surprise  aloved-one with a selection of three June birthstones: Pearl, Alexandrite and Moonstone.",
+            "text_style": "body"
+          }
+        },
+        "button": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "SHOP LARIMAR",
+            "button_link_1": "shopify:\/\/collections\/all",
+            "button_style_secondary_1": true,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading",
+        "text",
+        "button"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/DTS_MISC_4__Chris_Abatzis__Chris_Abatzis_5329_3.jpg",
+        "image_2": "shopify:\/\/shop_images\/DTS_MISC_4__Chris_Abatzis__Chris_Abatzis_5329_2.jpg",
+        "image_overlay_opacity": 30,
+        "image_height": "large",
+        "desktop_content_position": "bottom-center",
+        "show_text_box": false,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": false,
+        "show_text_below": false
+      }
+    },
+    "e017d040-a774-44ba-be7d-1e1e7682d482": {
+      "type": "best-sellers",
+      "blocks": {
+        "fb53294d-7db7-4382-8a2f-be0ba880baec": {
+          "type": "product",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/0083a02570db4793c51c7c5a8008770d.png",
+            "name": "MOONSTONE SILVER STUD EARNINGS",
+            "price": "Dhs. 237.83"
+          }
+        },
+        "3caebba0-7b5b-4f6a-abfe-4ff0a1006040": {
+          "type": "product",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/3bde473d0a50bb96658008356dc648a4.png",
+            "name": "LABRADORITE FACETED BRACELET",
+            "price": "Dhs. 402.21"
+          }
+        },
+        "ce3b6e6f-9f16-4313-b029-23320f923c4d": {
+          "type": "product",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/c4f6aa3596cee468e1ccc27e74447c3c.png",
+            "name": "BLUE COPPER TURQUOISE SILVER NECKLACE",
+            "price": "Dhs. 1,007.33"
+          }
+        },
+        "b7e1750c-6d6d-41e3-8278-875948914787": {
+          "type": "product",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/3bde473d0a50bb96658008356dc648a4_c8f25c9d-b3ac-409c-90fd-e851b7cc4395.png",
+            "name": "LABRADORITE FACETED BRACELET",
+            "price": "Dhs. 402.21"
+          }
+        }
+      },
+      "block_order": [
+        "fb53294d-7db7-4382-8a2f-be0ba880baec",
+        "3caebba0-7b5b-4f6a-abfe-4ff0a1006040",
+        "ce3b6e6f-9f16-4313-b029-23320f923c4d",
+        "b7e1750c-6d6d-41e3-8278-875948914787"
+      ],
+      "settings": {
+        "title": "BEST SELLERS"
+      }
+    },
+    "featured_collection": {
+      "type": "featured-collection",
+      "disabled": true,
+      "settings": {
+        "title": "BEST SELLERS",
+        "heading_size": "h2",
+        "description": "",
+        "show_description": false,
+        "description_style": "uppercase",
+        "collection": "all",
+        "products_to_show": 8,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "background-1",
+        "image_ratio": "adapt",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 100,
+        "padding_bottom": 36
+      }
+    },
+    "5c19ad23-bd9c-4e83-9873-66295e96b705": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--18468375658824__5c19ad23-bd9c-4e83-9873-66295e96b705-1679793981da1b4277-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "HERE IS HOW WE DO IT",
+            "sub_heading": "Discover Cassiopeia",
+            "heading_size": "h0"
+          }
+        },
+        "template--18468375658824__5c19ad23-bd9c-4e83-9873-66295e96b705-1679793981da1b4277-1": {
+          "type": "text",
+          "settings": {
+            "text_1": "<p><em>Premium Semi-Precious Stone Jewellery for Nature Lovers<\/em><\/p><p>Embrace the allure of nature with Cassiopeia's stunning collection of high-quality, semi-precious stone jewellery. As a leading gemstone jewellery brand, we specialise in crafting exquisite 925 sterling silver pieces, designed to captivate and inspire women of all ages. Our skilled Italian silversmiths and trusted raw stone suppliers ensure you experience the mystical beauty of nature like never before.<\/p>",
+            "text_2": "<p><em>Find Your Perfect Gemstone Accessory: Birthstones, Astrology, Healing Crystals<\/em><\/p><p>Whether you're passionate about crystal energy healing, fascinated by horoscope astrology, seeking the perfect birthstone, or simply intrigued by the science and history of gemstones, Cassiopeia is your ultimate destination for exceptional semi-precious stone jewellery. And for the gentlemen, we also offer an array of stylish and masculine options.<\/p>"
+          }
+        },
+        "template--18468375658824__5c19ad23-bd9c-4e83-9873-66295e96b705-1679793981da1b4277-2": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        },
+        "76b9d0d3-9534-4746-99f3-7d4a89a8ea7c": {
+          "type": "caption",
+          "settings": {
+            "caption": "Add a tagline",
+            "text_style": "caption-with-letter-spacing",
+            "text_size": "medium"
+          }
+        }
+      },
+      "block_order": [
+        "template--18468375658824__5c19ad23-bd9c-4e83-9873-66295e96b705-1679793981da1b4277-0",
+        "template--18468375658824__5c19ad23-bd9c-4e83-9873-66295e96b705-1679793981da1b4277-1",
+        "template--18468375658824__5c19ad23-bd9c-4e83-9873-66295e96b705-1679793981da1b4277-2",
+        "76b9d0d3-9534-4746-99f3-7d4a89a8ea7c"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/8a41a39df326f2588056b39498047bad.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "ae77fa49-2c6f-4773-ac75-cee9a982b5de": {
+      "type": "shop-catalogue",
+      "blocks": {
+        "223b81a5-64c0-4e0f-b641-e7bee01c32f3": {
+          "type": "product",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/f87915c303054b48bf71db0fd61bc5e2.png",
+            "name": "SHOP NECKLACES",
+            "price": ""
+          }
+        },
+        "3577f366-3c25-48d3-9cac-0d3fbdc5addf": {
+          "type": "product",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/0083a02570db4793c51c7c5a8008770d_24f21519-0010-4631-bab8-f1100908ff42.png",
+            "name": "SHOP EARRINGS",
+            "price": ""
+          }
+        },
+        "578dbb7d-cf6d-4148-9e17-9bb58d9fcf54": {
+          "type": "product",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/c0af5daebfdb27ff5ebca4595ef05f82.png",
+            "name": "SHOP PENDANTS",
+            "price": ""
+          }
+        },
+        "f40452c4-1114-4fb7-bdfd-acc4fe79c4d8": {
+          "type": "product",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/f87915c303054b48bf71db0fd61bc5e2.png",
+            "name": "SHOP NECKLACES",
+            "price": ""
+          }
+        },
+        "6b18286e-2026-43c8-9a4c-22a8470e2be5": {
+          "type": "product",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/0083a02570db4793c51c7c5a8008770d_24f21519-0010-4631-bab8-f1100908ff42.png",
+            "name": "SHOP EARRINGS",
+            "price": ""
+          }
+        },
+        "2fd8f510-afd9-4174-a548-50d299ec02ca": {
+          "type": "product",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/c0af5daebfdb27ff5ebca4595ef05f82.png",
+            "name": "SHOP PENDANTS",
+            "price": ""
+          }
+        }
+      },
+      "block_order": [
+        "223b81a5-64c0-4e0f-b641-e7bee01c32f3",
+        "3577f366-3c25-48d3-9cac-0d3fbdc5addf",
+        "578dbb7d-cf6d-4148-9e17-9bb58d9fcf54",
+        "f40452c4-1114-4fb7-bdfd-acc4fe79c4d8",
+        "6b18286e-2026-43c8-9a4c-22a8470e2be5",
+        "2fd8f510-afd9-4174-a548-50d299ec02ca"
+      ],
+      "settings": {
+        "title": "SHOP CATALOGUE"
+      }
+    },
+    "dc860411-dfd8-4f21-97bf-2d1794925c8a": {
+      "type": "read-our-blog",
+      "blocks": {
+        "d960c83e-f64f-436e-a45f-d0740ad067e5": {
+          "type": "blog",
+          "settings": {
+            "blog_title": "The Healing Properties of Crystals",
+            "image": "shopify:\/\/shop_images\/e8c4603a31a69a266d7b332b900c2c54.png",
+            "btn_name": "READ ARTICLE"
+          }
+        },
+        "1f28bee7-def0-4669-9239-c19009de25b5": {
+          "type": "blog",
+          "settings": {
+            "blog_title": "Which Crystals are Right for You?",
+            "image": "shopify:\/\/shop_images\/c71901a01b0e4bcda6568e6026654134.jpg",
+            "btn_name": "READ ARTICLE"
+          }
+        },
+        "15e330de-e820-4487-a9cf-b8e75be47cac": {
+          "type": "blog",
+          "settings": {
+            "blog_title": "Birthstones and Why You Should Wear Them",
+            "image": "shopify:\/\/shop_images\/9fe8b03dd21726a7a6833eb52b766125.png",
+            "btn_name": "READ ARTICLE"
+          }
+        },
+        "2200a956-f87e-4d73-8aeb-f2f187ce57e3": {
+          "type": "blog",
+          "settings": {
+            "blog_title": "Which Crystals are Right for You?",
+            "image": "shopify:\/\/shop_images\/4cc0a06d4f59c6c0581cbdf10ec6fc63.jpg",
+            "btn_name": "READ ARTICLE"
+          }
+        }
+      },
+      "block_order": [
+        "d960c83e-f64f-436e-a45f-d0740ad067e5",
+        "1f28bee7-def0-4669-9239-c19009de25b5",
+        "15e330de-e820-4487-a9cf-b8e75be47cac",
+        "2200a956-f87e-4d73-8aeb-f2f187ce57e3"
+      ],
+      "settings": {
+        "title": "Read Our Blog",
+        "button_name": "See All Articles",
+        "collection": ""
+      }
+    },
+    "d57af2d4-5ed8-4a4f-922e-7364119a2308": {
+      "type": "follow-us-on-social",
+      "blocks": {
+        "fd29b22b-7930-4d73-853e-1a5132fe5ebb": {
+          "type": "product",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/image_1.jpg"
+          }
+        },
+        "a3539cbc-d5b3-4afa-a082-d2f1762fd6d5": {
+          "type": "product",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/image_2.jpg"
+          }
+        },
+        "d9367f18-3f9c-4288-bd0f-216484579415": {
+          "type": "product",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/image_2_1.jpg"
+          }
+        },
+        "9f5ad087-ae80-4988-a28b-aa7442046bd1": {
+          "type": "product",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/image_1.jpg"
+          }
+        },
+        "674dfbce-893f-46d8-8443-5b33715d1c61": {
+          "type": "product",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/image_2.jpg"
+          }
+        },
+        "dd9d17ff-ce83-4661-b7fa-287be24db280": {
+          "type": "product",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/image_2_1.jpg"
+          }
+        },
+        "b84d966e-5c2e-418b-82c6-ce78d981ec42": {
+          "type": "product",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/image_1.jpg"
+          }
+        },
+        "d92c2757-e71f-40a2-afdc-b7781e1dfffb": {
+          "type": "product",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/image_2.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "fd29b22b-7930-4d73-853e-1a5132fe5ebb",
+        "a3539cbc-d5b3-4afa-a082-d2f1762fd6d5",
+        "d9367f18-3f9c-4288-bd0f-216484579415",
+        "9f5ad087-ae80-4988-a28b-aa7442046bd1",
+        "674dfbce-893f-46d8-8443-5b33715d1c61",
+        "dd9d17ff-ce83-4661-b7fa-287be24db280",
+        "b84d966e-5c2e-418b-82c6-ce78d981ec42",
+        "d92c2757-e71f-40a2-afdc-b7781e1dfffb"
+      ],
+      "settings": {
+        "title": "FOLLOW US ON SOCIAL"
+      }
+    }
+  },
+  "order": [
+    "image_banner",
+    "e017d040-a774-44ba-be7d-1e1e7682d482",
+    "featured_collection",
+    "5c19ad23-bd9c-4e83-9873-66295e96b705",
+    "ae77fa49-2c6f-4773-ac75-cee9a982b5de",
+    "dc860411-dfd8-4f21-97bf-2d1794925c8a",
+    "d57af2d4-5ed8-4a4f-922e-7364119a2308"
+  ]
+}
