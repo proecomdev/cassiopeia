@@ -152,19 +152,21 @@
       <a href="{{ section.settings.collection.url }}" class="see-all-articles">{{ section.settings.button_name }}</a>
     </div>
     <div class="blog-container">
-      {%- for block in section.blocks -%}
-        {% if forloop.index == 3 %}
-          <div class="blog grid-item--width-0"></div>
-        {% endif %}
-        <div class="blog grid-item--width-{{ forloop.index }}">
-          <div class="img" style="background-image: url('{{ block.settings.image | img_url: 'master' }}')"></div>
-          <div class="blog-detail">
-            <p class="lorem-ipsum">Lorem Ipsum</p>
-            <p class="blog-name">{{ block.settings.blog_title }}</p>
-            <a href="#" class="blog-ntn button button--secondary">{{ block.settings.btn_name }}</a>
+      {%- if section.blocks.size > 0 -%}
+        {%- for block in section.blocks -%}
+          {% if forloop.index == 3 %}
+            <div class="blog grid-item--width-0"></div>
+          {% endif %}
+          <div class="blog grid-item--width-{{ forloop.index }}">
+            <div class="img" style="background-image: url('{{ block.settings.image | img_url: 'master' }}')"></div>
+            <div class="blog-detail">
+              <p class="lorem-ipsum">Lorem Ipsum</p>
+              <p class="blog-name">{{ block.settings.blog_title }}</p>
+              <a href="#" class="blog-ntn button button--secondary">{{ block.settings.btn_name }}</a>
+            </div>
           </div>
-        </div>
-      {%- endfor -%}
+        {%- endfor -%}
+      {%- endif -%}
     </div>
   </div>
 </div>
