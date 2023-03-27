@@ -50,44 +50,10 @@
     },
     "e017d040-a774-44ba-be7d-1e1e7682d482": {
       "type": "best-sellers",
-      "blocks": {
-        "fb53294d-7db7-4382-8a2f-be0ba880baec": {
-          "type": "product",
-          "settings": {
-            "name": "MOONSTONE SILVER STUD EARNINGS",
-            "price": "Dhs. 237.83"
-          }
-        },
-        "3caebba0-7b5b-4f6a-abfe-4ff0a1006040": {
-          "type": "product",
-          "settings": {
-            "name": "LABRADORITE FACETED BRACELET",
-            "price": "Dhs. 402.21"
-          }
-        },
-        "ce3b6e6f-9f16-4313-b029-23320f923c4d": {
-          "type": "product",
-          "settings": {
-            "name": "BLUE COPPER TURQUOISE SILVER NECKLACE",
-            "price": "Dhs. 1,007.33"
-          }
-        },
-        "b7e1750c-6d6d-41e3-8278-875948914787": {
-          "type": "product",
-          "settings": {
-            "name": "LABRADORITE FACETED BRACELET",
-            "price": "Dhs. 402.21"
-          }
-        }
-      },
-      "block_order": [
-        "fb53294d-7db7-4382-8a2f-be0ba880baec",
-        "3caebba0-7b5b-4f6a-abfe-4ff0a1006040",
-        "ce3b6e6f-9f16-4313-b029-23320f923c4d",
-        "b7e1750c-6d6d-41e3-8278-875948914787"
-      ],
       "settings": {
-        "title": "BEST SELLERS"
+        "title": "BEST SELLERS",
+        "collection": "best-sellers",
+        "grid_items_count": 13
       }
     },
     "featured_collection": {
