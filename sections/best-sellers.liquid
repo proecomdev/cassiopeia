@@ -26,7 +26,7 @@
 
       {%- for product in collection.products limit: section.settings.grid_items_count -%}
         <a href="{{ product.url | within: collection }}" class="product">
-          <img src="{{ product.images[1] | img_url: '720x' }}">
+          <img src="{{ product.images[0] | img_url: '720x' }}">
           <div class="product-detail">
             <p class="product-name">{{ product.title }}</p>
             <p class="product-price">{{ product.price }}</p>
