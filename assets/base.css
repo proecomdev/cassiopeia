@@ -7,10 +7,6 @@
         url('{{ Faberge-Regular.eot | asset_url }}'),
         url('{{ Faberge-Regular.eot?#iefix | asset_url }}') format('embedded-opentype'),
         url('{{ Faberge-Regular.ttf | asset_url }}') format('truetype');
-
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap;
 }
 
 
