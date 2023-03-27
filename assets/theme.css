@@ -97,7 +97,9 @@ a, p {
   #shopify-section-template--16177420796072__1679947434581196d2 .lSAction > a {
     background-image: url('Vector.png');
     top: -63px;
+    transform: translateY(-100%);
   }
   #shopify-section-template--16177420796072__1679947434581196d2 .lSAction > .lSNext {
     background-position: center center;
+    margin-top: 0;
   }
