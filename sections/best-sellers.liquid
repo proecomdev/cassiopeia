@@ -22,13 +22,9 @@
   </div>
   <div class="slick-container">
     <div class="slick-slider-best">
-      {%- assign collection = collections[block.settings.collection] -%}
-      {%- assign item_count = block.settings.grid_items_count -%}
-      {%- if collection.products_count < block.settings.grid_items_count -%}
-        {%- assign item_count = collection.products_count -%}
-      {%- endif -%}
+      {%- assign collection = collections[section.settings.collection] -%}
 
-      {%- for product in collection.products limit: block.settings.grid_items_count -%}
+      {%- for product in collection.products limit: section.settings.grid_items_count -%}
         <a href="{{ product.url | within: collection }}" class="product">
           <img src="{{ product.images[1] | img_url: '720x' }}">
           <div class="product-detail">
