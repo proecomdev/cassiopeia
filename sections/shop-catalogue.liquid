@@ -24,7 +24,7 @@
     <div class="slick-slider-best">
       {%- for collection in collections -%}
         <a href="{{ collection.url | within: collection }}" class="product">
-          <img src="{{ collection.images[0] | img_url: '720x' }}">
+          <img src="{{ collection.image | img_url: '720x' }}">
           <div class="product-detail">
             <p class="product-name">{{ collection.title }}</p>
           </div>
