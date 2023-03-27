@@ -151,29 +151,25 @@
         "d73d03b2-a229-4458-b447-610e1042b4fe": {
           "type": "article",
           "settings": {
-            "article": "news\/5-simple-ways-to-care-clean-and-store-your-gemstone-jewellery",
-            "sort_mode": false
+            "article": "news\/5-simple-ways-to-care-clean-and-store-your-gemstone-jewellery"
           }
         },
         "5189dffc-9a3a-43c9-8698-44bfaf685e68": {
           "type": "article",
           "settings": {
-            "article": "news\/all-things-larimar",
-            "sort_mode": false
+            "article": "news\/all-things-larimar"
           }
         },
         "3e0a3c0a-7378-4d1f-8b51-3f988df40057": {
           "type": "article",
           "settings": {
-            "article": "news\/hottest-summer-jewellery-trends-in-2023",
-            "sort_mode": false
+            "article": "news\/hottest-summer-jewellery-trends-in-2023"
           }
         },
         "4be1dd9b-4013-4c35-9ae0-48d279a7f5e5": {
           "type": "article",
           "settings": {
-            "article": "news\/top-5-benefits-of-wearing-gemstones-as-jewellery",
-            "sort_mode": false
+            "article": "news\/top-5-benefits-of-wearing-gemstones-as-jewellery"
           }
         }
       },
@@ -246,6 +242,29 @@
       "settings": {
         "title": "FOLLOW US ON SOCIAL"
       }
+    },
+    "1679947434581196d2": {
+      "type": "apps",
+      "blocks": {
+        "2ea2b1a6-cee4-4fb7-8e22-793ba5dc631d": {
+          "type": "shopify:\/\/apps\/instafeed-instagram-feed-app\/blocks\/app-block\/5c329ba9-407e-40ec-a145-431c886f5df9",
+          "settings": {
+            "heading_font": "helvetica_n4",
+            "heading_size": 20,
+            "heading_alignment": "center",
+            "feed_width": 100,
+            "section_top_padding": 0,
+            "section_bottom_padding": 0,
+            "html_area": ""
+          }
+        }
+      },
+      "block_order": [
+        "2ea2b1a6-cee4-4fb7-8e22-793ba5dc631d"
+      ],
+      "settings": {
+        "include_margins": true
+      }
     }
   },
   "order": [
@@ -255,6 +274,7 @@
     "5c19ad23-bd9c-4e83-9873-66295e96b705",
     "ae77fa49-2c6f-4773-ac75-cee9a982b5de",
     "dc860411-dfd8-4f21-97bf-2d1794925c8a",
-    "d57af2d4-5ed8-4a4f-922e-7364119a2308"
+    "d57af2d4-5ed8-4a4f-922e-7364119a2308",
+    "1679947434581196d2"
   ]
 }

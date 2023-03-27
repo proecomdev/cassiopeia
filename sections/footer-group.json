@@ -31,13 +31,13 @@
         "617331a9-a193-4e7f-98f9-d5b5ad03ca0f": {
           "type": "links",
           "settings": {
-            "link_item": ""
+            "link_item": "footer"
           }
         },
         "2d63ff6e-c6d3-4250-843b-c4944358966e": {
           "type": "links",
           "settings": {
-            "link_item": ""
+            "link_item": "collection"
           }
         }
       },
