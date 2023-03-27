@@ -147,10 +147,29 @@
     },
     "dc860411-dfd8-4f21-97bf-2d1794925c8a": {
       "type": "read-our-blog",
+      "blocks": {
+        "d73d03b2-a229-4458-b447-610e1042b4fe": {
+          "type": "article",
+          "settings": {
+            "article": "news\/5-simple-ways-to-care-clean-and-store-your-gemstone-jewellery",
+            "sort_mode": false
+          }
+        },
+        "5189dffc-9a3a-43c9-8698-44bfaf685e68": {
+          "type": "article",
+          "settings": {
+            "article": "news\/all-things-larimar",
+            "sort_mode": false
+          }
+        }
+      },
+      "block_order": [
+        "d73d03b2-a229-4458-b447-610e1042b4fe",
+        "5189dffc-9a3a-43c9-8698-44bfaf685e68"
+      ],
       "settings": {
         "title": "Read Our Blog",
         "button_name": "See All Articles",
-        "blog": "news",
         "btn_name": "READ ARTICLE"
       }
     },
