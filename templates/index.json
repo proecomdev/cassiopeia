@@ -141,104 +141,17 @@
     },
     "ae77fa49-2c6f-4773-ac75-cee9a982b5de": {
       "type": "shop-catalogue",
-      "blocks": {
-        "223b81a5-64c0-4e0f-b641-e7bee01c32f3": {
-          "type": "product",
-          "settings": {
-            "name": "SHOP NECKLACES",
-            "price": ""
-          }
-        },
-        "3577f366-3c25-48d3-9cac-0d3fbdc5addf": {
-          "type": "product",
-          "settings": {
-            "name": "SHOP EARRINGS",
-            "price": ""
-          }
-        },
-        "578dbb7d-cf6d-4148-9e17-9bb58d9fcf54": {
-          "type": "product",
-          "settings": {
-            "name": "SHOP PENDANTS",
-            "price": ""
-          }
-        },
-        "f40452c4-1114-4fb7-bdfd-acc4fe79c4d8": {
-          "type": "product",
-          "settings": {
-            "name": "SHOP NECKLACES",
-            "price": ""
-          }
-        },
-        "6b18286e-2026-43c8-9a4c-22a8470e2be5": {
-          "type": "product",
-          "settings": {
-            "name": "SHOP EARRINGS",
-            "price": ""
-          }
-        },
-        "2fd8f510-afd9-4174-a548-50d299ec02ca": {
-          "type": "product",
-          "settings": {
-            "name": "SHOP PENDANTS",
-            "price": ""
-          }
-        }
-      },
-      "block_order": [
-        "223b81a5-64c0-4e0f-b641-e7bee01c32f3",
-        "3577f366-3c25-48d3-9cac-0d3fbdc5addf",
-        "578dbb7d-cf6d-4148-9e17-9bb58d9fcf54",
-        "f40452c4-1114-4fb7-bdfd-acc4fe79c4d8",
-        "6b18286e-2026-43c8-9a4c-22a8470e2be5",
-        "2fd8f510-afd9-4174-a548-50d299ec02ca"
-      ],
       "settings": {
         "title": "SHOP CATALOGUE"
       }
     },
     "dc860411-dfd8-4f21-97bf-2d1794925c8a": {
       "type": "read-our-blog",
-      "blocks": {
-        "d960c83e-f64f-436e-a45f-d0740ad067e5": {
-          "type": "blog",
-          "settings": {
-            "blog_title": "The Healing Properties of Crystals",
-            "btn_name": "READ ARTICLE"
-          }
-        },
-        "1f28bee7-def0-4669-9239-c19009de25b5": {
-          "type": "blog",
-          "settings": {
-            "blog_title": "Which Crystals are Right for You?",
-            "btn_name": "READ ARTICLE"
-          }
-        },
-        "15e330de-e820-4487-a9cf-b8e75be47cac": {
-          "type": "blog",
-          "settings": {
-            "blog_title": "Birthstones and Why You Should Wear Them",
-            "btn_name": "READ ARTICLE"
-          }
-        },
-        "2200a956-f87e-4d73-8aeb-f2f187ce57e3": {
-          "type": "blog",
-          "settings": {
-            "blog_title": "Which Crystals are Right for You?",
-            "btn_name": "READ ARTICLE"
-          }
-        }
-      },
-      "block_order": [
-        "d960c83e-f64f-436e-a45f-d0740ad067e5",
-        "1f28bee7-def0-4669-9239-c19009de25b5",
-        "15e330de-e820-4487-a9cf-b8e75be47cac",
-        "2200a956-f87e-4d73-8aeb-f2f187ce57e3"
-      ],
       "settings": {
         "title": "Read Our Blog",
         "button_name": "See All Articles",
-        "collection": ""
+        "blog": "news",
+        "btn_name": "READ ARTICLE"
       }
     },
     "d57af2d4-5ed8-4a4f-922e-7364119a2308": {
