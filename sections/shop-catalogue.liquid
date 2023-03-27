@@ -24,7 +24,7 @@
     <div class="slick-slider-best">
       {%- for collection in collections -%}
         <a href="{{ collection.url | within: collection }}" class="product">
-          <img src="{{ collection.images[0] | img_url: '720x' }}">
+          <img src="{{ collection.images | img_url: '720x' }}">
           <div class="product-detail">
             <p class="product-name">{{ collection.title }}</p>
           </div>
@@ -47,22 +47,8 @@
     {
       "type": "text",
       "id": "title",
-      "default": "BEST SELLERS",
+      "default": "Shop Catalogue",
       "label": "t:sections.featured-collection.settings.title.label"
-    },
-    {
-      "type": "collection",
-      "id": "collection",
-      "label": "Collection"
-    }, 
-    {
-      "type": "range",
-      "id": "grid_items_count",
-      "min": 2,
-      "max": 50,
-      "step": 1,
-      "label": "Products to show",
-      "default": 8
     }
   ],
   "presets": [
