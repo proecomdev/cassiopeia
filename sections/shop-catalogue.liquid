@@ -22,12 +22,14 @@
   </div>
   <div class="slick-container">
     <div class="slick-slider-best">
-      {%- for block in section.blocks -%}
-        <a href="#" class="product">
-          <img src="{{ block.settings.image | img_url: 'master' }}">
+      {%- assign collection = collections[section.settings.collection] -%}
+
+      {%- for product in collection.products limit: section.settings.grid_items_count -%}
+        <a href="{{ product.url | within: collection }}" class="product">
+          <img src="{{ product.images[0] | img_url: '720x' }}">
           <div class="product-detail">
-            <p class="product-name">{{ block.settings.name }}</p>
-            <p class="product-price">{{ block.settings.price }}</p>
+            <p class="product-name">{{ product.title }}</p>
+            <p class="product-price">Dhs. {{ product.price }}</p>
           </div>
         </a>
       {%- endfor -%}
@@ -50,29 +52,20 @@
       "id": "title",
       "default": "BEST SELLERS",
       "label": "t:sections.featured-collection.settings.title.label"
-    }
-  ],
-  "blocks": [
+    },
     {
-      "name": "images",
-      "type": "product",
-      "settings": [
-        {
-          "type": "image_picker",
-          "id": "image",
-          "label": "Image"
-        },
-        {
-          "type": "text",
-          "id": "name",
-          "label": "Name"
-        },
-        {
-          "type": "text",
-          "id": "price",
-          "label": "Price"
-        }
-      ]
+      "type": "collection",
+      "id": "collection",
+      "label": "Collection"
+    }, 
+    {
+      "type": "range",
+      "id": "grid_items_count",
+      "min": 2,
+      "max": 50,
+      "step": 1,
+      "label": "Products to show",
+      "default": 8
     }
   ],
   "presets": [
