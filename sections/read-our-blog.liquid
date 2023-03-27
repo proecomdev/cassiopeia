@@ -162,11 +162,11 @@
           {% endif %}
 
           <div class="blog grid-item--width-{{ forloop.index }}">
-            <div class="img" style="background-image: url('{{ block.article.image | img_url: 'master' }}')"></div>
+            <div class="img" style="background-image: url('{{ block.settings.article.image | img_url: 'master' }}')"></div>
             <div class="blog-detail">
               <p class="lorem-ipsum">Lorem Ipsum</p>
-              <p class="blog-name">{{ block.article.title }}</p>
-              <a href="{{ block.article.url }}" class="blog-ntn button button--secondary">{{ section.settings.btn_name }}</a>
+              <p class="blog-name">{{ block.settings.article.title }}</p>
+              <a href="{{ block.settings.article.url }}" class="blog-ntn button button--secondary">{{ section.settings.btn_name }}</a>
             </div>
           </div>
         {%- endfor -%}
