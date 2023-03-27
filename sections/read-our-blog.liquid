@@ -162,7 +162,7 @@
             <div class="blog-detail">
               <p class="lorem-ipsum">Lorem Ipsum</p>
               <p class="blog-name">{{ article.title }}</p>
-              <a href="#" class="blog-ntn button button--secondary">{{ section.settings.btn_name }}</a>
+              <a href="{{ article.url }}" class="blog-ntn button button--secondary">{{ section.settings.btn_name }}</a>
             </div>
           </div>
         {%- endfor -%}
