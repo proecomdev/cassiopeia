@@ -25,11 +25,11 @@
   </div>
   <div class="slick-container">
     <div class="slick-slider-best">
-      {%- for collection in collections limit: section.settings.limit_value -%}
-        <a href="{{ collection.url }}" class="product">
-          <img src="{{ collection.image | img_url: '720x' }}">
+      {%- for block in section.blocks -%}
+        <a href="{{ block.catalogue.url }}" class="product">
+          <img src="{{ block.catalogue.image | img_url: '720x' }}">
           <div class="product-detail">
-            <p class="product-name">shop {{ collection.title }}</p>
+            <p class="product-name">shop {{ block.catalogue.title }}</p>
           </div>
         </a>
       {%- endfor -%}
@@ -52,12 +52,19 @@
       "id": "title",
       "default": "Shop Catalogue",
       "label": "t:sections.featured-collection.settings.title.label"
-    },
+    }
+  ],
+  "blocks": [
     {
-      "type": "number",
-      "id": "limit_value",
-      "label": "Limit value",
-      "default": 5
+      "name": "collection",
+      "type": "collection",
+      "settings": [
+        {
+          "type": "collection",
+          "id": "catalogue",
+          "label": "Select collection"
+        }
+      ]
     }
   ],
   "presets": [
