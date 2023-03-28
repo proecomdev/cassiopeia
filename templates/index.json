@@ -187,7 +187,6 @@
     },
     "d57af2d4-5ed8-4a4f-922e-7364119a2308": {
       "type": "follow-us-on-social",
-      "disabled": true,
       "blocks": {
         "fd29b22b-7930-4d73-853e-1a5132fe5ebb": {
           "type": "product",
