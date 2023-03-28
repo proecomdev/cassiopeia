@@ -141,6 +141,45 @@
     },
     "ae77fa49-2c6f-4773-ac75-cee9a982b5de": {
       "type": "shop-catalogue",
+      "blocks": {
+        "d60c86bf-97af-44f3-9467-61cb4b971a9d": {
+          "type": "collection",
+          "settings": {
+            "catalogue": "shop-neckless"
+          }
+        },
+        "4290bae2-9da2-46a3-ac81-2bf5d0fc029e": {
+          "type": "collection",
+          "settings": {
+            "catalogue": "shop-earrings"
+          }
+        },
+        "6537a3b3-877d-4879-ae1f-2b2fc83aa694": {
+          "type": "collection",
+          "settings": {
+            "catalogue": "shop-rings"
+          }
+        },
+        "0acae2d4-6bdb-4a69-b4c3-3909e4f7392e": {
+          "type": "collection",
+          "settings": {
+            "catalogue": "shop-bracelets"
+          }
+        },
+        "1ba89f37-62e3-413a-9b12-1ae063b1d1fb": {
+          "type": "collection",
+          "settings": {
+            "catalogue": "rings"
+          }
+        }
+      },
+      "block_order": [
+        "d60c86bf-97af-44f3-9467-61cb4b971a9d",
+        "4290bae2-9da2-46a3-ac81-2bf5d0fc029e",
+        "6537a3b3-877d-4879-ae1f-2b2fc83aa694",
+        "0acae2d4-6bdb-4a69-b4c3-3909e4f7392e",
+        "1ba89f37-62e3-413a-9b12-1ae063b1d1fb"
+      ],
       "settings": {
         "title": "SHOP CATALOGUE"
       }
