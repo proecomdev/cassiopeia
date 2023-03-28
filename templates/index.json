@@ -198,24 +198,24 @@
             "article": "news\/all-things-larimar"
           }
         },
-        "3e0a3c0a-7378-4d1f-8b51-3f988df40057": {
-          "type": "article",
-          "settings": {
-            "article": "news\/hottest-summer-jewellery-trends-in-2023"
-          }
-        },
         "4be1dd9b-4013-4c35-9ae0-48d279a7f5e5": {
           "type": "article",
           "settings": {
             "article": "news\/top-5-benefits-of-wearing-gemstones-as-jewellery"
+          }
+        },
+        "3e0a3c0a-7378-4d1f-8b51-3f988df40057": {
+          "type": "article",
+          "settings": {
+            "article": "news\/hottest-summer-jewellery-trends-in-2023"
           }
         }
       },
       "block_order": [
         "d73d03b2-a229-4458-b447-610e1042b4fe",
         "5189dffc-9a3a-43c9-8698-44bfaf685e68",
-        "3e0a3c0a-7378-4d1f-8b51-3f988df40057",
-        "4be1dd9b-4013-4c35-9ae0-48d279a7f5e5"
+        "4be1dd9b-4013-4c35-9ae0-48d279a7f5e5",
+        "3e0a3c0a-7378-4d1f-8b51-3f988df40057"
       ],
       "settings": {
         "title": "Read Our Blog",
