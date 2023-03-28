@@ -5,11 +5,11 @@
 /* END HEADER */
 
 /* START IMAGE BANNER */
-
-#MainContent {
-	margin-top: -122px;
-}
-
+{%- if template == 'index' -%}
+  #MainContent {
+    margin-top: -122px;
+  }
+{%- endif -%}
 /* END IMAGE BANNER */
 
 a, p {
