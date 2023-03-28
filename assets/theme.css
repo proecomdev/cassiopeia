@@ -96,10 +96,9 @@ a, p {
 
   #shopify-section-template--16177420796072__1679947434581196d2 .lSAction > a {
     background-image: url('Vector.png');
-    background-color: #281D15;
     opacity: 1;
     background-repeat: no-repeat;
-    top: -63px;
+    top: 37px;
     transform: translateY(-100%);
     -ms-transform: translateY(-100%);
     -webkit-transform: translateY(-100%);
@@ -114,9 +113,9 @@ a, p {
     margin-top: 0;
     left: unset;
     right: 193px;
-    transform: scale(180deg);
-    -ms-transform: scale(180deg);
-    -webkit-transform: scale(180deg);
+    transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
   }
   #shopify-section-template--16177420796072__1679947434581196d2 .lSAction > .lSNext
 
@@ -130,4 +129,10 @@ a, p {
     text-transform: uppercase !important;
     color: #281D15 !important;
     margin: 136px 24px !important;
+  }
+  #shopify-section-template--16177420796072__1679947434581196d2 {
+    margin-top: -100px;
+  }
+  #shopify-section-template--16177420796072__1679947434581196d2 #instagenie-feed h2 .lSSlideOuter .lightSlider {
+    padding-top: 100px;
   }
