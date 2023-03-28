@@ -25,7 +25,7 @@
   </div>
   <div class="slick-container">
     <div class="slick-slider-best">
-      {%- for collection in collections limit: 5 -%}
+      {%- for collection in collections limit: section.settings.limit_value -%}
         <a href="{{ collection.url }}" class="product">
           <img src="{{ collection.image | img_url: '720x' }}">
           <div class="product-detail">
@@ -52,6 +52,12 @@
       "id": "title",
       "default": "Shop Catalogue",
       "label": "t:sections.featured-collection.settings.title.label"
+    },
+    {
+      "type": "number",
+      "id": "limit_value",
+      "label": "Limit value",
+      "default": 5
     }
   ],
   "presets": [
