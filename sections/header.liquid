@@ -574,12 +574,12 @@
         <img src="{{ 'user2.svg' | asset_url }}" class="{%- if template == 'main' -%}scrolled-header-hidden {%- endif -%}">
       </a>
       <a href="#" class="header__icon">
-        <img src="{{ 'heart.svg' | asset_url }}" class="scrolled-header-show">
-        <img src="{{ 'heart2.svg' | asset_url }}" class="scrolled-header-hidden">
+        <img src="{{ 'heart.svg' | asset_url }}" class="{%- if template == 'main' -%}scrolled-header-show {%- else -%} d-none {%- endif -%}">
+        <img src="{{ 'heart2.svg' | asset_url }}" class="{%- if template == 'main' -%}scrolled-header-hidden {%- endif -%}">
       </a>
       <a href="{{ routes.cart_url }}" class="header__icon header__icon--cart link focus-inset" id="cart-icon-bubble">
-        <img src="{{ 'shopping-cart.svg' | asset_url }}" class="scrolled-header-show">
-        <img src="{{ 'shopping-cart2.svg' | asset_url }}" class="scrolled-header-hidden">
+        <img src="{{ 'shopping-cart.svg' | asset_url }}" class="{%- if template == 'main' -%}scrolled-header-show {%- else -%} d-none {%- endif -%}">
+        <img src="{{ 'shopping-cart2.svg' | asset_url }}" class="{%- if template == 'main' -%}scrolled-header-hidden {%- endif -%}">
       </a>
       <details-modal class="header__search">
         <details>
