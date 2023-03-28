@@ -440,8 +440,8 @@
 
     {%- if section.settings.logo_position != 'middle-center' -%}
       <a href="{{ routes.root_url }}" class="header__heading-link link link--text focus-inset">
-        <img src="{{ 'Logo.svg' | asset_url }}" class="scrolled-header-show"/>
-        <img src="{{ 'Logo2.svg' | asset_url }}" class="scrolled-header-hidden"/>
+        <img src="{{ 'Logo.svg' | asset_url }}" class="{% if template == 'main' %} scrolled-header-show {% else %} d-none {% endif %}"/>
+        <img src="{{ 'Logo2.svg' | asset_url }}" class="{%- if template == 'main' -%}scrolled-header-hidden {%- endif -%}"/>
       </a>
     {%- endif -%}
 
