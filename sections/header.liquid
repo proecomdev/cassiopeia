@@ -567,8 +567,8 @@
 
     <div class="header__icons">
       <a href="{%- if customer -%}{{ routes.account_url }}{%- else -%}{{ routes.account_login_url }}{%- endif -%}" class="header__icon header__icon--account link focus-inset{% if section.settings.menu != blank %} small-hide{% endif %}">
-        <img src="{{ 'user.svg' | asset_url }}" class="scrolled-header-show">
-        <img src="{{ 'user2.svg' | asset_url }}" class="scrolled-header-hidden">
+        <img src="{{ 'user.svg' | asset_url }}" class="{%- if template == 'main' -%}scrolled-header-show {%- else -%} d-none {%- endif -%}">
+        <img src="{{ 'user2.svg' | asset_url }}" class="{%- if template == 'main' -%}scrolled-header-hidden {%- endif -%}">
       </a>
       <a href="#" class="header__icon">
         <img src="{{ 'heart.svg' | asset_url }}" class="scrolled-header-show">
