@@ -30,6 +30,11 @@
   #MainContent {
     margin-top: -122px;
   }
+  {% if section.settings.image_2 == empty %}
+    .banner__media-left {
+      width: 100%;
+    }
+  {% endif %}
 {%- endstyle -%}
 
 <div
