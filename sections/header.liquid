@@ -585,7 +585,7 @@
         <details>
           <summary class="header__icon header__icon--search header__icon--summary link focus-inset modal__toggle" aria-haspopup="dialog" aria-label="{{ 'general.search.search' | t }}">
             <span>
-              <img class="modal__toggle-open{%- if template == 'main' -%} scrolled-header-show {%- else -%} d-none {%- endif -%}" src="{{ 'search.svg' | asset_url }}" aria-hidden="true" focusable="false">
+              <img class="modal__toggle-open {%- if template == 'main' -%} scrolled-header-show {%- else -%} d-none {%- endif -%}" src="{{ 'search.svg' | asset_url }}" aria-hidden="true" focusable="false">
               <img class="modal__toggle-open {%- if template == 'main' -%} scrolled-header-hidden {%- endif -%}" src="{{ 'search2.svg' | asset_url }}" aria-hidden="true" focusable="false">
               <svg class="modal__toggle-close icon icon-close" aria-hidden="true" focusable="false">
                 <use href="#icon-close">
