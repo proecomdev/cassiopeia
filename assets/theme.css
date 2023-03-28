@@ -101,11 +101,24 @@ a, p {
     background-repeat: no-repeat;
     top: -63px;
     transform: translateY(-100%);
+    -ms-transform: scale(180deg);
+    -webkit-transform: scale(180deg);
   }
   #shopify-section-template--16177420796072__1679947434581196d2 .lSAction > .lSNext {
     background-position: center center;
     margin-top: 0;
+    right: 120px;
   }
+  #shopify-section-template--16177420796072__1679947434581196d2 .lSAction > .lSPrev {
+    background-position: center center;
+    margin-top: 0;
+    left: unset;
+    right: 193px;
+    transform: scale(180deg);
+    -ms-transform: scale(180deg);
+    -webkit-transform: scale(180deg);
+  }
+  #shopify-section-template--16177420796072__1679947434581196d2 .lSAction > .lSNext
 
   #shopify-section-template--16177420796072__1679947434581196d2 #instagenie-feed h2 {
     font-family: 'Faberge' !important;
