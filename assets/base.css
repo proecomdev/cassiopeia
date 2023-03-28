@@ -2961,3 +2961,6 @@ details-disclosure > details {
 html, body {
   background-color: #EDECE7;
 }
+#MegaMenu-Content-1 {
+  z-index: 1000;
+}
