@@ -83,6 +83,11 @@
     color: #F0EAD2;
     margin-left: 44px;
   }
+  {% unless template == 'main' %}
+    .list-menu__item {
+      color: #281D15;
+    }
+  {% endunless %}
   .list-menu__item:hover {
     color: #fff;
     text-decoration: none;
