@@ -105,14 +105,14 @@ a, p {
     margin-top: 0;
   }
 
-  #instagenie-feed h2 {
-    font-family: 'Faberge';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 48px;
-    line-height: 96px;
-    letter-spacing: 0.04em;
-    text-transform: uppercase;
-    color: #281D15;
-    margin: 136px 24px;
+  #shopify-section-template--16177420796072__1679947434581196d2 #instagenie-feed h2 {
+    font-family: 'Faberge' !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    font-size: 48px !important;
+    line-height: 96px !important;
+    letter-spacing: 0.04em !important;
+    text-transform: uppercase !important;
+    color: #281D15 !important;
+    margin: 136px 24px !important;
   }
