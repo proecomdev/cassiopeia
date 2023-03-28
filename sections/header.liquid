@@ -83,7 +83,7 @@
     color: #F0EAD2;
     margin-left: 44px;
   }
-  {% unless template == 'main' %}
+  {% unless template == 'index' %}
     .list-menu__item {
       color: #281D15;
     }
@@ -446,8 +446,8 @@
 
     {%- if section.settings.logo_position != 'middle-center' -%}
       <a href="{{ routes.root_url }}" class="header__heading-link link link--text focus-inset">
-        <img src="{{ 'Logo.svg' | asset_url }}" class="{% if template == 'main' %} scrolled-header-show {% else %} d-none {% endif %}"/>
-        <img src="{{ 'Logo2.svg' | asset_url }}" class="{%- if template == 'main' -%}scrolled-header-hidden {%- endif -%}"/>
+        <img src="{{ 'Logo.svg' | asset_url }}" class="{% if template == 'index' %} scrolled-header-show {% else %} d-none {% endif %}"/>
+        <img src="{{ 'Logo2.svg' | asset_url }}" class="{%- if template == 'index' -%}scrolled-header-hidden {%- endif -%}"/>
       </a>
     {%- endif -%}
 
@@ -576,23 +576,23 @@
 
     <div class="header__icons">
       <a href="{%- if customer -%}{{ routes.account_url }}{%- else -%}{{ routes.account_login_url }}{%- endif -%}" class="header__icon header__icon--account link focus-inset{% if section.settings.menu != blank %} small-hide{% endif %}">
-        <img src="{{ 'user.svg' | asset_url }}" class="{%- if template == 'main' -%}scrolled-header-show {%- else -%} d-none {%- endif -%}">
-        <img src="{{ 'user2.svg' | asset_url }}" class="{%- if template == 'main' -%}scrolled-header-hidden {%- endif -%}">
+        <img src="{{ 'user.svg' | asset_url }}" class="{%- if template == 'index' -%}scrolled-header-show {%- else -%} d-none {%- endif -%}">
+        <img src="{{ 'user2.svg' | asset_url }}" class="{%- if template == 'index' -%}scrolled-header-hidden {%- endif -%}">
       </a>
       <a href="#" class="header__icon">
-        <img src="{{ 'heart.svg' | asset_url }}" class="{%- if template == 'main' -%}scrolled-header-show {%- else -%} d-none {%- endif -%}">
-        <img src="{{ 'heart2.svg' | asset_url }}" class="{%- if template == 'main' -%}scrolled-header-hidden {%- endif -%}">
+        <img src="{{ 'heart.svg' | asset_url }}" class="{%- if template == 'index' -%}scrolled-header-show {%- else -%} d-none {%- endif -%}">
+        <img src="{{ 'heart2.svg' | asset_url }}" class="{%- if template == 'index' -%}scrolled-header-hidden {%- endif -%}">
       </a>
       <a href="{{ routes.cart_url }}" class="header__icon header__icon--cart link focus-inset" id="cart-icon-bubble">
-        <img src="{{ 'shopping-cart.svg' | asset_url }}" class="{%- if template == 'main' -%}scrolled-header-show {%- else -%} d-none {%- endif -%}">
-        <img src="{{ 'shopping-cart2.svg' | asset_url }}" class="{%- if template == 'main' -%}scrolled-header-hidden {%- endif -%}">
+        <img src="{{ 'shopping-cart.svg' | asset_url }}" class="{%- if template == 'index' -%}scrolled-header-show {%- else -%} d-none {%- endif -%}">
+        <img src="{{ 'shopping-cart2.svg' | asset_url }}" class="{%- if template == 'index' -%}scrolled-header-hidden {%- endif -%}">
       </a>
       <details-modal class="header__search">
         <details>
           <summary class="header__icon header__icon--search header__icon--summary link focus-inset modal__toggle" aria-haspopup="dialog" aria-label="{{ 'general.search.search' | t }}">
             <span>
-              <img class="modal__toggle-open {% if template == 'main' %} scrolled-header-show {% else %} d-none {% endif %}" src="{{ 'search.svg' | asset_url }}" aria-hidden="true" focusable="false">
-              <img class="modal__toggle-open {% if template == 'main' %} scrolled-header-hidden {% endif %}" src="{{ 'search2.svg' | asset_url }}" aria-hidden="true" focusable="false">
+              <img class="modal__toggle-open {% if template == 'index' %} scrolled-header-show {% else %} d-none {% endif %}" src="{{ 'search.svg' | asset_url }}" aria-hidden="true" focusable="false">
+              <img class="modal__toggle-open {% if template == 'index' %} scrolled-header-hidden {% endif %}" src="{{ 'search2.svg' | asset_url }}" aria-hidden="true" focusable="false">
               <svg class="modal__toggle-close icon icon-close" aria-hidden="true" focusable="false">
                 <use href="#icon-close">
               </svg>
