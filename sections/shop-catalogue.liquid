@@ -25,7 +25,7 @@
   </div>
   <div class="slick-container">
     <div class="slick-slider-best">
-      {%- for collection in collections -%}
+      {%- for collection in collections limit: 5 -%}
         <a href="{{ collection.url }}" class="product">
           <img src="{{ collection.image | img_url: '720x' }}">
           <div class="product-detail">
