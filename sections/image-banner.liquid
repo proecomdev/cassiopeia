@@ -42,7 +42,9 @@
   class="banner banner--content-align-{{ section.settings.desktop_content_alignment }} banner--content-align-mobile-{{ section.settings.mobile_content_alignment }} banner--{{ section.settings.image_height }}{% if section.settings.stack_images_on_mobile and section.settings.image != blank and section.settings.image_2 != blank %} banner--stacked{% endif %}{% if section.settings.image_height == 'adapt' and section.settings.image != blank %} banner--adapt{% endif %}{% if section.settings.show_text_below %} banner--mobile-bottom{%- endif -%}{% if section.settings.show_text_box == false %} banner--desktop-transparent{% endif %}"
 >
   <div class="banner__media media banner__media-left" style="background-image: url('{{ section.settings.image | image_url: width: 3840 }}')"></div>
-  <div class="banner__media media banner__media-right" style="background-image: url('{{ section.settings.image_2 | image_url: width: 3840 }}')"></div>
+  {%- if section.settings.image_2 != empty -%}
+    <div class="banner__media media banner__media-right" style="background-image: url('{{ section.settings.image_2 | image_url: width: 3840 }}')"></div>
+  {%- endif -%}
   <div class="banner__content banner__content--{{ section.settings.desktop_content_position }} page-width">
     <div class="banner__box content-container content-container--full-width-mobile color-{{ section.settings.color_scheme }} gradient">
       <p class="introducing">Introducing</p>
