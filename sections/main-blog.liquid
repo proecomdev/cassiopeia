@@ -44,8 +44,11 @@
     <div class="article-list-header">
       <h2 class="Heading list-title">Latest Posts</h2>
     </div>
+    <div class="article-category">
+
+    </div>
     {%- paginate blog.articles by 9 -%}
-      <div class="blog-articles {% if section.settings.layout == 'collage' %}blog-articles--collage{% endif %}">
+      <div class="blog-articles grid-wrapper {% if section.settings.layout == 'collage' %}blog-articles--collage{% endif %}">
         {%- for article in blog.articles -%}
           <div class="blog-articles__article article">
             {%- render 'article-card',
