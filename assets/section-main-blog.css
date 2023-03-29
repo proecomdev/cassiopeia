@@ -167,3 +167,12 @@
   background-repeat: no-repeat;
   background-position:center;
 }
+
+@media (max-width: 1625px) {
+  .article-title {
+    margin: 15px 0 25px;
+  }
+  .article-excerpt-wraper {
+    margin-bottom: 50px;
+  }
+}
