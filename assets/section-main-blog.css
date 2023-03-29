@@ -144,7 +144,7 @@
 .card__information .card__heading {
   margin-bottom: 24px;
 }
-.grid-wraper .grid-item {
+.grid-wraper .grid-item:has(img) {
   max-height: 562px;
   overflow: hidden;
 }
