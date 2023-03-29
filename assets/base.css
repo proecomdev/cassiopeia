@@ -2981,3 +2981,7 @@ html, body {
 .grid-item-full-img {
   width: 100%;
 }
+
+.align-center {
+  align-items: center;
+}
