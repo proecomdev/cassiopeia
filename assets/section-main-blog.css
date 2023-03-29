@@ -138,9 +138,9 @@
 .card__information {
   padding: 0;
 }
-.article-label {
+.card__information .article-label {
   margin: 32px 0 19px;
 }
-.card__heading {
+.card__information .card__heading {
   margin-bottom: 24px;
 }
