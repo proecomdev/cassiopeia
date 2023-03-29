@@ -3,63 +3,63 @@
 }
 /* clearfix */
 .blog-container:after {
-content: '';
-display: block;
-clear: both;
+  content: '';
+  display: block;
+  clear: both;
 }
 
 /* ---- grid-item ---- */
 
 .blog {
-width: 48%;
-float: left;
-padding: 0 17.75px;
+  width: 48%;
+  float: left;
+  padding: 0 17.75px;
 }
 
 .blog .img {
-width: 100%;
-background-size: cover;
-background-position: center;
-background-repeat: no-repeat;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .grid-item--width-3 { width: 48%; }
 
 .grid-item--width-2,.grid-item--width-4 {
-width: 52%; }
+  width: 52%; }
 .grid-item--width-1 .img, .grid-item--width-3 .img {
-height: 922px;
+  height: 922px;
 }
 .grid-item--width-1,
 .grid-item--width-2 {
-margin-bottom: 169px;
+  margin-bottom: 169px;
 }
 .grid-item--width-2 .img,.grid-item--width-4 .img {
-height: 496px;
+  height: 496px;
 }
 .grid-item--width-0 {
-width: 4%;
-height: 2px;
+  width: 4%;
+  height: 2px;
 }
 .grid-item--width-4 {
-margin-top: -726px;
+  margin-top: -726px;
 }
 .grid-item--offer {
-order: -1;
+  order: -1;
 }
 .blog-detail {
-text-align: center;
+  text-align: center;
 }
 .lorem-ipsum {
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 400;
-font-size: 10px;
-line-height: 180%;
-letter-spacing: 0.1em;
-text-transform: uppercase;
-color: #281D15;
-margin: 32px 0 24px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 180%;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #281D15;
+  margin: 32px 0 24px;
 }
 .blog-name {
   font-family: 'Roboto';
