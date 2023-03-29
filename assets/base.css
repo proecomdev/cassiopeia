@@ -2971,5 +2971,5 @@ html, body {
 }
 
 .grid-row-2 {
-  grid-template-rows: 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
 }
