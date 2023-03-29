@@ -145,3 +145,21 @@
     font-size: 26px;
   }
 }
+
+@media screen and (max-width) {
+  .grid-item--width-1 .img, .grid-item--width-3 .img {
+    height: 600px;
+  }
+  .grid-item--width-2 .img, .grid-item--width-4 .img {
+    height: 310px;
+  }
+  .grid-item--width-1, .grid-item--width-2 {
+    margin-bottom: 100px;
+  }
+  .grid-item--width-4 {
+    margin-top: -541px;
+  }
+  .blog-name {
+    font-size: 20px;
+  }
+}
