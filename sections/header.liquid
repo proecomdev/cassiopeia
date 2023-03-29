@@ -114,7 +114,6 @@
     background-color: #F0EAD2;
     box-shadow: 0px 0px 3px 0px #000;
   }
-
   sticky-header.gradient:has(.mega-menu[open]) {
     background-color: #F0EAD2;
   }
@@ -196,7 +195,7 @@
 </svg>
 <{% if section.settings.sticky_header_type != 'none' %}sticky-header data-sticky-type="{{ section.settings.sticky_header_type }}"{% else %}div{% endif %} class="header-wrapper color-{{ section.settings.color_scheme }} gradient{% if section.settings.show_line_separator %} {% endif %}">
   <header class="header header--{{ section.settings.logo_position }} header--mobile-{{ section.settings.mobile_logo_position }} page-width{% if section.settings.menu != blank %} header--has-menu{% endif %}">
-    {%- if section.settings.menu != blank -%}
+    {% comment %} {%- if section.settings.menu != blank -%}
       <header-drawer data-breakpoint="tablet">
         <details id="Details-menu-drawer-container" class="menu-drawer-container">
           <summary class="header__icon header__icon--menu header__icon--summary link focus-inset" aria-label="{{ 'sections.header.menu' | t }}">
@@ -364,8 +363,8 @@
           </div>
         </details>
       </header-drawer>
-    {%- endif -%}
-
+    {%- endif -%} {% endcomment %}
+{% comment %} 
     {%- if section.settings.logo_position == 'top-center' or section.settings.menu == blank -%}
       <details-modal class="header__search">
         <details>
@@ -448,7 +447,8 @@
           </div>
         </details>
       </details-modal>
-    {%- endif -%}
+    {%- endif -%} {% endcomment %}
+
 
     {%- if section.settings.logo_position != 'middle-center' -%}
       <a href="{{ routes.root_url }}" class="header__heading-link link link--text focus-inset">
