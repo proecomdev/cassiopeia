@@ -3001,10 +3001,6 @@ html, body {
   .page-width {
     max-width: calc(100% - 120px);
   }
-  .slick-container {
-    padding-left: 60px;
-    padding-right: 15px;
-  }
   .image-with-text .grid {
     grid-template-columns: 1fr;
   }
