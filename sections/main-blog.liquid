@@ -26,7 +26,15 @@
       <div class="grid-item">
         <span class="article-label">Latest</span>
         <h2 class="article-title">{{ article.title }}</h2>
-        <p class="article-excerpt">{{ article.excerpt }}</p>
+        <div class="article-content">
+          <p class="article-excerpt">
+            {% if article.excerpt.size > 0 %}
+              {{ article.excerpt }}
+            {% else %}
+              {{ article.content | strip_html | truncate: 150 }}
+            {% endif %}
+          </p>
+        </div>
         <a href="{{ article.url }}" class="button button--primary">Read More</a>
       </div>
     </div>
