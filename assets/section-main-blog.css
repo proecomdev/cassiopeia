@@ -98,8 +98,11 @@
   color: #1E1E1E;
 }
 
-.article-excerpt-wraper .LO-normal span {
+.article-excerpt-wraper {
   margin-bottom: 118px;
+}
+
+.article-excerpt-wraper .LO-normal span {
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 300;
