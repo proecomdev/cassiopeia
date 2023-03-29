@@ -135,11 +135,11 @@
   line-height: 96px;
   color: #281D15;
 }
-.card-information {
+.card__information {
   padding: 0;
 }
 .article-label {
-  margin: 32px 19px;
+  margin: 32px 0 19px;
 }
 .card__heading {
   margin-bottom: 24px;
