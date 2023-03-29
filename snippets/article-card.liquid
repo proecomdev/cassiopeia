@@ -75,7 +75,6 @@
         {%- endif -%}
         <div class="card__content">
           <div class="card__information">
-            <span class="label">Lorem Ipsum</span>
             <h3 class="card__heading{% if show_excerpt %} h2{% endif %}">
               <a href="{{ article.url }}" class="full-unstyled-link">
                 {{ article.title | truncate: 50 | escape }}
@@ -94,6 +93,7 @@
       </div>
       <div class="card__content">
         <div class="card__information">
+          <span class="article-label">Lorem Ipsum</span>
           <h3 class="card__heading{% if show_excerpt %} h2{% endif %}">
             <a href="{{ article.url }}" class="full-unstyled-link">
               {{ article.title | truncate: 50 | escape }}
