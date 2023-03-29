@@ -18,6 +18,19 @@
 
 <div class="main-blog page-width section-{{ section.id }}-padding">
   <h1 class="title--primary">{{ blog.title | escape }}</h1>
+  {% assign article = articles[section.settings.article] %}
+  <div class="grid-wraper grid-row-2">
+    <div class="grid-1">
+      <img src="{{ article.image }}">
+    </div>
+    <div class="grid-2">
+      <span>Latest</span>
+      <h2 class="article-title">{{ article.title }}</h2>
+      <p class="article-content"></p>
+      <a href="{{ article.url }}" class="Button Button--Primary">Read More</a>
+    </div>
+  </div>
+  
   {%- paginate blog.articles by 9 -%}
     <div class="blog-articles {% if section.settings.layout == 'collage' %}blog-articles--collage{% endif %}">
       {%- for article in blog.articles -%}
