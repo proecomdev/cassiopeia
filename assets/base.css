@@ -2965,3 +2965,11 @@ html, body {
   z-index: 1000;
   box-shadow: -3px 2px 3px -2px #000;
 }
+
+.grid-wraper {
+  display: grid;
+}
+
+.grid-row-2 {
+  grid-template-rows: 1fr 1fr;
+}
