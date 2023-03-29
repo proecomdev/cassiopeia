@@ -111,7 +111,7 @@
   color: #281D15;
 }
 
-.button.button-primary {
+.button.button--primary {
   background-color: transparent;
   font-family: 'Roboto';
   font-style: normal;
@@ -128,7 +128,7 @@
 }
 
 
-.button.button.button-primary:hover {
+.button.button.button--primary:hover {
   background-color: #281D15;
   color: transparent;
 }
