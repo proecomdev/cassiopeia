@@ -44,7 +44,7 @@
           <div class="article-card__image-wrapper card__media">
             <div
               class="article-card__image media media--hover-effect"
-                style="background-image: url({{ article.image.src | img_url: width: master }})"
+                style="background-image: url({{ article.image.src | img_url: 'master' }})"
             >
               {% comment %}theme-check-disable ImgLazyLoading{% endcomment %}
               {% comment %} <img
