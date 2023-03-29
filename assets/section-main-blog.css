@@ -110,3 +110,17 @@
   line-height: 170%;
   color: #281D15;
 }
+
+.button.button-primary {
+  background-color: transparent;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 130%;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.23em;
+  text-transform: uppercase;
+}
