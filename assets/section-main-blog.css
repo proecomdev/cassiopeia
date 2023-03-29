@@ -138,6 +138,9 @@
 .card-information {
   padding: 0;
 }
-.card__heading {
+.article-label {
   margin: 32px 19px;
+}
+.card__heading {
+  margin-bottom: 24px;
 }
