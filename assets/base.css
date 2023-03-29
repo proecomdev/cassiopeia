@@ -2966,21 +2966,11 @@ html, body {
   box-shadow: -3px 2px 3px -2px #000;
 }
 
-.grid-wraper {
-  display: grid;
-}
+.grid-wraper { display: grid; }
 
-.grid-row-2 {
-  grid-template-columns: 1fr 1fr;
-}
-
-.grid-item {
-  width: 100%;
-}
-
-.grid-item-full-img {
-  width: 100%;
-}
+.grid-row-2 { grid-template-columns: 1fr 1fr; }
+.grid-item { width: 100%; }
+.grid-item-full-img { width: 100%; }
 
 .align-center {
   align-items: center;
