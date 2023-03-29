@@ -179,7 +179,7 @@
             <div class="img" style="background-image: url('{{ block.settings.article.image | img_url: 'master' }}')"></div>
             <div class="blog-detail">
               <p class="lorem-ipsum">Lorem Ipsum</p>
-              <p class="blog-name">{{ block.settings.article.title | truncate: 30 }}</p>
+              <p class="blog-name">{{ block.settings.article.title | truncate: 30 | escape }}</p>
               <a href="{{ block.settings.article.url }}" class="blog-ntn button button--secondary">{{ section.settings.btn_name }}</a>
             </div>
           </div>
