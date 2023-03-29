@@ -9,6 +9,9 @@
         url('Faberge-Regular.ttf') format('truetype');
 }
 
+:root {
+  --Heading-font-family: 'Faberge';
+}
 
 :root,
 .color-background-1 {
