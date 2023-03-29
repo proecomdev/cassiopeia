@@ -3001,7 +3001,4 @@ html, body {
   .page-width {
     max-width: calc(100% - 120px);
   }
-  .grid--2-col-tablet .grid__item:nth-child(2) {
-    display: none;
-  }
 }
