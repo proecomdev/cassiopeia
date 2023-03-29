@@ -99,7 +99,7 @@
               {{ article.title | truncate: 50 | escape }}
             </a>
           </h3>
-          <div class="article-card__info caption-with-letter-spacing h5">
+          {% comment %} <div class="article-card__info caption-with-letter-spacing h5">
             {%- if show_date -%}
               <span class="circle-divider">{{ article.published_at | time_tag: format: 'date' }}</span>
             {%- endif -%}
@@ -122,13 +122,13 @@
                 <span>{{ 'blogs.article.comments' | t: count: article.comments_count }}</span>
               {%- endif -%}
             </div>
-          {%- endif -%}
+          {%- endif -%} {% endcomment %}
         </div>
-        {%- if show_badge -%}
+        {% comment %} {%- if show_badge -%}
           <div class="card__badge {{ settings.badge_position }}">
             <span class="badge color-background-1">{{ 'blogs.article.blog' | t }}</span>
           </div>
-        {%- endif -%}
+        {%- endif -%} {% endcomment %}
       </div>
     </div>
   </div>
