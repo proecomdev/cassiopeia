@@ -97,3 +97,11 @@
 .article-title span {
   color: #1E1E1E;
 }
+.article-excerpt {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 170%;
+  color: #281D15;
+}
