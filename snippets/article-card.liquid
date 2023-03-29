@@ -97,7 +97,7 @@
           <p class="article-label">Lorem Ipsum</p>
           <h3 class="card__heading{% if show_excerpt %} h2{% endif %}">
             <a href="{{ article.url }}" class="full-unstyled-link">
-              {{ article.title | truncate: 50 | escape }}
+              {{ article.title | escape }}
             </a>
           </h3>
           <a href="{{ article.url }}" class="button button--primary">READ ARTICLE</a>
