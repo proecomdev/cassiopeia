@@ -71,3 +71,7 @@
   color: #281D15;
   margin: 28px 0 46px;
 }
+
+.grid-item:nth-child(2) {
+  padding-left: 64px;
+}
