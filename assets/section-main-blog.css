@@ -144,3 +144,7 @@
 .card__information .card__heading {
   margin-bottom: 24px;
 }
+.grid-wraper .grid-item {
+  max-height: 562px;
+  overflow: hidden;
+}
