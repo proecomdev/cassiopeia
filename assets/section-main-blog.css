@@ -131,3 +131,8 @@
 .mb-172 {
   margin-bottom: 172px
 }
+.list-title {
+  font-size: 48px;
+  line-height: 96px;
+  color: #281D15;
+}
