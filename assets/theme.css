@@ -90,4 +90,13 @@ a, p {
       padding-left: 60px;
       padding-right: 15px;
     }
+    .slick-container .slick-next, .slick-container .slick-prev {
+      top: -58px;
+    }
+    .slick-container .slick-next {
+      right: 70px;
+    }
+    .slick-container .slick-prev {
+      right: 136px;
+    }
   }
