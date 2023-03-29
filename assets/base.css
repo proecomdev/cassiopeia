@@ -2973,6 +2973,7 @@ html, body {
 .grid-wraper { display: grid; }
 
 .grid-row-2 { grid-template-columns: 1fr 1fr; }
+.grid-col-2 { grid-template-columns: 1fr 1fr 1fr;}
 .grid-item { width: 100%; }
 .grid-item-full-img { width: 100%; }
 
