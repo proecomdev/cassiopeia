@@ -454,3 +454,17 @@
   max-width: 577px;
   margin: auto;
 }
+
+
+@media (max-width: 990px) {
+  .banner__media-left {
+    background-position: center left;
+  }
+  .banner__media-right {
+    display: none;
+  }
+  .banner__heading {
+    font-size: 40px;
+    line-height: 145%;
+  }
+}
