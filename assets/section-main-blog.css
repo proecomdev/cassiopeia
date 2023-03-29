@@ -72,7 +72,7 @@
   margin: 28px 0 46px;
 }
 .article-label {
-  font-family: 'Roboto';
+  font-family: var(--Label-font-family);
   font-style: normal;
   font-weight: 400;
   font-size: 10px;
