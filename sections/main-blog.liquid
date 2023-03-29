@@ -16,9 +16,7 @@
   }
 {%- endstyle -%}
 
-<div class="Page--container">
-
-{%- paginate blog.articles by 1 -%}
+{%- paginate blog.articles by 9 -%}
   <div class="main-blog page-width section-{{ section.id }}-padding">
     <h1 class="title--primary">{{ blog.title | escape }}</h1>
 
