@@ -2979,3 +2979,11 @@ html, body {
 .align-center {
   align-items: center;
 }
+
+.Heading {
+  font-family: 'Faberge';
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
