@@ -14,82 +14,6 @@
     color: #281D15;
     margin-bottom: 48px;
   }
-  .blog-container {
-    margin: 0 -17.75px;
-  }
-/* clearfix */
-.blog-container:after {
-  content: '';
-  display: block;
-  clear: both;
-}
-
-/* ---- grid-item ---- */
-
-.blog {
-  width: 48%;
-  float: left;
-  padding: 0 17.75px;
-}
-
-.blog .img {
-  width: 100%;
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-}
-
-.grid-item--width-3 { width: 48%; }
-
-.grid-item--width-2,.grid-item--width-4 {
-  width: 52%; }
-.grid-item--width-1 .img, .grid-item--width-3 .img {
-  height: 922px;
-}
-.grid-item--width-1,
-.grid-item--width-2 {
-  margin-bottom: 169px;
-}
-.grid-item--width-2 .img,.grid-item--width-4 .img {
-  height: 496px;
-}
-.grid-item--width-0 {
-  width: 4%;
-  height: 2px;
-}
-.grid-item--width-4 {
-  margin-top: -683px;
-}
-.grid-item--offer {
-  order: -1;
-}
-.blog-detail {
-  text-align: center;
-}
-.lorem-ipsum {
-  font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 10px;
-  line-height: 180%;
-  letter-spacing: 0.1em;
-  text-transform: uppercase;
-  color: #281D15;
-  margin: 32px 0 24px;
-}
-  .blog-name {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 300;
-    font-size: 30px;
-    line-height: 130%;
-    text-align: center;
-    letter-spacing: 0.05em;
-    text-transform: uppercase;
-    color: #281D15;
-    margin-top: 0;
-    margin-bottom: 32px;
-  }
   #shopify-section-{{ section.id}} .button {
     border: 1px solid #281D15;
   }
@@ -98,72 +22,8 @@
     background-color: #281D15;
     color: #edece7;
   }
-  .read-our-blog .label {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 300;
-    font-size: 16px;
-    line-height: 19px;
-    letter-spacing: 0.04em;
-    text-transform: uppercase;
-    color: #281D15;
-    margin: 0;
-  }
-  .read-our-blog .page-width {
-    padding-bottom: 136px;
-    border-bottom: 1px solid #B8B2A6;
-  }
-  .rob_title {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin-top: 16px;
-    margin-bottom: 66px;
-  }
-  .rob_title h2.title {
-    font-family: 'Faberge';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 48px;
-    line-height: 96px;
-    letter-spacing: 0.04em;
-    text-transform: uppercase;
-    color: #281D15;
-    margin: 0;
-  }
-  .see-all-articles {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 300;
-    font-size: 16px;
-    line-height: 19px;
-    letter-spacing: 0.04em;
-    text-decoration-line: underline !important;
-    text-transform: uppercase;
-    color: #281D15;
-  }
-  .see-all-articles:hover {
-    opacity: 0.7;
-  }
-  @media (max-width: 1404px) {
-    .grid-item--width-1 .img, .grid-item--width-3 .img {
-      height: 722px;
-    }
-    .grid-item--width-2 .img, .grid-item--width-4 .img {
-      height: 371px;
-    }
-    .grid-item--width-1, .grid-item--width-2 {
-      margin-bottom: 100px;
-    }
-    .grid-item--width-4 {
-      margin-top: -601px;
-    }
-    .blog-name {
-      font-size: 26px;
-    }
-  }
 </style>
-
+{{ 'section-read-our-blog.css' | asset_url | stylesheet_tag }}
 <div class="read-our-blog">
   <div class="page-width">
     <p class="label">Blog</p>
