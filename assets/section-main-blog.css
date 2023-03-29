@@ -71,7 +71,16 @@
   color: #281D15;
   margin: 28px 0 46px;
 }
-
+.article-label {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 180%;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #281D15;
+}
 .grid-item:nth-child(2) {
   padding-left: 64px;
 }
