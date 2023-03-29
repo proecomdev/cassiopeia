@@ -2997,7 +2997,18 @@ html, body {
   color: #281D15;
 }
 
-
-.page-width {
-  max-width: calc(100% - 120px);
+@media screen and (max-width: 991px) {
+  .page-width {
+    max-width: calc(100% - 120px);
+  }
+  .slick-container {
+    padding-left: 60px;
+    padding-right: 15px;
+  }
+  .image-with-text .grid {
+    grid-template-columns: 1fr;
+  }
+  .grid--2-col-tablet .grid__item:nth-child(2) {
+    display: none;
+  }
 }
