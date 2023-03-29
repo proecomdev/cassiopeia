@@ -153,9 +153,6 @@
   .grid-item--width-2 .img, .grid-item--width-4 .img {
     height: 310px;
   }
-  .grid-item--width-1, .grid-item--width-2 {
-    margin-bottom: 100px;
-  }
   .grid-item--width-4 {
     margin-top: -541px;
   }
