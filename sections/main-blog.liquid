@@ -19,7 +19,7 @@
 <div class="main-blog page-width section-{{ section.id }}-padding">
   <h1 class="title--primary">{{ blog.title | escape }}</h1>
   {%- for article in blog.articles limit: 1 -%}
-    <div class="grid-wraper grid-row-2">
+    <div class="grid-wraper grid-row-2 mb-172">
       <div class="grid-item">
         <img class="grid-item-full-img" src="{{ article.image | img_url: 'master' }}">
       </div>
