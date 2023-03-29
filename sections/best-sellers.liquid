@@ -29,7 +29,7 @@
           <img src="{{ product.images[0] | img_url: '720x' }}">
           <div class="product-detail">
             <p class="product-name">{{ product.title }}</p>
-            <p class="product-price">Dhs. {{ product.price }}</p>
+            <p class="product-price">Dhs. {{ product.price | money }}</p>
           </div>
         </a>
       {%- endfor -%}
