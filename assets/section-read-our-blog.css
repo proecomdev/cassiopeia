@@ -146,7 +146,7 @@
   }
 }
 
-@media screen and (max-width) {
+@media screen and (max-width: 1202px) {
   .grid-item--width-1 .img, .grid-item--width-3 .img {
     height: 600px;
   }
