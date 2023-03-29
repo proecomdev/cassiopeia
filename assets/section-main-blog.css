@@ -155,3 +155,6 @@
   width: 100%;
   height: auto;
 }
+.card--standard > .card__content .card__information {
+  text-align: center;
+}
