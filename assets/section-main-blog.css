@@ -93,3 +93,6 @@
   text-transform: uppercase;
   color: #8E6749;
 }
+.article-title span {
+  color: #1E1E1E;
+}
