@@ -357,16 +357,6 @@
   height: 100%;
 }
 
-.banner__box > * + .banner__text {
-  margin-top: 1.5rem;
-}
-
-@media screen and (min-width: 750px) {
-  .banner__box > * + .banner__text {
-    margin-top: 2rem;
-  }
-}
-
 .banner__box > *:first-child {
   margin-top: 0;
 }
@@ -466,5 +456,7 @@
   .banner__heading {
     font-size: 40px;
     line-height: 145%;
+    margin-top: 29px;
+    margin-bottom: 44px;
   }
 }
