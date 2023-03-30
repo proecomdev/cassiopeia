@@ -663,4 +663,8 @@ noscript .localization-selector.link {
   .footer {
     margin-top: 0;
   }
+  .footer__content-top {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
 }
