@@ -262,11 +262,15 @@
 }
 
 .header-introduction {
-  padding: 0 154px 48px 150px;
+  padding: 0 154px 0 150px;
 }
 .article-banner {
   width: 100%;
 }
 .article-banner img {
   width: 100%;
+  margin: 48px 0 74px;
+}
+.d-grid {
+  display: grid;
 }
