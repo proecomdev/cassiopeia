@@ -151,4 +151,12 @@ a, p {
       padding-top: 0;
       padding-bottom: 113px;
     }
+    #shopify-section-template--16177420796072__1679947434581196d2 .lSAction>a {
+      top: unset;
+      bottom: 20px;
+    }
+    #shopify-section-template--16177420796072__1679947434581196d2 .lSAction>.lSPrev {
+      top: unset;
+      bottom: 30px;
+    }
   }
