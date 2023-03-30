@@ -345,6 +345,7 @@
   }
   .banner--large:not(.banner--adapt) {
     min-height: 844px;
+    padding-top: 284px;
   }
 }
 
