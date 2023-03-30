@@ -189,3 +189,11 @@
 .author-info img {
   margin-right: 10px;
 }
+.article-detail p {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.article-detail p img {
+  margin-right: 6px;
+}
