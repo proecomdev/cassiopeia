@@ -1,6 +1,20 @@
 {{ 'section-blog-post.css' | asset_url | stylesheet_tag }}
 
 <article class="article-template" itemscope itemtype="http://schema.org/BlogPosting">
+  <div class="page-width">
+    <div class="article-info">
+      <div class="author-info">
+        <img src="{{ 'author.png' | asset_url }}">
+        <p class="author-name">{{ article.author }}</p>
+      </div>
+      <div class="article-detail">
+        <p class="created_at">
+          <img class="{{ Clock.svg | asset_url }}"> {{ article.created_at }}
+        </p>
+        <p class="created_at"><img class="{{ blog_heart.svg | asset_url }}"> 830</p>
+        <p class="created_at"><img class="{{ Comment.svg | asset_url }}"> 43</p>
+      </div>
+    </div>
   {%- for block in section.blocks -%}
     {%- case block.type -%}
       {%- when '@app' -%}
