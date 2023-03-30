@@ -5,6 +5,7 @@
     <div class="article-info d-flex justify-content-between align-center w-100">
       <div class="author-info d-flex justify-content-between align-center">
         <img src="{{ 'author.png' | asset_url }}">
+        {{ article.user.image }}
         <p class="author-name blog-info-font">{{ article.author }}</p>
       </div>
       <div class="article-detail d-flex justify-content-between align-center">
