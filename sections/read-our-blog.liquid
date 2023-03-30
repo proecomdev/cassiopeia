@@ -29,7 +29,7 @@
     <p class="label">Blog</p>
     <div class="rob_title">
       <h2 class="title">{{ section.settings.title | escape }}</h2>
-      <a href="{{ section.settings.collection.url }}" class="see-all-articles">{{ section.settings.button_name }}</a>
+      <a href="{{ section.settings.collection.url }}" class="see-all-articles desk-show">{{ section.settings.button_name }}</a>
     </div>
     <div class="blog-container">
       {%- if section.blocks.size > 0 -%}
@@ -49,6 +49,7 @@
         {%- endfor -%}
       {%- endif -%}
     </div>
+    <a href="{{ section.settings.collection.url }}" class="see-all-articles mobile-show">{{ section.settings.button_name }}</a>
   </div>
 </div>
 
