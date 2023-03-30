@@ -189,18 +189,26 @@
 .author-info img {
   margin-right: 10px;
 }
+
+.blog-info-font {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  color: #281D15;
+  letter-spacing: 0.1em;
+  font-size: 12px;
+}
+
+.author-info .author-name {
+  line-height: 20px;
+}
 .article-detail p {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 12px;
   line-height: 15px;
-  letter-spacing: 0.1em;
-  color: #281D15;
 }
+
 .article-detail p img {
   margin-right: 6px;
   margin-left: 16px;
