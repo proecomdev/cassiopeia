@@ -1110,3 +1110,15 @@ input.mobile-facets__checkbox {
     padding: 0 1rem 1rem;
   }
 }
+
+
+.FacetsWrapperDesktop .facets__heading--vertical {
+  font-family: 'Faberge';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 64px;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: #281D15;
+}
