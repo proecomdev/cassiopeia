@@ -174,11 +174,15 @@
   margin-bottom: 3.2rem;
 }
 
-.article-template .article-info,
-.article-template .article-info .author-info,
-.article-template .article-info .article-detail {
+.w-100 {
   width: 100%;
+}
+.d-flex {
   display: flex;
+}
+.justify-content-between {
   justify-content: space-between;
+}
+.align-center {
   align-items: center;
 }
