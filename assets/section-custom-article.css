@@ -94,6 +94,7 @@
 .row {
   display: flex;
   margin: 0 -12.5px;
+  flex-wrap: wrap;
 }
 
 .col-md-6 {
