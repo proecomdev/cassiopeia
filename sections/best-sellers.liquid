@@ -26,6 +26,17 @@
     #shopify-section-{{ section.id }} .collection__title h2.title {
       text-align: center;
     }
+    .slick-container .slick-next, .slick-container .slick-prev {
+      top: unset;
+      bottom: -64px;
+    }
+    .slick-container .slick-next {
+      right: calc(50% - 60px);
+    }
+    .slick-container .slick-prev {
+      right: unset;
+      left: calc(50% - 60px);
+    }
   }
 </style>
 
