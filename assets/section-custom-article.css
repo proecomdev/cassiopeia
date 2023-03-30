@@ -85,7 +85,7 @@
 .article-banner {
   margin: 48px 0 74px;
 }
-.article-content {
+.article-grid {
   display: grid;
   grid-template-columns: 1fr 6fr;
 }
