@@ -657,3 +657,9 @@ noscript .localization-selector.link {
     padding: 96px 0;
   }
 } 
+
+@media (max-width: 640px) {
+  .footer {
+    margin-top: 0;
+  }
+}
