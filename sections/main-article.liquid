@@ -15,6 +15,9 @@
         <p class="article-comment blog-info-font"><img src="{{ 'Comment.svg' | asset_url }}"> {{ article.comments_count }} </p>
       </div>
     </div>
+
+    <h2 class="">{{ article.title }}</h2>
+  </div>
   {%- for block in section.blocks -%}
     {%- case block.type -%}
       {%- when '@app' -%}
