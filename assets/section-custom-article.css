@@ -127,5 +127,8 @@
 .left-border {
   border-left: 3px solid #594230;
   padding-left: 24px;
+}
 
+.left-border p {
+  margin-bottom: 15px;
 }
