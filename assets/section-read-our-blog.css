@@ -207,6 +207,9 @@
   }
 }
 @media (max-width: 640px) {
+  .rob_title {
+    justify-content: center;
+  }
   .desk-show {
     display: none;
   }
