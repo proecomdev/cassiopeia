@@ -199,4 +199,7 @@
   .lorem-ipsum {
     margin: 21px 0 20px;
   }
+  .grid-item--width-1 {
+    margin-bottom: 32px;
+  }
 }
