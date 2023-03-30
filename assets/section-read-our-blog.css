@@ -212,5 +212,10 @@
   }
   .mobile-show {
     display: block;
+    text-align: center;
+    margin-top: 46px;
+  }
+  .read-our-blog .page-width {
+    padding-bottom: 64px;
   }
 }
