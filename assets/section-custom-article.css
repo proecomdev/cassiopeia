@@ -226,7 +226,8 @@
   color: #594230;
   max-width: 1400px;
   text-align: center;
-  margin: 111px auto; 
+  margin: 0 auto;
+  padding: 111px 0;
 }
 .article-template .Heading span {
   color: #281D15;
