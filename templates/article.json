@@ -2,6 +2,7 @@
   "sections": {
     "main": {
       "type": "main-article",
+      "disabled": true,
       "blocks": {
         "featured_image": {
           "type": "featured_image",
@@ -24,7 +25,8 @@
         },
         "content": {
           "type": "content",
-          "settings": {}
+          "settings": {
+          }
         }
       },
       "block_order": [
@@ -33,10 +35,17 @@
         "share",
         "content"
       ],
-      "settings": {}
+      "settings": {
+      }
+    },
+    "a1a909b5-6216-4828-842a-fe25633828f1": {
+      "type": "custom-article",
+      "settings": {
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "a1a909b5-6216-4828-842a-fe25633828f1"
   ]
 }
