@@ -2,12 +2,12 @@
 
 <article class="article-template" itemscope itemtype="http://schema.org/BlogPosting">
   <div class="page-width">
-    <div class="article-info">
-      <div class="author-info">
+    <div class="article-info d-flex justify-content-between align-center w-100">
+      <div class="author-info d-flex justify-content-between align-center">
         <img src="{{ 'author.png' | asset_url }}">
         <p class="author-name">{{ article.author }}</p>
       </div>
-      <div class="article-detail">
+      <div class="article-detail d-flex justify-content-between align-center">
         <p class="created_at">
           <img class="{{ Clock.svg | asset_url }}"> {{ article.created_at }}
         </p>
