@@ -343,6 +343,9 @@
   .banner--mobile-bottom .banner__media::after {
     display: none;
   }
+  .banner--large:not(.banner--adapt) {
+    min-height: 844px;
+  }
 }
 
 .banner::after,
