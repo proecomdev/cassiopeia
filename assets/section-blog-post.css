@@ -223,4 +223,7 @@
   line-height: 130%;
   text-transform: uppercase;
   color: #594230;
+  max-width: 1400px;
+  text-align: center;
+  margin: auto;
 }
