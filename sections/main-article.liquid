@@ -5,14 +5,14 @@
     <div class="article-info d-flex justify-content-between align-center w-100">
       <div class="author-info d-flex justify-content-between align-center">
         <img src="{{ 'author.png' | asset_url }}">
-        <p class="author-name">{{ article.author }}</p>
+        <p class="author-name blog-info-font">{{ article.author }}</p>
       </div>
       <div class="article-detail d-flex justify-content-between align-center">
-        <p class="created_at">
+        <p class="created_at blog-info-font">
           <img src="{{ 'Clock.svg' | asset_url }}"> {{ article.created_at }}
         </p>
-        <p class="created_at"><img src="{{ 'blog_heart.svg' | asset_url }}"> 830</p>
-        <p class="created_at"><img src="{{ 'Comment.svg' | asset_url }}"> 43</p>
+        <p class="artile-heart blog-info-font"><img src="{{ 'blog_heart.svg' | asset_url }}"> {{ article.heart }}</p>
+        <p class="article-comment blog-info-font"><img src="{{ 'Comment.svg' | asset_url }}"> {{ article.comments_count }}</p>
       </div>
     </div>
   {%- for block in section.blocks -%}
