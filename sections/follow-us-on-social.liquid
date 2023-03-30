@@ -25,8 +25,14 @@
   #shopify-section-{{ section.id }} .slick-container .slick-prev {
     top: -63px;
   }
-  #shopify-section-{{ section.id }} {
-    padding-top: 64px;
+  @media (max-width: 991px) {
+    #shopify-section-{{ section.id }} {
+      padding-top: 64px;
+    }
+  }
+  
+  .instagenie-branding {
+    display: none;
   }
 </style>
 
