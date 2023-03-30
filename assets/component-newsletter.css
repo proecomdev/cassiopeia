@@ -69,3 +69,12 @@
 .newsletter-form__button .icon {
   width: 1.5rem;
 }
+
+@media (max-width: 749px) {
+  .newsletter-form {
+    align-items: flex-start;
+    margin: 0 auto;
+    max-width: auto;
+    width: 100%;
+  }
+}
