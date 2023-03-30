@@ -193,6 +193,13 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  letter-spacing: 0.1em;
+  color: #281D15;
 }
 .article-detail p img {
   margin-right: 6px;
