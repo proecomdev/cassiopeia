@@ -63,6 +63,7 @@
   position: relative;
 }
 .media.media--transparent.media--hover-effect > div {
+  display: flex;
   position: absolute;
   top: 0;
   right: 0;
