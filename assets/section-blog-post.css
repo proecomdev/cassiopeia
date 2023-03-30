@@ -174,7 +174,8 @@
   margin-bottom: 3.2rem;
 }
 
-.article-template .article-info {
+.article-template .article-info,
+.article-template .article-info .author-info {
   width: 100%;
   display: flex;
   justify-content: space-between;
