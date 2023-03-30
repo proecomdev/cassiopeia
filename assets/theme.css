@@ -144,6 +144,9 @@ a, p {
   }
 
   @media (max-width: 640px) {
+    #shopify-section-template--16177420796072__1679947434581196d2 {
+      margin-top: 0;
+    }
     #shopify-section-template--16177420796072__1679947434581196d2 .lSSlideWrapper {
       padding-top: 0;
       padding-bottom: 113px;
