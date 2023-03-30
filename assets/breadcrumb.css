@@ -26,7 +26,15 @@
 }
 
 .breadcrumbs__link {
-  text-decoration: underline;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.04em;
+  text-decoration-line: underline;
+  text-transform: uppercase;
+  color: #281D15;
 }
 
 .breadcrumbs__link[aria-current="page"] {
@@ -39,3 +47,4 @@
 .breadcrumbs__link[aria-current="page"]:focus {
   text-decoration: underline;
 }
+
