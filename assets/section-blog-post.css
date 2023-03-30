@@ -214,3 +214,13 @@
   margin-right: 6px;
   margin-left: 16px;
 }
+
+.article-template .Heading {
+  font-family: 'Faberge';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 130%;
+  text-transform: uppercase;
+  color: #594230;
+}
