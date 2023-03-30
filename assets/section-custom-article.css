@@ -231,3 +231,14 @@
 .article-template .Heading span {
   color: #281D15;
 }
+
+.article-heading {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 32px;
+  line-height: 130%;
+  text-align: center;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
