@@ -58,3 +58,12 @@
     display: block;
   }
 }
+
+.media.media--transparent.media--hover-effect {
+  position: relative;
+}
+.media.media--transparent.media--hover-effect > div {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
