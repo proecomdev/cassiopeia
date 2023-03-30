@@ -173,3 +173,9 @@
 .article-template__back:last-child {
   margin-bottom: 3.2rem;
 }
+
+.article-template .article-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
