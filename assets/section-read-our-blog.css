@@ -186,4 +186,9 @@
   .grid-item--width-2 .img {
     height: auto;
   }
+  .blog.grid-item--width-0,
+  .blog.grid-item--width-2,
+  .blog.grid-item--width-4 {
+    display: none;
+  }
 }
