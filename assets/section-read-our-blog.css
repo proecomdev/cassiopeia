@@ -207,6 +207,9 @@
   }
 }
 @media (max-width: 640px) {
+  .blog-container {
+    margin: 0 -15px;
+  }
   .rob_title {
     justify-content: center;
   }
