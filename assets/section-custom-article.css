@@ -242,6 +242,10 @@
   text-transform: uppercase;
 }
 
+.mb-36 {
+  margin-bottom: 36px;
+}
+
 .article-content {
   font-family: 'Roboto';
   font-style: normal;
