@@ -175,7 +175,8 @@
 }
 
 .article-template .article-info,
-.article-template .article-info .author-info {
+.article-template .article-info .author-info,
+.article-template .article-info .article-detail {
   width: 100%;
   display: flex;
   justify-content: space-between;
