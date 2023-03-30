@@ -168,7 +168,14 @@
 }
 
 @media (max-width: 991px) {
+  .rob_title {
+    margin-bottom: 16px;
+    margin-top: 16px;
+  }
   .read-our-blog .label {
     text-align: center;
+  }
+  .rob_title h2.title {
+    font-size: 40px;
   }
 }
