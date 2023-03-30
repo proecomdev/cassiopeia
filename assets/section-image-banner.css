@@ -298,7 +298,23 @@
   word-wrap: break-word;
   z-index: 1;
 }
-
+.banner--desktop-transparent .button--secondary {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 130%;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.23em;
+  text-transform: uppercase;
+  color: #281D15;
+  padding-left: 46px;
+  padding-right: 46px;
+  background-color: #F0EAD2;
+  border-color: #F0EAD2;
+}
 @media screen and (min-width: 750px) {
   .banner--desktop-transparent .banner__box {
     background: transparent;
@@ -310,23 +326,7 @@
     box-shadow: none;
   }
 
-  .banner--desktop-transparent .button--secondary {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 12px;
-    line-height: 130%;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    letter-spacing: 0.23em;
-    text-transform: uppercase;
-    color: #281D15;
-    padding-left: 46px;
-    padding-right: 46px;
-    background-color: #F0EAD2;
-    border-color: #F0EAD2;
-  }
+  
 
   .banner--desktop-transparent .button--secondary:hover {
     background-color: #281D15;
