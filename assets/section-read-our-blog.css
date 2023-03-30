@@ -177,8 +177,13 @@
   }
   .rob_title h2.title {
     font-size: 40px;
+    line-height: 129%;
   }
   .blog {
     float: none;
+    width: 100%;
+  }
+  .grid-item--width-2 .img {
+    height: auto;
   }
 }
