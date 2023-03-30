@@ -17,12 +17,20 @@
     </div>
 
     <h2 class="Heading">{{ article.title }}</h2>
+
+
   </div>
 </article>
 
 {% schema %}
   {
     "name": "Custom Article",
-    "tag": "section"
+    "tag": "section",
+    "settings": [],
+    "presets": [
+      {
+        "name": "Custom Article"
+      }
+    ]
   }
 {% endschema %}
