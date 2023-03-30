@@ -653,4 +653,7 @@ noscript .localization-selector.link {
     font-size: 40px;
     line-height: 52px;
   }
+  .footer__content-top {
+    padding: 96px 0;
+  }
 } 
