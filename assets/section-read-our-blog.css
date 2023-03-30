@@ -178,4 +178,7 @@
   .rob_title h2.title {
     font-size: 40px;
   }
+  .blog {
+    float: none;
+  }
 }
