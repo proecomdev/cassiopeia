@@ -154,9 +154,15 @@ a, p {
     #shopify-section-template--16177420796072__1679947434581196d2 .lSAction>a {
       top: unset;
       bottom: 20px;
+      width: 31px;
     }
     #shopify-section-template--16177420796072__1679947434581196d2 .lSAction>.lSPrev {
       top: unset;
-      bottom: 30px;
+      bottom: 52px;
+      right: unset;
+      left: calc(50% - 60px);
     }
+    #shopify-section-template--16177420796072__1679947434581196d2 .lSAction>.lSNext {
+      right: calc(50% - 60px);
+    } 
   }
