@@ -188,6 +188,7 @@
 }
 .author-info img {
   margin-right: 10px;
+  border-radius: 50%;
 }
 
 .blog-info-font {
