@@ -102,3 +102,14 @@
 .share ul {
   list-style-type: none;
 }
+
+.share ul li:first-child {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 150%;
+  letter-spacing: 0.23em;
+  text-transform: uppercase;
+  color: #281D15;
+}
