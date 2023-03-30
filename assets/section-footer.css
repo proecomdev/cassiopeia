@@ -647,3 +647,10 @@ noscript .localization-selector.link {
     }
   }
 }
+
+@media (max-width: 991px) {
+  .footer-block__heading {
+    font-size: 40px;
+    line-height: 52px;
+  }
+} 
