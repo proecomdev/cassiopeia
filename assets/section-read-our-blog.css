@@ -166,3 +166,9 @@
     margin-top: -567px;
   }
 }
+
+@media (max-width: 991px) {
+  .read-our-blog .label {
+    text-align: center;
+  }
+}
