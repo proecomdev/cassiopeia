@@ -186,3 +186,6 @@
 .align-center {
   align-items: center;
 }
+.author-info img {
+  margin-right: 10px;
+}
