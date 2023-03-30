@@ -3002,3 +3002,9 @@ html, body {
     max-width: calc(100% - 120px);
   }
 }
+
+@media screen and (max-width: 640px) {
+  .page-width {
+    max-width: calc(100% - 30px);
+  }
+}
