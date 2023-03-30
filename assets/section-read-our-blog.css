@@ -192,7 +192,10 @@
     display: none;
   }
   .blog-name {
-    font-size: 204
+    font-size: 24px;
+    margin-bottom: 21px;
+  }
+ 
   .lorem-ipsum {
     margin: 21px 0 20px;
   }
