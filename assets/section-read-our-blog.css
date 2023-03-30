@@ -191,4 +191,7 @@
   .blog.grid-item--width-4 {
     display: none;
   }
+  .lorem-ipsum {
+    margin: 21px 0 20px;
+  }
 }
