@@ -124,3 +124,6 @@
   padding: 0;
   margin-bottom: 22px;
 }
+.left-border {
+  border-left: 3px solid #594230;
+}
