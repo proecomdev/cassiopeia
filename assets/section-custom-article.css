@@ -10,7 +10,7 @@
 
 .d-flex { display: flex; }
 .align-center { align-items: center; }
-.align-center { align-items: baseline; }
+.align-bottom { align-items: baseline; }
 .justify-content-between { justify-content: space-between; }
 
 .author-info img {
