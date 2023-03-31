@@ -156,9 +156,9 @@
     </div>
 
     <div class="article-buttons w-100">
-      <a href="#" class="article-prev"><img src="{{ 'article-vector.png' | asset_url }}"> Prev</a>
+      <a href="{{ blog.previous_article }}" class="article-prev"><img src="{{ 'article-vector.svg' | asset_url }}"> Prev</a>
       <a href="#" class="article-back">Back To Blog</a>
-      <a href="#" class="article-next"><img src="{{ 'article-vector.png' | asset_url }}"> Next</a>
+      <a href="{{ blog.next_article }}" class="article-next"><img src="{{ 'article-vector.svg' | asset_url }}"> Next</a>
     </div>
   </div>
 </article>
