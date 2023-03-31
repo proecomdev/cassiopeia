@@ -163,3 +163,14 @@
   align-items: center;
   width: 100;
 }
+
+.article-back {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 20px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #594230;
+}
