@@ -162,8 +162,12 @@
       <a href="{{ blog.url }}" class="article-button article-back">Back To Blog</a>
       <a href="{{ blog.next_article }}" class="article-button">Next <img src="{{ 'arrow-right.png' | asset_url }}"></a>
     </div>
+
+    {% include 'artile-o' %}
   </div>
 </article>
+
+{% comment %} END ARTICLE 203693 {% endcomment %}
 
 {% schema %}
   {
@@ -177,5 +181,3 @@
     ]
   }
 {% endschema %}
-
-{% comment %} END ARTICLE 203693 {% endcomment %}
