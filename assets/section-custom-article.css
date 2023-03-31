@@ -86,6 +86,10 @@
   margin: 24px 0 20px;
 }
 
+.faq-heading i {
+  margin-right: 24px;
+}
+
 .article-content {
   font-family: 'Roboto';
   font-style: normal;
