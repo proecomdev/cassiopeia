@@ -58,6 +58,11 @@
   padding: 111px 0 100px;
 }
 
+.article-template .Heading-faq {
+  padding: 98px 0 20px;
+  text-align: left;
+}
+
 .article-template .Heading span {
   color: #281D15;
 }
