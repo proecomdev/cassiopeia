@@ -81,6 +81,10 @@
   color: #281D15;
 }
 
+.faq-heading {
+  font-size: 24px;
+  margin: 24px 0 20px;
+}
 
 .article-content {
   font-family: 'Roboto';
@@ -89,6 +93,10 @@
   font-size: 16px;
   line-height: 170%;
   color: #281D15;
+}
+
+.faq-content {
+  line-height: 27.2px;
 }
 
 .header-introduction {
