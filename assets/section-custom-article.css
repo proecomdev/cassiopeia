@@ -92,14 +92,23 @@ h2.text-font-family {
     .left-border p:first-child {
       margin-bottom: 15px; }
 
-  /* --------------------------------------- */
 .article-template .Heading-faq {
   padding: 98px 0 20px;
   text-align: left;
   font-size: 76px;
   line-height: 152px;
-  letter-spacing: 4%;
-}
+  letter-spacing: 4%; }
+  .faq-heading {
+    line-height: 27.2px;
+    padding-left: 60px;
+    color: #594230;
+    font-size: 24px;
+    margin: 24px 0 20px; }
+    .faq-heading i {
+      margin-right: 24px; }
+
+  /* --------------------------------------- */
+
 
         .article-heading {
           font-family: 'Roboto';
@@ -113,20 +122,7 @@ h2.text-font-family {
         }
 
 
-.faq-heading {
-  font-size: 24px;
-  margin: 24px 0 20px;
-}
 
-.faq-heading i {
-  margin-right: 24px;
-}
-
-.faq-content {
-  line-height: 27.2px;
-  padding-left: 60px;
-  color: #594230;
-}
 
 .header-introduction {
   padding: 0 154px 0 150px;
