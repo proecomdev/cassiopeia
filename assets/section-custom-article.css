@@ -411,3 +411,10 @@
 .slick-container .slick-prev {
   right: 100px;
 }
+
+.collection__title h2.title {
+  font-size: 36px;
+  line-height: 36px;
+  letter-spacing: 100%;
+  margin: 0;
+}
