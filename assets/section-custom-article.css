@@ -185,8 +185,10 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin: 144px 0 16px;
 }
 .comment-heading {
   font-size:  36px;
   line-height: 36px;
+  padding: 0;
 }
