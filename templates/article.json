@@ -87,6 +87,17 @@
     },
     "6b2cf656-2366-42d0-9c14-3c0838987947": {
       "type": "custom-blog-post",
+      "blocks": {
+        "893b248c-c64f-4a73-a337-7467810baac9": {
+          "type": "article",
+          "settings": {
+            "catalogue": "news\/how-to-choose-jewellery-to-match-your-hairstyle"
+          }
+        }
+      },
+      "block_order": [
+        "893b248c-c64f-4a73-a337-7467810baac9"
+      ],
       "settings": {
       }
     }
