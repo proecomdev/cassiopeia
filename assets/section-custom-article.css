@@ -84,6 +84,10 @@ div.text-font-family {
   line-height: 170%; 
 }
 
+.header-introduction .text-font-family p:first-child {
+  margin-bottom: 15px;
+}
+
 .background-image {
   width: 100%;
   background-size: cover;
