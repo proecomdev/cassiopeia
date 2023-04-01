@@ -4,8 +4,17 @@
 
 /* START BACKGROUND COLOR */
 
-/* START BACKGROUND COLOR */
+/* END BACKGROUND COLOR */
 
+/* START FONT COLOR */
+.text-font-family {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  letter-spacing: 0.1em;
+}
+/* END FONT COLOR */
 
 #MainContent {
 	margin-top: -122px;
