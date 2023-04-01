@@ -139,7 +139,9 @@
   height: 802px;
   margin: 87px 0 74px;
 }
-
+.slick-container .slick-next, .slick-container .slick-prev {
+  top: -54px;
+}
 
 .article-grid {
   display: grid;
