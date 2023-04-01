@@ -89,9 +89,9 @@
   margin-right: 48px;
   text-transform: uppercase;
 }
-.article-category a:active,
-.article-category a:focus,
-.article-category a:hover {
+.article-category a.text-font-family:active,
+.article-category a.text-font-family:focus,
+.article-category a.text-font-family:hover {
   text-decoration-line: underline;
 }
 .grid-item:nth-child(2) .button.button--primary {
