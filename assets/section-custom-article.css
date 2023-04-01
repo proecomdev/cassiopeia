@@ -72,9 +72,9 @@ h2.text-font-family {
   line-height: 130%;
   letter-spacing: 0.05em;
   text-transform: uppercase; }
-  .h2.text-font-family .font-brown.top6 { 
+  h2.text-font-family .font-brown.top6 { 
     font-weight: 600; }
-    .h2.text-font-family span {
+    h2.text-font-family span {
       display: block; }
 
 p.text-font-family {
