@@ -25,7 +25,7 @@
 
 /* START FONT SETTINGS */
 .text-font-family {
-  font-family: var(--Heading-font-family);
+  font-family: var(--Text-font-family);
   font-style: normal;
   font-weight: 300;
   letter-spacing: 0.1em;
