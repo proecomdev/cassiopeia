@@ -119,9 +119,13 @@
 }
 
 
-.article-banner {
+.article-banner.desktop {
   margin: 48px 0 74px;
   height: 557px;
+}
+.article-banner.mobile {
+  margin: 0;
+  height: 308px;
 }
 .background-image {
   background-size: cover;
