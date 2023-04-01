@@ -76,6 +76,7 @@ h2.text-font-family {
 
 p.text-font-family {
   font-weight: 300;
+  line-height: 170%;
 }
   .header-introduction div.text-font-family {
     font-weight: 300;
