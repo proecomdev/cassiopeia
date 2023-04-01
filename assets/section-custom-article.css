@@ -126,6 +126,7 @@
 .article-banner.mobile {
   margin: 0;
   height: 308px;
+  display: none;
 }
 .background-image {
   background-size: cover;
