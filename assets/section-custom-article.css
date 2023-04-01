@@ -391,3 +391,15 @@
   background-color: #281D15;
   color: #EDECE7;
 }
+.slick-container {
+  padding: 0;
+}
+.product-name {
+  padding-bottom: 16px;
+}
+.slick-container .slick-next {
+  right: 23px;
+}
+.slick-container .slick-prev {
+  right: 100px;
+}
