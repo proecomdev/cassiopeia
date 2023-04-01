@@ -96,7 +96,7 @@
 .article-category a.text-font-family.active,
 .article-category a.text-font-family:focus,
 .article-category a.text-font-family:hover {
-  text-decoration-line: underline;
+  text-decoration-line: underline !important;
 }
 .grid-item:nth-child(2) .button.button--primary {
   position: absolute;
