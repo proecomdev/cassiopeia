@@ -46,7 +46,9 @@ h1.heading-font-family {
   padding: 111px 0 100px; }
 
   h1.heading-font-family.top6 {
-    font-size: 80px; }
+    font-size: 80px;
+    padding-top: 89px;
+    padding-bottom: 85px; }
     
 h2.text-font-family {
   font-weight: 300;
