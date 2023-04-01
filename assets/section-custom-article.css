@@ -210,6 +210,10 @@
   margin-right: 11.5px;
 }
 
+.comment-body {
+  padding-top: 53px;
+}
+
 .comment-item {
   display: flex;
   align-items: start;
@@ -218,6 +222,7 @@
 .comment-item .comment-left {
   width: 75px;
   margin-right: 15px;
+  max-width: 75px;
 }
 
 .comment-item .comment-right {
