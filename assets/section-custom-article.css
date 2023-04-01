@@ -54,13 +54,8 @@
 }
 
 .article-template .Heading {
-  font-family: 'Faberge';
-  font-style: normal;
-  font-weight: 400;
   font-size: 48px;
   line-height: 130%;
-  text-transform: uppercase;
-  color: #594230;
   max-width: 1400px;
   text-align: center;
   margin: 0 auto;
