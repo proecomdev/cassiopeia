@@ -60,6 +60,9 @@ h2.text-font-family {
   text-transform: uppercase; }
   .articles .font-brown.top6 { 
     font-weight: 600; }
+  .articles .text-font-family {
+    font-weight: 300;
+  }
 
 
   .header-introduction div.text-font-family {
