@@ -74,10 +74,12 @@ h2.text-font-family {
   .h2.text-font-family .font-brown.top6 { 
     font-weight: 600; }
 
+p.text-font-family {
+  font-weight: 300;
+}
   .header-introduction div.text-font-family {
     font-weight: 300;
     line-height: 170%; }
-
 
 .background-image {
   width: 100%;
