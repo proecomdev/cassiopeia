@@ -224,6 +224,9 @@
   margin-right: 15px;
   max-width: 75px;
 }
+.comment-right-heading {
+  display: flex;
+}
 
 .comment-item .comment-right {
   max-width: 570px;
