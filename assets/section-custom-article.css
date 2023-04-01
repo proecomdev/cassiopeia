@@ -411,12 +411,17 @@
 .slick-container .slick-prev {
   right: 100px;
 }
+
+.post-font-family {
+  font-size: 36px;
+  line-height: 36px;
+}
+
 .collection__title h2.title {
   font-family: 'Faberge';
   font-style: normal;
   font-weight: 400;
-  font-size: 36px;
-  line-height: 36px;
+  
   letter-spacing: 100%;
   text-transform: uppercase;
   color: #281D15;
