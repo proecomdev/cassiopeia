@@ -32,19 +32,17 @@
 }
 /* END FONT SETTINGS */
 
-
-
+/* START DEFAULT SETTINGS */
+a, p {
+  text-decoration: none !important;
+}
+/* END DEFAULT SETTINGS */
 
 /* ================   Homepage   ================ */
 #MainContent {
 	margin-top: -122px;
 }
-/* END IMAGE BANNER */
 
-a, p {
-  text-decoration: none !important;
-}
-  
   .slick-container {
     width: 100%;
     padding-left: 120px;
