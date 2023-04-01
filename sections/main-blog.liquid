@@ -45,7 +45,13 @@
       <h2 class="Heading list-title">Latest Posts</h2>
     </div>
     <div class="article-category">
-
+      <ul>
+        <li><a href="#">All</a></li>
+        <li><a href="#">Crystal Attraction</a></li>
+        <li><a href="#">Chakra & Healing</a></li>
+        <li><a href="#">Symbolism</a></li>
+        <li><a href="#">Fashion Trends</a></li>
+      </ul>
     </div>
     {%- paginate blog.articles by 9 -%}
       <div class="blog-articles {% if section.settings.layout == 'collage' %}blog-articles--collage{% endif %}">
