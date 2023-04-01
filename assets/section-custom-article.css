@@ -411,25 +411,3 @@
 .slick-container .slick-prev {
   right: 100px;
 }
-
-.post-font-family {
-  font-size: 36px;
-  line-height: 36px;
-}
-
-.collection__title h2.title {
-  font-family: 'Faberge';
-  font-style: normal;
-  font-weight: 400;
-  
-  letter-spacing: 100%;
-  text-transform: uppercase;
-  color: #281D15;
-  margin: 0;
-}
-
-@media (max-width: 820px) {
-  .desktop {
-    display: none;
-  }
-}
