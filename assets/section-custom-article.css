@@ -195,3 +195,16 @@
   margin: 0;
   text-align: left;
 }
+
+.comment-head .add-comment {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 130%;
+  letter-spacing: 0.23em;
+  text-transform: uppercase;
+}
+.comment-head .add-comment img {
+  margin-right: 115px;
+}
