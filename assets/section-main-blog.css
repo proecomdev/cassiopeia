@@ -84,10 +84,8 @@
   padding-left: 64px;
   position: relative;
 }
-.article-list-header {
-  margin-bottom: 23px;
-}
 .article-category {
+  margin-top: 23px;
   margin-bottom: 72px;
 }
 .article-category a.text-font-family {
