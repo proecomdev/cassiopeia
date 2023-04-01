@@ -40,13 +40,11 @@
   justify-content: space-between;
   align-items: center;
   line-height: 15px;
-  opacity: 0.5;
-}
-
-.article-detail p img {
-  margin-right: 6px;
-  margin-left: 16px;
-}
+  opacity: 0.5; } 
+  
+  .article-detail p img {
+    margin-right: 6px;
+    margin-left: 16px; }
 
 h1.heading-font-family {
   font-size: 48px;
@@ -54,11 +52,16 @@ h1.heading-font-family {
   max-width: 1400px;
   text-align: center;
   margin: 0 auto;
-  padding: 111px 0 100px;
-}
-h1.heading-font-family.top6 {
-  font-size: 80px;
-}
+  padding: 111px 0 100px; }
+
+  h1.heading-font-family.top6 {
+    font-size: 80px; }
+h2.text-font-family {
+  font-weight: 300;
+  font-size: 32px;
+  line-height: 130%;
+  letter-spacing: 0.05em;
+  text-transform: uppercase; }
 
 .article-template .Heading-faq {
   padding: 98px 0 20px;
