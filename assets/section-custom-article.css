@@ -279,3 +279,12 @@
   display: flex;
   align-items: center;
 }
+.comment-detail a {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 15px;
+  letter-spacing: 1px;
+  color: #281D15;
+}
