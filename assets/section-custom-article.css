@@ -288,3 +288,13 @@
   letter-spacing: 1px;
   color: #281D15;
 }
+.t_up {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 15px;
+  text-align: center;
+  letter-spacing: 1px;
+  color: #3DC47E;
+}
