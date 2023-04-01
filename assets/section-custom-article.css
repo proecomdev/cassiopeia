@@ -186,6 +186,7 @@
   justify-content: space-between;
   align-items: center;
   margin: 144px 0 16px;
+  border: 1px solid #B8B2A6;
 }
 .comment-heading {
   font-size:  36px;
