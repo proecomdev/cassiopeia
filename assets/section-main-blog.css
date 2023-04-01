@@ -84,7 +84,9 @@
   padding-left: 64px;
   position: relative;
 }
-
+.article-list-header {
+  margin-bottom: 23px;
+}
 .article-category {
   margin-bottom: 72px;
 }
