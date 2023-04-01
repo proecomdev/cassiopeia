@@ -44,8 +44,7 @@
         "cc36fb44-5725-4409-9ce5-54104bb53a64": {
           "type": "article",
           "settings": {
-            "catalogue": "news\/unlocking-the-healing-powers-of-amethyst-its-properties",
-            "blog_image": "shopify:\/\/shop_images\/Screenshot_2023-03-27_at_10.34.24_PM_520x500_120aa7f0-98e0-4f0e-9595-b42f971836c3.webp"
+            "catalogue": "news\/unlocking-the-healing-powers-of-amethyst-its-properties"
           }
         },
         "9979a051-612b-404a-bf0a-d3ea5a998afa": {
@@ -74,7 +73,8 @@
         "7b6f2194-2794-4345-8e29-9044b5e08811"
       ],
       "settings": {
-        "title": "Recommended for you"
+        "title": "Recommended for you",
+        "blog_image1": "shopify:\/\/shop_images\/Annotation_2023-04-01_055150.png"
       }
     }
   },
