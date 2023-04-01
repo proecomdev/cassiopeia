@@ -88,7 +88,9 @@
   line-height: 19px;
   text-transform: uppercase;
 }
-.article-category a.active {
+.article-category a:active,
+.article-category a:focus,
+.article-category a:hover {
   text-decoration-line: underline;
 }
 .grid-item:nth-child(2) .button.button--primary {
