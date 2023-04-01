@@ -290,6 +290,9 @@
   letter-spacing: 1px;
   color: #281D15;
 }
+.comment-detail a img {
+  opacity: 0.5;
+}
 .comment-detail p.plus {
   font-family: 'Roboto';
   font-style: normal;
