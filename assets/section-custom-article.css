@@ -13,6 +13,11 @@
 .align-bottom { align-items: end; }
 .justify-content-between { justify-content: space-between; }
 
+.collection {
+  padding-top: 116px;
+  background-color: #EDECE7;
+}
+
 .article-template {
   padding-top: 41px;
 }
@@ -402,4 +407,15 @@
 }
 .slick-container .slick-prev {
   right: 100px;
+}
+.collection__title h2.title {
+  font-family: 'Faberge';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 36px;
+  letter-spacing: 100%;
+  text-transform: uppercase;
+  color: #281D15;
+  margin: 0;
 }
