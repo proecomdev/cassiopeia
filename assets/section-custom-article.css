@@ -110,6 +110,12 @@
 }
 .article-banner {
   margin: 48px 0 74px;
+  height: 557px;
+}
+.background-image {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 .article-grid {
   display: grid;
