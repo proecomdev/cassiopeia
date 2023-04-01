@@ -180,7 +180,7 @@ h2.text-font-family {
   padding-left: 24px;
 }
 
-.left-border p {
+.left-border p:first-child {
   margin-bottom: 15px;
 }
 
