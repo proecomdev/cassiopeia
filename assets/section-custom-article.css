@@ -48,7 +48,7 @@
 .two-background-image {
   height: 557px;
   display: grid;
-  grid-template-columns: 2fr 4fr;
+  grid-template-columns: 3fr 5fr;
 }
 
 .slick-container .slick-next, .slick-container .slick-prev {
