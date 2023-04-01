@@ -34,7 +34,7 @@
 .text-font-family {
   font-family: var(--Text-font-family);
   font-style: normal;
-  font-weight: 300;
+  font-weight: 400;
   letter-spacing: 0.1em;
 }
 .heading-font-family {
