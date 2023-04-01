@@ -49,6 +49,7 @@
   height: 557px;
   display: grid;
   grid-template-columns: 2fr 3fr;
+  margin: 48px 0 74px;
 }
 
 .slick-container .slick-next, .slick-container .slick-prev {
