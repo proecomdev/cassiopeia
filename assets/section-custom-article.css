@@ -288,7 +288,7 @@
   letter-spacing: 1px;
   color: #281D15;
 }
-.t_up {
+.comment-detail p:first-child {
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 300;
