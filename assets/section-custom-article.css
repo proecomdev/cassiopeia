@@ -45,6 +45,12 @@
   height: 308px;
 }
 
+.two-background-image {
+  height: 557px;
+  display: grid;
+  grid-template-columns: 2fr 3fr;
+}
+
 .slick-container .slick-next, .slick-container .slick-prev {
   top: -54px;
 }
