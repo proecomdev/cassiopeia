@@ -13,6 +13,10 @@
 .align-bottom { align-items: end; }
 .justify-content-between { justify-content: space-between; }
 
+.article-template {
+  padding-top: 41px;
+}
+
 .author-info img {
   margin-right: 10px;
   border-radius: 50%;
