@@ -118,7 +118,9 @@
   padding: 0 154px 0 150px;
 }
 
-
+.mobile {
+  display: none;
+}
 .article-banner.desktop {
   margin: 48px 0 74px;
   height: 557px;
@@ -126,7 +128,6 @@
 .article-banner.mobile {
   margin: 0;
   height: 308px;
-  display: none;
 }
 .background-image {
   background-size: cover;
@@ -423,4 +424,10 @@
   text-transform: uppercase;
   color: #281D15;
   margin: 0;
+}
+
+@media (max-width: 820px) {
+  .desktop {
+    display: none;
+  }
 }
