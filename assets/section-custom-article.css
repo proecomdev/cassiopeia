@@ -5,24 +5,11 @@
 
 .mb-top { margin-bottom: 74px }
 
-.d-flex { display: flex; }
-.align-center { align-items: center; }
-.align-bottom { align-items: end; }
-.justify-content-between { justify-content: space-between; }
-
-.row {
-  display: flex;
-  margin-right: -12.5px;
-  margin-left: -12.5px;
-  flex-wrap: wrap; }
-
 .article-template {
   padding-top: 41px; }
-
-  .author-info img {
-    margin-right: 10px;
-    border-radius: 50%; }
-
+.author-info img {
+  margin-right: 10px;
+  border-radius: 50%; }
   .blog-info-font {
     font-family: 'Roboto';
     font-style: normal;
@@ -30,17 +17,14 @@
     color: #281D15;
     letter-spacing: 0.1em;
     font-size: 12px; }
-
-  .author-info .author-name {
-    line-height: 20px; }
-
+    .author-info .author-name {
+      line-height: 20px; }
 .article-detail p {
   display: flex;
   justify-content: space-between;
   align-items: center;
   line-height: 15px;
-  opacity: 0.5; } 
-  
+  opacity: 0.5; }     
   .article-detail p img {
     margin-right: 6px;
     margin-left: 16px; }
@@ -68,6 +52,7 @@
   display: grid;
   grid-template-columns: 1fr 6fr;
 }
+
 h1.heading-font-family {
   font-size: 48px;
   line-height: 130%;
@@ -75,23 +60,19 @@ h1.heading-font-family {
   text-align: center;
   margin: 0 auto;
   padding: 111px 0 100px; }
-
   h1.heading-font-family.top6 {
     font-size: 80px;
     padding-top: 89px;
     padding-bottom: 85px; }
-    
+
 h2.text-font-family {
   font-weight: 300;
   font-size: 32px;
   line-height: 130%;
   letter-spacing: 0.05em;
-  text-transform: uppercase; }
-  .articles .font-brown.top6 { 
+  text-transform: uppercase;  }
+  .h2.text-font-family .font-brown.top6 { 
     font-weight: 600; }
-  .articles .text-font-family {
-    font-weight: 300;
-  }
 
   .header-introduction div.text-font-family {
     font-weight: 300;
@@ -148,10 +129,6 @@ h2.text-font-family {
           color: #281D15;
         }
 
-.col-md-6 {
-  width: 50%;
-  padding: 0 12.5px;
-}
 .share ul {
   padding-left: 13px;
   list-style-type: none;
