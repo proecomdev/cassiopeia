@@ -1,7 +1,103 @@
 {{ 'section-custom-article.css' | asset_url | stylesheet_tag }}
-
+<style>
+  #shopify-section-{{ section.id }} .collection {
+    padding-top: 116px;
+    background-color: #EDECE7;
+  }
+  #shopify-section-{{ section.id }} .collection__title h2.title {
+    font-family: 'Faberge';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 36px;
+    letter-spacing: 100%;
+    text-transform: uppercase;
+    color: #281D15;
+    margin: 0;
+  }
+  #shopify-section-{{ section.id }} .slick-container {
+    padding: 0;
+  }
+  #shopify-section-{{ section.id }} .product-name {
+    padding-bottom: 16px;
+  }
+  #shopify-section-{{ section.id }} .slick-container .slick-next {
+    right: 23px;
+  }
+  #shopify-section-{{ section.id }} .slick-container .slick-prev {
+    right: 100px;
+  }
+  .slick-container .product .img {
+    width: auto;
+    height: 363px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  .slick-container .product-detail {
+    position: static;
+  }
+  .lorem-ipsum {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 180%;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+    color: #281d15;
+    margin: 32px 0 19px;
+  }
+  .blog-name {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 130%;
+    text-align: center;
+    letter-spacing: .05em;
+    text-transform: uppercase;
+    color: #281d15;
+    margin-top: 0;
+    margin-bottom: 24px;
+  }
+  .button {
+    border: 1px solid #281D15;
+  }
+  .button:hover {
+    background-color: #281D15;
+    color: #EDECE7;
+  }
+  @media (max-width: 991px) {
+    #shopify-section-{{ section.id }} {
+      padding-top: 24px;
+    }
+    #shopify-section-{{ section.id }} .collection__title h2.title {
+      font-size: 40px;
+      line-height: 129%;
+    }
+  }
+  @media (max-width: 640px) {
+    #shopify-section-{{ section.id }} .collection__title h2.title {
+      text-align: center;
+    }
+  }
+</style>
 <article class="article-template" itemscope itemtype="http://schema.org/BlogPosting">
-    
+  <div class="article-info d-flex justify-content-between align-center w-100">
+    <div class="author-info d-flex justify-content-between align-center">
+      <img src="{{ article.user.image | img_url: '30x' }}">
+      <p class="author-name blog-info-font">{{ article.author }}</p>
+    </div>
+    <div class="article-detail d-flex justify-content-between align-center">
+      <p class="created_at blog-info-font">
+        <img src="{{ 'Clock.svg' | asset_url }}"> {{ article.published_at | date: format: 'short' }}
+      </p>
+      <p class="artile-heart blog-info-font"><img src="{{ 'blog_heart.svg' | asset_url }}"> {{ article.heart }} </p>
+      <p class="article-comment blog-info-font"><img src="{{ 'Comment.svg' | asset_url }}"> {{ article.comments_count }} </p>
+    </div>
+  </div>
+  
   {{ article.content }}
 
 </article>
