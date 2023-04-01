@@ -84,6 +84,12 @@
   padding-left: 64px;
   position: relative;
 }
+
+.grid-item:nth-child(2) .button.button--primary {
+  position: absolute;
+  bottom: 0;
+}
+
 .article-title {
   font-family: var(--Heading-font-family);
   font-style: normal;
