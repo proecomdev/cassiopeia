@@ -94,7 +94,6 @@
   text-transform: uppercase;
 }
 .article-category a.text-font-family.active,
-.article-category a.text-font-family:focus,
 .article-category a.text-font-family:hover {
   text-decoration-line: underline !important;
 }
