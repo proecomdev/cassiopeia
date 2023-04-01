@@ -122,6 +122,19 @@
 .blog_img2 {
   height: 858px;
 }
+.blog_img3 {
+  height: 285px;
+}
+.blog_img4 {
+  height: 685px;
+}
+.blog_img5 {
+  height: 251px;
+}
+.blog_img6 {
+  height: 802px;
+}
+
 
 .article-grid {
   display: grid;
