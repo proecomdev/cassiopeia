@@ -292,6 +292,7 @@
 }
 .comment-detail a img {
   opacity: 0.5;
+  margin-right: 7px;
 }
 .comment-detail p.plus {
   font-family: 'Roboto';
