@@ -84,6 +84,14 @@ h2.text-font-family {
     margin: 87px 0 74px; }
   .background-image.top6 { height: 291px; }
 
+  .left-border {
+    border-left: 3px solid #594230;
+    padding-left: 24px; }
+    .left-border.top6 {
+      margin-top: 24px; }
+    .left-border p:first-child {
+      margin-bottom: 15px; }
+
   /* --------------------------------------- */
 .article-template .Heading-faq {
   padding: 98px 0 20px;
@@ -175,14 +183,7 @@ h2.text-font-family {
   padding: 0;
   margin-bottom: 22px;
 }
-.left-border {
-  border-left: 3px solid #594230;
-  padding-left: 24px;
-}
 
-.left-border p:first-child {
-  margin-bottom: 15px;
-}
 
 .article-buttons {
   display: flex;
