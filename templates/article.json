@@ -40,6 +40,38 @@
     },
     "a1a909b5-6216-4828-842a-fe25633828f1": {
       "type": "custom-article",
+      "blocks": {
+        "cc36fb44-5725-4409-9ce5-54104bb53a64": {
+          "type": "article",
+          "settings": {
+            "catalogue": "news\/unlocking-the-healing-powers-of-amethyst-its-properties"
+          }
+        },
+        "9979a051-612b-404a-bf0a-d3ea5a998afa": {
+          "type": "article",
+          "settings": {
+            "catalogue": "news\/hottest-summer-jewellery-trends-in-2023"
+          }
+        },
+        "0e11f60c-408d-452b-8680-ef7599d7988a": {
+          "type": "article",
+          "settings": {
+            "catalogue": "news\/all-things-larimar"
+          }
+        },
+        "7b6f2194-2794-4345-8e29-9044b5e08811": {
+          "type": "article",
+          "settings": {
+            "catalogue": "news\/5-simple-ways-to-care-clean-and-store-your-gemstone-jewellery"
+          }
+        }
+      },
+      "block_order": [
+        "cc36fb44-5725-4409-9ce5-54104bb53a64",
+        "9979a051-612b-404a-bf0a-d3ea5a998afa",
+        "0e11f60c-408d-452b-8680-ef7599d7988a",
+        "7b6f2194-2794-4345-8e29-9044b5e08811"
+      ],
       "settings": {
         "title": "Recommended for you"
       }
