@@ -25,7 +25,7 @@
 
 /* START FONT COLOR */
 .text-font-family {
-  font-family: 'Roboto';
+  font-family: var(--Heading-font-family);
   font-style: normal;
   font-weight: 300;
   font-size: 16px;
