@@ -108,6 +108,8 @@
 .header-introduction {
   padding: 0 154px 0 150px;
 }
+
+
 .article-banner {
   margin: 48px 0 74px;
   height: 557px;
@@ -117,6 +119,10 @@
   background-position: center;
   background-repeat: no-repeat;
 }
+.blog_img2 {
+  height: 858px;
+}
+
 .article-grid {
   display: grid;
   grid-template-columns: 1fr 6fr;
