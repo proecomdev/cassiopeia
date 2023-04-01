@@ -2977,13 +2977,7 @@ html, body {
   align-items: center;
 }
 
-.Heading {
-  font-family: var(--Heading-font-family);
-  font-style: normal;
-  font-weight: 400;
-  letter-spacing: 0.04em;
-  text-transform: uppercase;
-}
+
 
 .full-unstyled-link {
   font-family: 'Roboto';
