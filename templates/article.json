@@ -93,10 +93,17 @@
           "settings": {
             "catalogue": "news\/how-to-choose-jewellery-to-match-your-hairstyle"
           }
+        },
+        "ae3d2bbe-cdd5-47e2-ab2a-a8f6dbdfae2b": {
+          "type": "article",
+          "settings": {
+            "catalogue": "news\/unlocking-the-healing-powers-of-amethyst-physical-emotional-and-metaphysical"
+          }
         }
       },
       "block_order": [
-        "893b248c-c64f-4a73-a337-7467810baac9"
+        "893b248c-c64f-4a73-a337-7467810baac9",
+        "ae3d2bbe-cdd5-47e2-ab2a-a8f6dbdfae2b"
       ],
       "settings": {
       }
