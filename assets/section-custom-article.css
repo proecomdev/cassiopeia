@@ -57,6 +57,12 @@ h2.text-font-family {
   letter-spacing: 0.05em;
   text-transform: uppercase; }
 
+  .articles .text-font-family .font-brown { font-weight: 700; }
+  .articles .text-font-family .font-choco { font-weight: 300; }
+
+
+
+  /* --------------------------------------- */
 .article-template .Heading-faq {
   padding: 98px 0 20px;
   text-align: left;
@@ -76,18 +82,6 @@ h2.text-font-family {
           color: #281D15;
         }
 
-.articles .text-font-family {
-  font-size: 32px;
-  line-height: 130%;
-  letter-spacing: 0.05em;
-}
-.articles .text-font-family .font-brown {
-  font-weight: 700;
-}
-
-.articles .text-font-family .font-choco {
-  font-weight: 300;
-}
 
 .faq-heading {
   font-size: 24px;
