@@ -82,6 +82,7 @@
 }
 .grid-item:nth-child(2) {
   padding-left: 64px;
+  position: relative;
 }
 .article-title {
   font-family: var(--Heading-font-family);
