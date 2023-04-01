@@ -246,24 +246,24 @@
     </div>
 
     <div class="collection">
-    <div class="collection__title title-wrapper title-wrapper--no-top-margin">
-      <h2 class="title {{ section.settings.heading_size }}">{{ section.settings.title | escape }}</h2>
-    </div>
-    <div class="slick-container">
-      <div class="slick-slider-best">
-        {%- for block in section.blocks -%}
-          <div class="product">
-            <div style="background-image: url('{{ block.settings.catalogue.image | img_url: 'master' }}')" class="img"></div>
-            <div class="product-detail">
-              <p class="lorem-ipsum">lorem ipsum</p>
-              <p class="blog-name">{{ block.settings.catalogue.title | escape }}</p>
-              <a href="{{ block.settings.catalogue.url }}" class="blog-ntn button button--secondary">Read Article</a>
+      <div class="collection__title title-wrapper title-wrapper--no-top-margin">
+        <h2 class="title {{ section.settings.heading_size }}">{{ section.settings.title | escape }}</h2>
+      </div>
+      <div class="slick-container">
+        <div class="slick-slider-best">
+          {%- for block in section.blocks -%}
+            <div class="product">
+              <div style="background-image: url('{{ block.settings.catalogue.image | img_url: 'master' }}')" class="img"></div>
+              <div class="product-detail">
+                <p class="lorem-ipsum">lorem ipsum</p>
+                <p class="blog-name">{{ block.settings.catalogue.title | escape }}</p>
+                <a href="{{ block.settings.catalogue.url }}" class="blog-ntn button button--secondary">Read Article</a>
+              </div>
             </div>
-          </div>
-        {%- endfor -%}
+          {%- endfor -%}
+        </div>
       </div>
     </div>
-  </div>
 
     {% include 'article-comment' %}
   </div>
