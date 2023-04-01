@@ -227,6 +227,7 @@
 .comment-right-heading {
   display: flex;
   align-items: center;
+  margin-bottom: 14px;
 }
 
 .comment-item .comment-right {
@@ -249,6 +250,7 @@
   letter-spacing: 0.04em;
   color: #281D15;
   opacity: 0.8;
+  margin-bottom: 16px;
 }
 
 .comment-item .comment-right h3 {
@@ -271,4 +273,9 @@
   letter-spacing: 0.04em;
   color: #281D15;
   opacity: 0.5;
+}
+
+.comment-detail {
+  display: flex;
+  align-items: center;
 }
