@@ -99,11 +99,32 @@
           "settings": {
             "catalogue": "news\/unlocking-the-healing-powers-of-amethyst-physical-emotional-and-metaphysical"
           }
+        },
+        "7d94bf83-870c-4df9-b3bf-019543cedbe7": {
+          "type": "article",
+          "settings": {
+            "catalogue": "news\/hottest-summer-jewellery-trends-in-2023"
+          }
+        },
+        "ad01aa16-31cf-4d9c-9693-c749bd93729f": {
+          "type": "article",
+          "settings": {
+            "catalogue": "news\/all-things-larimar"
+          }
+        },
+        "a4d9297d-63b0-4cbb-b08b-feedc6d2742d": {
+          "type": "article",
+          "settings": {
+            "catalogue": "news\/5-simple-ways-to-care-clean-and-store-your-gemstone-jewellery"
+          }
         }
       },
       "block_order": [
         "893b248c-c64f-4a73-a337-7467810baac9",
-        "ae3d2bbe-cdd5-47e2-ab2a-a8f6dbdfae2b"
+        "ae3d2bbe-cdd5-47e2-ab2a-a8f6dbdfae2b",
+        "7d94bf83-870c-4df9-b3bf-019543cedbe7",
+        "ad01aa16-31cf-4d9c-9693-c749bd93729f",
+        "a4d9297d-63b0-4cbb-b08b-feedc6d2742d"
       ],
       "settings": {
       }
