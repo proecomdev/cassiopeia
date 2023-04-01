@@ -2,7 +2,8 @@
 .mb-36 { margin-bottom: 36px; }
 .mb-24 { margin-bottom: 24px }
 .mb-18 { margin-bottom: 18px }
-.mp-74 { margin-bottom: 74px }
+
+.mb-top { margin-bottom: 74px }
 
 .d-flex { display: flex; }
 .align-center { align-items: center; }
