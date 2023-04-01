@@ -47,6 +47,10 @@
 /* END FONT SETTINGS */
 
 /* START DEFAULT SETTINGS */
+* {
+  margin: 0;
+  padding: 0;
+}
 a, p {
   text-decoration: none !important;
 }
