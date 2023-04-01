@@ -2,6 +2,7 @@
 .mb-36 { margin-bottom: 36px; }
 .mb-24 { margin-bottom: 24px }
 .mb-18 { margin-bottom: 18px }
+.mp-top6 { margin-bottom: 74px }
 
 .d-flex { display: flex; }
 .align-center { align-items: center; }
@@ -57,8 +58,9 @@ h2.text-font-family {
   letter-spacing: 0.05em;
   text-transform: uppercase; }
 
-  .articles .text-font-family .font-brown { font-weight: 700; }
+  .articles .font-brown.top6 { font-weight: 700; }
   .articles .text-font-family .font-choco { font-weight: 300; }
+
 
   .header-introduction div.text-font-family {
     font-weight: 300;
