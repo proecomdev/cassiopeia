@@ -383,3 +383,9 @@ div.text-font-family {
   letter-spacing: 100%;
   margin: 0;
 }
+
+@media (min-width: 1600px) {
+  .background-image.top6 {
+    height: 390px;
+  }
+}
