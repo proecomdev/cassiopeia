@@ -294,6 +294,9 @@
   opacity: 0.5;
   margin-right: 7px;
 }
+.comment-detail a:hover img {
+  opacity: 1;
+}
 .comment-detail p.plus {
   font-family: 'Roboto';
   font-style: normal;
