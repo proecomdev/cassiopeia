@@ -255,10 +255,10 @@
       <div class="slick-slider-best">
         {%- for block in section.blocks -%}
           <div class="product">
-            <div style="background-image: url('{{ block.settings.catalogue.image | img_url: '720x' }}')" class="img"></div>
+            <div style="background-image: url('{{ block.settings.blog_image | img_url: 'master' }}')" class="img"></div>
             <div class="product-detail">
               <p class="lorem-ipsum">lorem ipsum</p>
-              <p class="blog-name">shop {{ block.settings.catalogue.title | escape }}</p>
+              <p class="blog-name">{{ block.settings.catalogue.title | escape }}</p>
               <a href="{{ block.settings.catalogue.url }}" class="blog-ntn button button--secondary">Read Article</a>
             </div>
           </div>
@@ -270,7 +270,6 @@
     {% include 'article-comment' %}
   </div>
 </article>
-
 {% comment %} END ARTICLE 203693 {% endcomment %}
 
 {% schema %}
@@ -294,6 +293,11 @@
           "type": "article",
           "id": "catalogue",
           "label": "Select collection"
+        },
+        {
+          "type": "image_picker",
+          "id": "blog_image",
+          "label": "Blog Image"
         }
       ]
     }
