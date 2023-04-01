@@ -21,7 +21,9 @@
     <h1 class="heading-font-family font-brown top6">Discover the Healing Powers of Moonstone:<br><span class="font-choco">Physical, Emotional, and Metaphysical</span></h1>
 
     <div class="header-introduction">
-      {% comment %} <h2 class="text-font-family font-choco mb-36">The Healing Properties of Crystals</h2> {% endcomment %}
+      {%- if section.settings.intro_title != blank -%}
+        <h2 class="text-font-family font-choco mb-36">{{ section.settings.intro_title}}</h2>
+      {%- endif -%}
       <div class="text-font-family font-choco">
         <p>Moonstone is a captivating gemstone known for its iridescent sheen and healing properties. It belongs to the feldspar family and can be found in several regions, including Sri Lanka, India, and Madagascar. This article will delve into the physical, emotional, and metaphysical benefits of wearing moonstone, as well as which zodiac signs it complements. We'll also explore Cassiopeia Gems' moonstone jewellery collection and address frequently asked questions about moonstone.</p>
       </div>
@@ -175,13 +177,13 @@
       },
       {
         "type": "text",
-        "id": "blog_title1",
-        "label": "t:sections.featured-collection.settings.title.label"
+        "id": "article_title1",
+        "label": "Blog Post title 1"
       },
       {
         "type": "text",
-        "id": "blog_title2",
-        "label": "t:sections.featured-collection.settings.title.label"
+        "id": "article_title2",
+        "label": "Blog Post title 2"
       },
       {
         "type": "image_picker",
