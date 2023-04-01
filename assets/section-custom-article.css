@@ -226,7 +226,7 @@
 }
 .comment-right-heading {
   display: flex;
-  align-items: end;
+  align-items: center;
 }
 
 .comment-item .comment-right {
