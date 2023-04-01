@@ -38,11 +38,6 @@ a, p {
 }
 /* END DEFAULT SETTINGS */
 
-/* ================   Homepage   ================ */
-#MainContent {
-	margin-top: -122px;
-}
-
   .slick-container {
     width: 100%;
     padding-left: 120px;
