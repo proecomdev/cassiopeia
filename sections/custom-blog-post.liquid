@@ -100,6 +100,34 @@
     </div>
 
     {{ article.content }}
+
+    <div class="article-buttons w-100">
+      <a href="{{ blog.previous_article }}" class="article-button"><img src="{{ 'arrow-left.png' | asset_url }}"> Prev</a>
+      <a href="{{ blog.url }}" class="article-button article-back">Back To Blog</a>
+      <a href="{{ blog.next_article }}" class="article-button">Next <img src="{{ 'arrow-right.png' | asset_url }}"></a>
+    </div>
+
+    <div class="collection">
+      <div class="collection__title title-wrapper title-wrapper--no-top-margin">
+        <h2 class="heading-font-family font-choco title">{{ section.settings.title | escape }}</h2>
+      </div>
+      <div class="slick-container">
+        <div class="slick-slider-best">
+          {%- for block in section.blocks -%}
+            <div class="product">
+              <div style="background-image: url('{{ block.settings.catalogue.image | img_url: 'master' }}')" class="img"></div>
+              <div class="product-detail">
+                <p class="lorem-ipsum">lorem ipsum</p>
+                <p class="blog-name">{{ block.settings.catalogue.title | escape }}</p>
+                <a href="{{ block.settings.catalogue.url }}" class="blog-ntn button button--secondary">Read Article</a>
+              </div>
+            </div>
+          {%- endfor -%}
+        </div>
+      </div>
+    </div>
+
+    {% include 'article-comment' %}
   </div>
 </article>
 
