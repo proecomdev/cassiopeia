@@ -86,7 +86,6 @@
 }
 .article-category a {
   line-height: 19px;
-  letter-spacing: 0.1em;
   text-transform: uppercase;
 }
 .article-category a.active {
