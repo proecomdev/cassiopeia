@@ -78,9 +78,11 @@ p.text-font-family {
   font-weight: 300;
   line-height: 170%;
 }
-  .header-introduction div.text-font-family {
-    font-weight: 300;
-    line-height: 170%; }
+
+.div.text-font-family {
+  font-weight: 300;
+  line-height: 170%; 
+}
 
 .background-image {
   width: 100%;
