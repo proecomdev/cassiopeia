@@ -11,12 +11,12 @@
 }
 
 /* START FONT COLOR */
-.cl-choco { color: var(--Chocolate); }
-.cl-stone { color: var(--Stone); }
-.cl-darkbeige { color: var(--Darkbeige); }
-.cl-lightbeige { color: var(--Lightbeige); }
-.cl-cream { color: var(--Cream); }
-.cl-brown { color: var(--Brown); }
+.font-choco { color: var(--Chocolate); }
+.font-stone { color: var(--Stone); }
+.font-darkbeige { color: var(--Darkbeige); }
+.font-lightbeige { color: var(--Lightbeige); }
+.font-cream { color: var(--Cream); }
+.font-brown { color: var(--Brown); }
 /* END HEADER */
 
 /* START BACKGROUND COLOR */

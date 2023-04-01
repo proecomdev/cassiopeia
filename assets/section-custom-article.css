@@ -81,6 +81,17 @@
   color: #281D15;
 }
 
+.articles .text-font-family {
+  font-size: 32px;
+  line-height: 130%;
+  letter-spacing: 0.05em;
+}
+.articles .text-font-family .font-brown {
+  font-weight: 300;
+}
+
+.articles .text-font-family .font-
+
 .faq-heading {
   font-size: 24px;
   margin: 24px 0 20px;
