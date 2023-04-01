@@ -11,12 +11,12 @@
 }
 
 /* START FONT COLOR */
-.font-choco { color: var(--Chocolate); }
-.font-stone { color: var(--Stone); }
-.font-darkbeige { color: var(--Darkbeige); }
-.font-lightbeige { color: var(--Lightbeige); }
-.font-cream { color: var(--Cream); }
-.font-brown { color: var(--Brown); }
+.cl-choco { color: var(--Chocolate); }
+.cl-stone { color: var(--Stone); }
+.cl-darkbeige { color: var(--Darkbeige); }
+.cl-lightbeige { color: var(--Lightbeige); }
+.cl-cream { color: var(--Cream); }
+.cl-brown { color: var(--Brown); }
 /* END HEADER */
 
 /* START BACKGROUND COLOR */
@@ -55,23 +55,6 @@
 a, p {
   text-decoration: none !important;
 }
-.d-flex { display: flex; }
-.align-center { align-items: center; }
-.align-bottom { align-items: end; }
-.justify-content-between { justify-content: space-between; }
-.row {
-  display: flex;
-  margin-right: -12.5px;
-  margin-left: -12.5px;
-  flex-wrap: wrap; 
-}
-.col-md-6,
-.col-md-12 { 
-  padding-left: 12.5px;
-  padding-right: 12.5px;
-}
-.col-md-6 { width: 50%; }
-.col-md-12 { width: 100%; }
 /* END DEFAULT SETTINGS */
 
   .slick-container {
