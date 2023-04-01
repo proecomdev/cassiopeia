@@ -60,7 +60,7 @@ h2.text-font-family {
   .articles .text-font-family .font-brown { font-weight: 700; }
   .articles .text-font-family .font-choco { font-weight: 300; }
 
-  .text-font-family {
+  .header-instruction .text-font-family {
     font-weight: 300;
     font-size: 16px;
     line-height: 170%;
