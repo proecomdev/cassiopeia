@@ -84,7 +84,14 @@
   padding-left: 64px;
   position: relative;
 }
-
+.article-category a {
+  line-height: 19px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+.article-category a.active {
+  text-decoration-line: underline;
+}
 .grid-item:nth-child(2) .button.button--primary {
   position: absolute;
   bottom: 0;
@@ -119,7 +126,7 @@
 
 .button.button--primary {
   background-color: transparent;
-  font-family: 'Roboto';
+  font-family: var(--Text-font-family);
   font-style: normal;
   font-weight: 500;
   font-size: 12px;
