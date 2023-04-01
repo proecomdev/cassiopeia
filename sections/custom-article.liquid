@@ -27,13 +27,14 @@
       </div>
     </div>
 
-    <div class="two-background-image">
-      <div class="background-image bg-1" style="background-image: url({{ section.settings.blog_image1 | img_url: 'master' }})"></div>
-      <div class="background-image bg-2" style="background-image: url({{ section.settings.blog_banner_2 | img_url: 'master' }})"></div>
-    </div>
-
-    {% comment %} <div class="background-image article-banner desktop" style="background-image: url({{ section.settings.blog_image1 | img_url: 'master' }})">
-    </div>  {% endcomment %}
+    {%- if section.settings.blog_banner_2 != blank -%}
+      <div class="two-background-image">
+        <div class="background-image bg-1" style="background-image: url({{ section.settings.blog_image1 | img_url: 'master' }})"></div>
+        <div class="background-image bg-2" style="background-image: url({{ section.settings.blog_banner_2 | img_url: 'master' }})"></div>
+      </div>
+    {%- else -%}
+      <div class="background-image article-banner desktop" style="background-image: url({{ section.settings.blog_image1 | img_url: 'master' }})"></div>
+    {%- endif -%}
     
     <div class="article-grid">
       <div class="share">
@@ -211,6 +212,11 @@
           "type": "image_picker",
           "id": "blog_image8",
           "label": "Blog Image 8"
+        },
+        {
+          "type": "image_picker",
+          "id": "blog_banner_2",
+          "label": "Blog Banner 2"
         }
       ],
     "blocks": [
