@@ -1,5 +1,22 @@
+:root {
+  --Chocolate: #281D15;
+  --Stone: #8E6749;
+  --DarkBeige: #B8B2A6;
+  --LightBeige: #EDECE7;
+  --Cream: #D5CEC4;
+  --Brown: #594230;
+
+  --Heading-font-family: 'Faberge';
+  --Text-font-family: 'Roboto';
+}
+
 /* START FONT COLOR */
-.chocolate { color: #281D15; }
+.color-chocolate { color: var(--Chocolate); }
+.color-stone { color: var(--Stone); }
+.color-darkbeige { color: var(--Darkbeige); }
+.color-lightbeige { color: var(--Lightbeige); }
+.color-cream { color: var(--Cream); }
+.color-brown { color: var(--Brown); }
 /* END HEADER */
 
 /* START BACKGROUND COLOR */
