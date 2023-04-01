@@ -179,3 +179,14 @@
 .article-back {
   text-transform: uppercase;
 }
+
+
+.comment-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.comment-heading {
+  font-size:  36px;
+  line-height: 36px;
+}
