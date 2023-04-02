@@ -1490,6 +1490,8 @@ button.product-form__submit:hover  {
   letter-spacing: 4;
   margin-bottom: 16px;
   text-transform: uppercase;
+}
+.product__description strong u {
   text-decoration: none;
 }
 
