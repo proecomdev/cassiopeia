@@ -54,8 +54,8 @@
 
 @media screen and (min-width: 990px) {
   .product--large:not(.product--no-media) .product__media-wrapper {
-    max-width: 65%;
-    width: calc(65% - var(--grid-desktop-horizontal-spacing) / 2);
+    max-width: 50%;
+    width: calc(50% - var(--grid-desktop-horizontal-spacing) / 2);
   }
 
   .product--large:not(.product--no-media) .product__info-wrapper {
@@ -1457,3 +1457,4 @@ a.product__text {
     display: none;
   }
 }
+
