@@ -1473,9 +1473,8 @@ button.shopify-payment-button__button--unbranded {
 }
 
 button.product-form__submit:hover  {
-  background-color: var(--Almmondoj
-  );
-  color: var(--Almond);
+  background-color: var(--Almond);
+  color: var(--Brown);
 }
 
 .product-form__buttons + .div:hver:active {
