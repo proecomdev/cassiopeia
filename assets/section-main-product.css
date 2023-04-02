@@ -1469,5 +1469,11 @@ button.product-form__submit {
 }
 
 button.product-form__submit:hover  {
-  
+  background-color: var(--Almmondoj
+  );
+  color: var(--Almond);
+}
+
+.product-form__buttons .div {
+  width: 100
 }
