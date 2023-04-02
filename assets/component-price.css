@@ -94,3 +94,11 @@
   text-transform: uppercase;
   color: rgba(var(--color-foreground), 0.7);
 }
+
+.card-infomation .price__regular .price-item--regular {
+  font-family: var(--Text-font-family);
+  font-size: 16px;
+  line-height: 16px;
+  font-weight: 200;
+  color: var(--Chocolate);
+}
