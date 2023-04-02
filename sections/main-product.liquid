@@ -193,10 +193,11 @@
                 </span>
               {%- endif -%}
             </div>
+            {%- render 'buy-buttons', block: block, product: product, product_form_id: product_form_id, section_id: section.id, show_pickup_availability: true -%}
           </div>
         </div>
           
-        {%- render 'buy-buttons', block: block, product: product, product_form_id: product_form_id, section_id: section.id, show_pickup_availability: true -%}
+        
 <modal-opener
             class="product-popup-modal__opener no-js-hidden quick-add-hidden"
             data-modal="#PopupModal-{{ block.id }}"
