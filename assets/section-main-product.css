@@ -1479,7 +1479,7 @@ button.product-form__submit:hover  {
   width: 100
 }
 
-.product__description strong {
+.product__description u {
   display: block;
   font-family: var(--Text-font-family);
   font-size: 16px;
@@ -1498,26 +1498,9 @@ button.product-form__submit:hover  {
   color: var(--Chocolate);
 }
 
-
 .product__description p:nth-child(4) {
   padding: 24px;
   background-color: var(--Almond);
-}
-.product__description p:nth-child(2) u:nth-child(2) {
-  display: none;
-}
-.product__description p:nth-child(2) u:nth-child(1):after {
-  content: 'S';
-  display: inline;
-  text-decoration: none;
-  position: absolute;
-  top: 0;
-  margin-bottom: 40px;
-  font-weight: 300;
-  font-family: var(--Text-font-family);
-  font-size: 16px;
-  line-height: 22.75px;
-  color: var(--Chocolate);
 }
 .product__description p:nth-child(4) strong {
   font-style: italic;
