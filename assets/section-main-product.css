@@ -1479,7 +1479,7 @@ button.product-form__submit:hover  {
   width: 100
 }
 
-.product__description {
+.product__description p {
   margin-bottom: 40px;
 }
 .product__description u {
