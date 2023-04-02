@@ -250,7 +250,6 @@
         </div>
       </div>
     </div>
-
     {% include 'article-comment' %}
   </div>
 </article>
@@ -322,25 +321,76 @@
         "label": "Blog Image 8"
       },
       {
+        "type": "image_picker",
+        "id": "blog_image9",
+        "label": "Blog Image 9"
+      },
+      {
+        "type": "image_picker",
+        "id": "blog_image10",
+        "label": "Blog Image 10"
+      },
+      {
+        "type": "image_picker",
+        "id": "blog_image11",
+        "label": "Blog Image 11"
+      },
+      {
+        "type": "image_picker",
+        "id": "blog_image12",
+        "label": "Blog Image 12"
+      },
+      {
+        "type": "image_picker",
+        "id": "blog_image13",
+        "label": "Blog Image 13"
+      },
+      {
         "type": "text",
         "id": "title",
         "default": "Recommended for you",
         "label": "Collection Heading"
+      },
+      {
+        "type": "radio",
+        "id": "layout_mode",
+        "label": "Layout Mode",
+        "default": "col",
+        "options": [
+          {"value": "col", "label": "Column Mode"},
+          {"value": "row", "label": "Row Mode"}
+        ]
       }
     ],
     "blocks": [
-    {
-      "name": "article",
-      "type": "article",
-      "settings": [
-        {
-          "type": "article",
-          "id": "catalogue",
-          "label": "Select collection"
-        }
-      ]
-    }
-  ],
+      {
+        "name": "article",
+        "type": "article",
+        "settings": [
+          {
+            "type": "article",
+            "id": "catalogue",
+            "label": "Select collection"
+          }
+        ]
+      },
+      {
+        "name": "item",
+        "type": "item",
+        "settings": [
+          {
+            "type": "text",
+            "id": "item_title",
+            "label": "Item Title"
+          },
+          {
+            "type": "text",
+            "id": "description",
+            "label": "Item Description"
+          }
+        ]
+      }
+    ],
     "presets": [
       {
         "name": "Custom Article"
