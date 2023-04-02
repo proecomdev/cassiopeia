@@ -39,7 +39,7 @@
         <div class="background-image bg-1" style="background-image: url({{ section.settings.blog_image1 | img_url: 'master' }})"></div>
         <div class="background-image bg-2" style="background-image: url({{ section.settings.blog_banner_2 | img_url: 'master' }})"></div>
       </div>
-    {%- else -%}
+    {%- else if section.settings.blog_image1 != black -%}
       <div class="background-image article-banner desktop" style="background-image: url({{ section.settings.blog_image1 | img_url: 'master' }})"></div>
     {%- endif -%}
     
@@ -59,7 +59,7 @@
             <h2 class="mb-24 text-font-family font-choco">Jewellery for Short Hair</h2>
             <p class="text-font-family font-choco">Short hair can provide a great opportunity to showcase your earrings and necklaces. For earrings, consider wearing studs or small hoops to accentuate your facial features. A simple pendant necklace or choker can also work well with short hair, drawing attention to your neck and collarbone. Check out Cassiopeia's <a href="https://cassiopeiagems.com/products/amethyst-silver-stud-earrings?_pos=2&_psq=amethyst%20stud&_ss=e&_v=1.0">Amethyst Classic Silver Set Stud</a> or <a href="https://cassiopeiagems.com/products/blue-copper-turquoise-stud-earrings?_pos=5&_psq=blue%20copper&_ss=e&_v=1.0">Blue Copper Turquoise Stud Earrings</a> for the perfect complement to a pixie cut.</p>
           </div>
-          <div class="row d-flex">
+          <div class="col-md-12 d-flex">
             <div style="background-image: url({{ section.settings.blog_image2 | img_url: 'master' }});background-position-y: -356px;" class="background-image top6 mr-5"></div>
             <div style="background-image: url({{ section.settings.blog_image3 | img_url: 'master' }});background-position-y: -356px;" class="background-image top6 mr-5"></div>
             <div style="background-image: url({{ section.settings.blog_image4 | img_url: 'master' }});background-position-y: -356px;" class="background-image top6"></div>
