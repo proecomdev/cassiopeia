@@ -1474,6 +1474,6 @@ button.product-form__submit:hover  {
   color: var(--Almond);
 }
 
-.product-form__buttons .div {
+.product-form__buttons + .div:hver:active {
   width: 100
 }
