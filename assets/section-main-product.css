@@ -1520,4 +1520,5 @@ button.product-form__submit:hover  {
   font-size: 48px;
   line-height: 96px;
   color: var(--Chocolate);
+  text-transform: uppercase;
 }
