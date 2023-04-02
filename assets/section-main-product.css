@@ -1485,8 +1485,8 @@ button.product-form__submit:hover  {
   display: block;
   font-family: var(--text-font-family);
   font-size: 16pt;
-  line-height: 19pt;
-  letter-spacing: 4;
+  line-height: 100%;
+  letter-spacing: 4%;
   margin-bottom: 16px;
   text-transform: uppercase;
 }
