@@ -1467,3 +1467,7 @@ button.product-form__submit {
   background-color: var(--Brown);
   color: var(--Almond);
 }
+
+button.product-form__submit:hover  {
+  
+}
