@@ -40,6 +40,7 @@
     },
     "a1a909b5-6216-4828-842a-fe25633828f1": {
       "type": "custom-article",
+      "disabled": true,
       "blocks": {
         "cc36fb44-5725-4409-9ce5-54104bb53a64": {
           "type": "article",
@@ -95,7 +96,6 @@
     },
     "6b2cf656-2366-42d0-9c14-3c0838987947": {
       "type": "custom-blog-post",
-      "disabled": true,
       "blocks": {
         "893b248c-c64f-4a73-a337-7467810baac9": {
           "type": "article",
