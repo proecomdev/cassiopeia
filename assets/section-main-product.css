@@ -1484,28 +1484,6 @@ button.product-form__submit:hover  {
   width: 100
 }
 
-.product__description p:not(:nth-child(4)) {
-  margin-bottom: 40px;
-}
-.product__description u {
-  text-decoration: none;
-  display: block;
-  position: relative;
-  font-weight: 300;
-  font-family: var(--Text-font-family);
-  font-size: 16px;
-  line-height: 22.75px;
-  color: var(--Chocolate);
-}
-
-.product__description p:nth-child(4) {
-  padding: 24px;
-  background-color: var(--Almond);
-}
-.product__description p:nth-child(4) strong {
-  font-style: italic;
-}
-
 .product__info-wrapper .price-item.price-item--regular {
   font-family: var(--Heading-font-family);
   font-weight: 400;
