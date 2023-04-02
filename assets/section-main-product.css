@@ -1458,3 +1458,6 @@ a.product__text {
   }
 }
 
+.product__title .heading-font-family {
+  font-size: 48px;
+}
