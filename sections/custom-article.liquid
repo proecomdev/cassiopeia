@@ -34,13 +34,15 @@
       </div>
     </div>
 
-    {%- if section.settings.blog_banner_2 != blank -%}
-      <div class="two-background-image">
-        <div class="background-image bg-1" style="background-image: url({{ section.settings.blog_image1 | img_url: 'master' }})"></div>
-        <div class="background-image bg-2" style="background-image: url({{ section.settings.blog_banner_2 | img_url: 'master' }})"></div>
-      </div>
-    {%- else -%}
-      <div class="background-image article-banner desktop" style="background-image: url({{ section.settings.blog_image1 | img_url: 'master' }})"></div>
+    {%- if section.settings.blog_image1 != blank -%}
+      {%- if section.settings.blog_banner_2 != blank -%}
+        <div class="two-background-image">
+          <div class="background-image bg-1" style="background-image: url({{ section.settings.blog_image1 | img_url: 'master' }})"></div>
+          <div class="background-image bg-2" style="background-image: url({{ section.settings.blog_banner_2 | img_url: 'master' }})"></div>
+        </div>
+      {%- else -%}
+        <div class="background-image article-banner desktop" style="background-image: url({{ section.settings.blog_image1 | img_url: 'master' }})"></div>
+      {%- endif -%}
     {%- endif -%}
     
     <div class="article-grid">
