@@ -1484,8 +1484,8 @@ button.product-form__submit:hover  {
 .product__description strong {
   display: block;
   font-family: var(--Text-font-family);
-  font-size: 16pt;
-  line-height: 100%;
+  font-size: 16px;
+  line-height: 22.75px;
   margin-bottom: 16px;
   text-transform: uppercase;
 }
@@ -1497,8 +1497,8 @@ button.product-form__submit:hover  {
   margin-bottom: 40px;
   font-weight: 300;
   font-family: var(--Text-font-family);
-  font-size: 16pt;
-  line-height: 23pt;
+  font-size: 16px;
+  line-height: 22.75;
   color: var(--Chocolate);
 }
 
