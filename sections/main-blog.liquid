@@ -51,7 +51,7 @@
       <a href="javascript:;" class="font-choco text-font-family">Symbolism & Meaning</a>
       <a href="javascript:;" class="font-choco text-font-family">Fashion Trends</a>
     </div>
-    {{ linklists['blog'] | json }}
+    {{ linklists['blog'] }}
     {% for link in linklists['blog-1'].links %}
       {% assign blog = link.object %}
       {% for article in blog.articles %}
