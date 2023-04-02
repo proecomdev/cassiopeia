@@ -40,7 +40,6 @@
     },
     "a1a909b5-6216-4828-842a-fe25633828f1": {
       "type": "custom-article",
-      "disabled": true,
       "blocks": {
         "cc36fb44-5725-4409-9ce5-54104bb53a64": {
           "type": "article",
@@ -78,19 +77,19 @@
         "article_title1": "Discover the Healing Powers of Moonstone:",
         "article_title2": "Physical, Emotional, and Metaphysical",
         "intro_title": "",
-        "blog_image1": "shopify:\/\/shop_images\/image1_a24b2760-a834-4617-8b08-49d80ac67166.jpg",
-        "blog_image2": "shopify:\/\/shop_images\/image2_bd684b9b-7f54-4bc3-91e7-1b8616b09b0a.jpg",
-        "blog_image3": "shopify:\/\/shop_images\/image7.png",
-        "blog_image4": "shopify:\/\/shop_images\/image1_9acf50a8-9bfa-439d-99a8-7685084afb90.jpg",
-        "blog_image5": "shopify:\/\/shop_images\/image3_3501b2e1-7394-4850-9182-1c8ab79c4bef.png",
-        "blog_image6": "shopify:\/\/shop_images\/image5.png",
-        "blog_image7": "shopify:\/\/shop_images\/image4_8d776101-5262-4837-9bdc-05eaa724f7db.jpg",
-        "blog_image8": "shopify:\/\/shop_images\/image6_de67b6d9-b096-41d0-8537-dffd3a8a309b.jpg",
+        "blog_image1": "shopify:\/\/shop_images\/image1_f222f634-ea73-4e6a-8f26-2a2a9962f33f.jpg",
+        "blog_image2": "shopify:\/\/shop_images\/image6_39eff115-c0f1-4e7d-9636-4c4921336f5d.jpg",
+        "blog_image3": "shopify:\/\/shop_images\/image3_a40bcb1f-0a2d-4039-bde2-0a3fbecade3a.jpg",
+        "blog_image4": "shopify:\/\/shop_images\/image4_dde41bf9-67a9-4637-9bb4-38dc25560542.jpg",
+        "blog_image5": "shopify:\/\/shop_images\/image2_ce95673e-909f-412b-b8c9-0fab2adfbced.jpg",
+        "blog_image6": "shopify:\/\/shop_images\/image8_2824485c-3489-4167-aef8-877c1e8bff8e.jpg",
+        "blog_image7": "shopify:\/\/shop_images\/image5_7868192e-c30f-4cb7-9c3c-a703eedcdaee.jpg",
         "blog_banner_2": "shopify:\/\/shop_images\/image7_30aa0bef-9e2b-4eff-ad25-0a7e9ed04713.jpg"
       }
     },
     "6b2cf656-2366-42d0-9c14-3c0838987947": {
       "type": "custom-blog-post",
+      "disabled": true,
       "blocks": {
         "893b248c-c64f-4a73-a337-7467810baac9": {
           "type": "article",
