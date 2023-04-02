@@ -71,7 +71,7 @@
 
         {%- for block in section.blocks -%}
           {%- case block.type -%}
-            {% comment %} {%- when 'title' -%}
+            {%- when 'title' -%}
               <div class="product__title" {{ block.shopify_attributes }}>
                 <h1 class="heading-font-family font-choco">{{ product.title | escape }}</h1>
                 <a href="{{ product.url }}" class="product__title">
@@ -79,7 +79,7 @@
                     {{ product.title | escape }}
                   </h2>
                 </a>
-              </div> {% endcomment %}
+              </div>
             {%- when 'inventory' -%}
               <p
                 class="product__inventory no-js-hidden{% if block.settings.text_style == 'uppercase' %} caption-with-letter-spacing{% elsif block.settings.text_style == 'subtitle' %} subtitle{% endif %}{% if product.selected_or_first_available_variant.inventory_management != 'shopify' %} visibility-hidden{% endif %}"
