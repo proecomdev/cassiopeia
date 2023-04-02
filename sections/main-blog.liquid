@@ -53,7 +53,7 @@
     </div>
     {% for link in linklists['blog-1'].links %}
       {% assign blog = link.object %}
-  {{ blog | json }}
+  {{ blog.title | json }}
       {% for article in blog.articles %}
         <div class="blog-articles__article article">
             {%- render 'article-card',
