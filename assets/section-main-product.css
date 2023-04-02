@@ -1515,5 +1515,9 @@ button.product-form__submit:hover  {
 }
 
 .related-products__heading.h2 {
-
+  font-family: var(--Heading-font-family);
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 96px;
+  color: var(--Chocolate);
 }
