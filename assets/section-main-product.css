@@ -1480,3 +1480,7 @@ button.product-form__submit:hover  {
 .product-form__buttons + .div:hver:active {
   width: 100
 }
+
+.product__description ul {
+  display: block;
+}
