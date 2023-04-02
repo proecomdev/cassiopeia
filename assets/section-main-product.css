@@ -1487,10 +1487,12 @@ button.product-form__submit:hover  {
   margin-bottom: 16px;
   text-transform: uppercase;
 }
+.product__description {
+  margin-bottom: 40px;
+}
 .product__description u {
   text-decoration: none;
   position: relative;
-  margin-bottom: 40px;
   font-weight: 300;
   font-family: var(--Text-font-family);
   font-size: 16px;
