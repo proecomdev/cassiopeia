@@ -40,7 +40,6 @@
     },
     "a1a909b5-6216-4828-842a-fe25633828f1": {
       "type": "custom-article",
-      "disabled": true,
       "blocks": {
         "cc36fb44-5725-4409-9ce5-54104bb53a64": {
           "type": "article",
@@ -74,28 +73,24 @@
         "7b6f2194-2794-4345-8e29-9044b5e08811"
       ],
       "settings": {
-        "article_title1": "How To Choose Jewellery To Match Your Hairstyle",
+        "article_title1": "Hottest Summer Jewellery Trends in 2023",
         "article_title2": "",
         "intro_title": "",
-        "blog_image1": "shopify:\/\/shop_images\/Annotation_2023-04-02_002724.png",
-        "blog_image2": "shopify:\/\/shop_images\/image11.jpg",
-        "blog_image3": "shopify:\/\/shop_images\/image11.jpg",
-        "blog_image4": "shopify:\/\/shop_images\/image12.jpg",
-        "blog_image5": "shopify:\/\/shop_images\/Screenshot_2023-04-02_at_1.30.20_PM.png",
-        "blog_image6": "shopify:\/\/shop_images\/image1_ef8367ed-531f-490d-af83-8affc6472931.jpg",
-        "blog_image7": "shopify:\/\/shop_images\/image9.png",
-        "blog_image8": "shopify:\/\/shop_images\/image7_4ee6db21-2ea1-49a7-88ba-4825157c59d3.jpg",
-        "blog_image9": "shopify:\/\/shop_images\/image1_a24b2760-a834-4617-8b08-49d80ac67166.jpg",
-        "blog_image10": "shopify:\/\/shop_images\/image6_cbb0ac24-a0e2-4c6f-9643-fd28c541569f.jpg",
-        "blog_image11": "shopify:\/\/shop_images\/image4_7215c04e-dc55-462f-9506-5f786b8e2017.jpg",
-        "blog_image12": "shopify:\/\/shop_images\/image10.jpg",
-        "blog_image13": "shopify:\/\/shop_images\/image2_e9e12364-7944-4395-b3b3-97bd39ed2d62.jpg",
+        "blog_image1": "shopify:\/\/shop_images\/image4_c5a8c104-6d57-45c3-b888-664479114cc0.jpg",
+        "blog_image2": "shopify:\/\/shop_images\/image5_baf24c18-6be0-42f0-b027-ec765679570b.png",
+        "blog_image3": "shopify:\/\/shop_images\/image1_9acf50a8-9bfa-439d-99a8-7685084afb90.jpg",
+        "blog_image4": "shopify:\/\/shop_images\/image1_d31a3e48-b38e-4119-9f80-27f2360cd0d7.jpg",
+        "blog_image5": "shopify:\/\/shop_images\/image3_a70fb9bc-12ac-489a-bff0-72bf5b89d174.png",
+        "blog_image6": "shopify:\/\/shop_images\/image8_700ec00a-74cc-4762-9e18-ae277a64629c.png",
+        "blog_image7": "shopify:\/\/shop_images\/image6_d9d14284-bee4-456f-b4ed-888fa5c283e3.jpg",
+        "blog_image8": "shopify:\/\/shop_images\/image2_0cd97d74-d64d-419e-878e-ef0b68234398.jpg",
         "title": "Recommended for you",
         "layout_mode": "col"
       }
     },
     "6b2cf656-2366-42d0-9c14-3c0838987947": {
       "type": "custom-blog-post",
+      "disabled": true,
       "blocks": {
         "893b248c-c64f-4a73-a337-7467810baac9": {
           "type": "article",
