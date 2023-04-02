@@ -1481,6 +1481,6 @@ button.product-form__submit:hover  {
   width: 100
 }
 
-.product__description ul {
+.product__description strong {
   display: block;
 }
