@@ -1490,4 +1490,9 @@ button.product-form__submit:hover  {
   letter-spacing: 4;
   margin-bottom: 16px;
   text-transform: uppercase;
+  text-decoration: none;
+}
+
+.product__description p:last-child {
+  padding: 24px;
 }
