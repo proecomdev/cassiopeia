@@ -1504,7 +1504,7 @@ button.product-form__submit:hover  {
   padding: 24px;
   background-color: var(--Almond);
 }
-.product__description p:nth-child(4) u:nth-child(2) {
+.product__description u:nth-child(2) {
   display: none;
 }
 .product__description p:nth-child(4) strong {
