@@ -1494,8 +1494,13 @@ button.product-form__submit:hover  {
   text-decoration: none;
 }
 
+.product__description p {
+  margin-bottom: 40px;
+}
+
 .product__description p:last-child {
   padding: 24px;
   background-color: var(--Almond);
-  font-styly: italic;
+  font-style: italic;
 }
+
