@@ -1498,7 +1498,7 @@ button.product-form__submit:hover  {
   margin-bottom: 40px;
 }
 
-.product__description p:last-child strong {
+.product__description p:nth-child(3) strong {
   padding: 24px;
   background-color: var(--Almond);
   font-style: italic;
