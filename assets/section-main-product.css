@@ -1478,6 +1478,9 @@ button.product-form__submit:hover  {
   width: 100
 }
 
+.product__description p:not(:nth-child(4)) {
+  margin-bottom: 40px;
+}
 .product__description u {
   text-decoration: none;
   display: block;
