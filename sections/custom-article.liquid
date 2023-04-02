@@ -39,7 +39,7 @@
         <div class="background-image bg-1" style="background-image: url({{ section.settings.blog_image1 | img_url: 'master' }})"></div>
         <div class="background-image bg-2" style="background-image: url({{ section.settings.blog_banner_2 | img_url: 'master' }})"></div>
       </div>
-    {%- else if section.settings.blog_image1 != black -%}
+    {%- else -%}
       <div class="background-image article-banner desktop" style="background-image: url({{ section.settings.blog_image1 | img_url: 'master' }})"></div>
     {%- endif -%}
     
