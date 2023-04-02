@@ -1507,3 +1507,11 @@ button.product-form__submit:hover  {
   line-height: 64px;
   color: var(--Chocolate);
 }
+
+.card__information .price {
+  text-align: left;
+  font-family: var(--Heading-font-family);
+  font-size: 16px
+  ;
+}
+
