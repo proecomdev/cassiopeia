@@ -51,7 +51,7 @@
       <a href="javascript:;" class="font-choco text-font-family">Symbolism & Meaning</a>
       <a href="javascript:;" class="font-choco text-font-family">Fashion Trends</a>
     </div>
-    {% for link in linklists['blog-1'].links %}
+    {% comment %} {% for link in linklists['blog-1'].links %}
       {% assign blog = link.object %}
       {% for article in blog.articles %}
         <div class="blog-articles__article article">
@@ -66,8 +66,8 @@
             -%}
           </div>
       {% endfor %} 
-    {% endfor %}
-    {% comment %} {%- paginate blog.articles by 9 -%}
+    {% endfor %} {% endcomment %}
+    {%- paginate blog.articles by 9 -%}
       <div class="blog-articles {% if section.settings.layout == 'collage' %}blog-articles--collage{% endif %}">
         {%- for article in blog.articles -%}
           <div class="blog-articles__article article">
@@ -87,7 +87,7 @@
       {%- if paginate.pages > 1 -%}
         {%- render 'pagination', paginate: paginate -%}
       {%- endif -%}
-    {%- endpaginate -%} {% endcomment %}
+    {%- endpaginate -%}
   </div>
 </div>
 
