@@ -84,11 +84,14 @@ h3.text-font-family {
     font-weight: 600; }
     h2.text-font-family span {
       display: block; }
+      .faq-item h3.text-font-family {
+        margin: 24px 0 20px; }
 
 p.text-font-family {
   font-weight: 300;
-  line-height: 170%;
-}
+  line-height: 170%; }
+  .faq-item p.text-font-family {
+    padding-left: 60px; }
 
 div.text-font-family {
   font-weight: 300;
@@ -127,17 +130,9 @@ div.text-font-family {
   font-size: 76px;
   line-height: 152px;
   letter-spacing: 4%; }
-  .faq-heading {
-    line-height: 27.2px;
-    padding-left: 60px;
-    color: #594230;
-    font-size: 24px;
-    margin: 24px 0 20px; }
-    .faq-heading i {
-      margin-right: 24px; }
 
   /* --------------------------------------- */
-        .article-heading {
+        /* .article-heading {
           font-family: 'Roboto';
           font-style: normal;
           font-weight: 300;
@@ -146,7 +141,7 @@ div.text-font-family {
           letter-spacing: 0.05em;
           text-transform: uppercase;
           color: #281D15;
-        }
+        } */
 
 .share ul {
   padding-left: 13px;
