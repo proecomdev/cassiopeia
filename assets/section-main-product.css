@@ -1496,6 +1496,7 @@ button.product-form__submit:hover  {
 
 .product__description p {
   margin-bottom: 40px;
+  font-weight: 300;
   font-family: var(--text-font-family);
   font-size: 16pt;
   line-height: 23pt;
