@@ -1500,7 +1500,7 @@ button.product-form__submit:hover  {
   font-style: italic;
 }
 
-.price-item.price-item--regular {
+.product__info-wrapper .price-item.price-item--regular {
   font-family: var(--Heading-font-family);
   font-weight: 400;
   font-size: 40px;
