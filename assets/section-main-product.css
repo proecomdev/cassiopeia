@@ -1463,6 +1463,7 @@ a.product__text {
 button.product-form__submit {
   background-color: var(--Brown);
   color: var(--Almond);
+  border: 1px solid var(--Brown);
 }
 
 button.shopify-payment-button__button--unbranded {
