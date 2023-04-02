@@ -1460,6 +1460,11 @@ a.product__text {
   margin-bottom: 58px;
 }
 
+
+.product-form__input quantity-input + div {
+  width: 70%;
+}
+
 button.product-form__submit {
   background-color: var(--Brown);
   color: var(--Almond);
