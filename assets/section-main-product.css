@@ -1498,7 +1498,7 @@ button.product-form__submit:hover  {
   font-weight: 300;
   font-family: var(--Text-font-family);
   font-size: 16px;
-  line-height: 22.75;
+  line-height: 22.75px;
   color: var(--Chocolate);
 }
 
