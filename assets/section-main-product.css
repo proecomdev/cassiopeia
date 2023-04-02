@@ -1487,7 +1487,7 @@ button.product-form__submit:hover  {
   margin-bottom: 16px;
   text-transform: uppercase;
 }
-.product__description strong u {
+.product__description u {
   text-decoration: none;
 }
 
