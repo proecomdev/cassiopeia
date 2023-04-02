@@ -1526,3 +1526,7 @@ button.product-form__submit:hover  {
 .product-form__input .quantity {
   margin-right: 24px;
 }
+
+.button:after, .shopify-challenge__button:after, .customer button:after, .shopify-payment-button__button--unbranded:after {
+  box-shadow: none;
+}
