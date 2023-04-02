@@ -1462,3 +1462,8 @@ a.product__text {
   font-size: 48px;
   margin-bottom: 58px;
 }
+
+button.product-form__submit {
+  background-color: var(--Brown);
+  color: var(--Almond);
+}
