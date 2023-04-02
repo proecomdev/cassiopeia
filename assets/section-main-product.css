@@ -1510,7 +1510,10 @@ button.product-form__submit:hover  {
 
 .card__information .price {
   text-align: left;
-  font-family: var(--Heading-font-family);
+  font-family: var(--Text-font-family);
   font-size: 16px
 }
 
+.related-products__heading.h2 {
+
+}
