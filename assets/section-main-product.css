@@ -1522,3 +1522,7 @@ button.product-form__submit:hover  {
   color: var(--Chocolate);
   text-transform: uppercase;
 }
+
+.product-form__input .quantity {
+  margin-right: 24px;
+}
