@@ -73,7 +73,8 @@ h1.heading-font-family {
     padding-top: 89px;
     padding-bottom: 85px; }
 
-h2.text-font-family {
+h2.text-font-family,
+h3.text-font-family {
   font-weight: 300;
   font-size: 32px;
   line-height: 130%;
