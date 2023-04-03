@@ -165,8 +165,8 @@
 }
 
 .facets {
-  display: block;
-  grid-column-start: span 2;
+  display: flex;
+  align-items: center;
 }
 
 .facets__form {
