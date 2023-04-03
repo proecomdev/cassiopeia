@@ -31,10 +31,11 @@
   left: -100px;
 }
 
-.content img:not(:first-child):not(:last-child) {
-  margin: 0 8.5px;
-}
+
 
 .image_block {
   padding-top:  99px;
+}
+.image_block .d-flex img:not(:first-child):not(:last-child) {
+  margin: 0 8.5px;
 }
