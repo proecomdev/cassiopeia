@@ -345,10 +345,11 @@
             console.log(value);
             if (value == 'all') {
               $('.blog-articles--collage .blog-articles__article').show();
+            } else {
+              $('.blog-articles--collage .blog-articles__article').filter(function(){
+                $(this).toggle($(this).find('p.article-label').text().toLowerCase().indexOf(value) > -1);
+              });
             }
-            $('.blog-articles--collage .blog-articles__article').filter(function(){
-              $(this).toggle($(this).find('p.article-label').text().toLowerCase().indexOf(value) > -1);
-            });
           })
         {%- endif -%}
       });
