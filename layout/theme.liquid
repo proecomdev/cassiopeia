@@ -338,6 +338,16 @@
         $('.mega-menu .header__menu-item span').on('dblclick', function(){
           window.location.href = "/collections/all";
         })
+
+        {%- if template == 'blogs' -%}
+          $('.article-category a').click(function(){
+            var value = $(this).text().toLowerCase();
+            console.log(value);
+            $('.blog-articles--collage .blog-articles__article').filter(function(){
+              $(this).toggle($(this).find('p.article-label').toLowerCase().indexOf(value) > -1);
+            });
+          })
+        {%- endif -%}
       });
     </script>
     {%- if settings.predictive_search_enabled -%}
