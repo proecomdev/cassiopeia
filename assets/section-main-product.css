@@ -1519,3 +1519,10 @@ button.product-form__submit:hover  {
 .button:after, .shopify-challenge__button:after, .customer button:after, .shopify-payment-button__button--unbranded:after {
   box-shadow: none;
 }
+
+.card__information {
+  padding-top: 16px;
+}
+.card-information>*:not(.visually-hidden:first-child)+*:not(.rating) {
+  margin: 0;
+}
