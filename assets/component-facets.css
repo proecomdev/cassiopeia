@@ -1123,7 +1123,6 @@ input.mobile-facets__checkbox {
   width: 290px;
 }
 
-
 .filter h2.heading-font-family {
   font-family: 'Faberge';
   font-style: normal;
@@ -1133,4 +1132,8 @@ input.mobile-facets__checkbox {
   letter-spacing: 0.04em;
   text-transform: uppercase;
   color: #281D15;
+}
+
+.facet-filters__sort {
+  outline: 1px solid var(--Chocolate);;
 }
