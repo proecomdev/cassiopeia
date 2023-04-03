@@ -39,6 +39,9 @@
 .image_block .d-flex img:not(:first-child):not(:last-child) {
   margin: 0 8.5px;
 }
+.image_block .d-flex {
+  overflow: hidden;
+}
 .image_block .d-flex img:first-child {
   margin-right: 8.5px;
 }
