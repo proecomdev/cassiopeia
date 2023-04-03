@@ -1117,6 +1117,10 @@ input.mobile-facets__checkbox {
   }
 }
 
+.facets .filter {
+  width: 290px;
+}
+
 
 .filter h2.heading-font-family {
   font-family: 'Faberge';
