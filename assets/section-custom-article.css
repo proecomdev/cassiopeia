@@ -118,9 +118,13 @@ div.text-font-family {
     height: 802px;
     margin: 87px 0 74px; }
   .blog_img7 { height: 567px; }
-  .blog_img { height: 300px; }
+  
   .background-image.top6 { height: 291px; }
   .background-image.larimar { height: 446px; }
+  .blog_img { 
+    height: 300px;
+    background-size: auto 100%;
+   }
 
   .left-border {
     border-left: 3px solid #594230;
