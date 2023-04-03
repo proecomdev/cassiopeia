@@ -167,6 +167,7 @@
 .facets {
   display: flex;
   align-items: center;
+  margin-bottom: 68px;
 }
 
 .facet-main {
