@@ -90,3 +90,6 @@
   text-transform: uppercase;
   color: #281D15;
 }
+.facets__disclosure-vertical {
+  border: 0;
+}
