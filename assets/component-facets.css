@@ -124,6 +124,9 @@
   filter: none;
   transition: none;
 }
+.facet-filters__sort:hover {
+  box-shadow: 0 0 3px 0 var(--Brown);
+}
 /* 
 .mobile-facets__sort .select__select:focus-visible {
   outline: 0.2rem solid rgba(var(--color-foreground), 0.5);
