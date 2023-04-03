@@ -31,6 +31,10 @@
   left: -100px;
 }
 
+.content img:not(:first-child,:last-child) {
+  margin: 0 8.5px;
+}
+
 .image_block {
   padding-top:  99px;
 }
