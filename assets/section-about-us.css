@@ -67,7 +67,15 @@ h1.heading-font-family {
 }
 
 @media screen and (max-width: 1456px) {
-  .image_block .justify-content-between {
-    justify-content: center;
+  .image_block .d-flex img:nth-child(3) {
+    height: 550px;
+  }
+  .image_block .d-flex img:last-child,
+  .image_block .d-flex img:first-child {
+    height: 480px;
+  }
+  .image_block .d-flex img:nth-child(2), 
+  .image_block .d-flex img:nth-child(4) {
+    height: 300px;
   }
 }
