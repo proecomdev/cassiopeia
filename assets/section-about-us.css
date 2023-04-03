@@ -48,3 +48,9 @@
 .image_block .d-flex img:last-child {
   margin-left: 8.5px;
 }
+
+@media screen and (max-width: 1456px) {
+  .image_block .justify-content-between {
+    justify-content: center;
+  }
+}
