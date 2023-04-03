@@ -344,7 +344,7 @@
             var value = $(this).text().toLowerCase();
             console.log(value);
             $('.blog-articles--collage .blog-articles__article').filter(function(){
-              $(this).toggleSlide($(this).find('p.article-label').text().toLowerCase().indexOf(value) > -1);
+              $(this).fadeToggle($(this).find('p.article-label').text().toLowerCase().indexOf(value) > -1);
             });
           })
         {%- endif -%}
