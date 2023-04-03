@@ -996,6 +996,7 @@ input.mobile-facets__checkbox {
  
   .facets-vertical .facets-wrapper {
     padding-right: 3rem;
+    margin-top: -88px;
   }
 
   .facets-vertical .facets-wrapper--no-filters {
