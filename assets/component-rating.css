@@ -69,3 +69,11 @@
 .card__inner > .buttons input#quantity {
   display: none;
 }
+
+.card__inner > .buttons .wishlist {
+  background-color: var(--Chocolate);
+}
+
+.card__inner > .buttons .add-to-card {
+  background-color: var(--Brown);
+}
