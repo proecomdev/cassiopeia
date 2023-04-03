@@ -62,6 +62,9 @@ h1.heading-font-family {
 .image_block .d-flex img:nth-child(3) {
   height: 677px;
 }
+.image_block .d-flex img {
+  width: auto;
+}
 
 @media screen and (max-width: 1456px) {
   .image_block .justify-content-between {
