@@ -246,6 +246,10 @@ a, p {
     min-width: unset;
     padding: 0 8px;
   }
+
+  .card__inner > .buttons .button:hover {
+    opacity: 0.8;
+  }
   
   .card__inner > .buttons .wishlist {
     background-color: var(--Chocolate);
