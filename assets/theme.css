@@ -245,6 +245,6 @@ a, p {
     background-color: var(--Chocolate);
   }
   
-  .card__inner > .buttons .add-to-card {
+  .card__inner > .buttons .add-to-cart {
     background-color: var(--Brown);
   }
