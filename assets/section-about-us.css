@@ -20,3 +20,9 @@
 .content .text-font-family p {
   margin-bottom: 24px;
 }
+
+.content img {
+  position: absolute;
+  top: 0;
+  left: -20px;
+}
