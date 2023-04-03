@@ -61,6 +61,7 @@ a, p {
 .align-center { align-items: center; }
 .align-bottom { align-items: end; }
 .justify-content-between { justify-content: space-between; }
+.justify-content-center { justify-content: center; }
 .row {
   display: flex;
   margin-right: -12.5px;
