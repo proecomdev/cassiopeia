@@ -1,7 +1,9 @@
 {{ 'section-about-us.css' | asset_url | stylesheet_tag }}
 
 <section class="about-us">
-  <h1 class="heading-font-family"><span class="font-brown">About</span> <span class="font-choco">Cassiopeia</span></h1>
+  <div class="about-cassiopeia">
+    <img src="{{ section.settings.aboutcassiopeia | img_url: 'master' }}">
+  </div>
   <div class="content">
     <img src="{{ section.settings.quote | img_url: 'master' }}" alt="quote">
     <p>{{ section.settings.content }}</p>
@@ -22,6 +24,11 @@
 {
   "name": "About Us",
   "settings": [
+    {
+      "type": "image_picker",
+      "id": "aboutcassiopeia",
+      "label": "Select about svg"
+    },
     {
       "type": "image_picker",
       "id": "quote",
