@@ -3,3 +3,9 @@
   padding-bottom: 50px;
   text-align: center;
 }
+
+.content {
+  position: relative;
+  max-width: 896px;
+  margin: auto;
+}
