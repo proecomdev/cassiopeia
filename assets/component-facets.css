@@ -169,6 +169,11 @@
   align-items: center;
 }
 
+.facet-main {
+  display: flex;
+  align-items: center;
+}
+
 .facets__form {
   display: grid;
   gap: 0 3.5rem;
