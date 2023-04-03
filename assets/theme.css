@@ -237,6 +237,7 @@ a, p {
     top: 0;
     right: 0;
     z-index: 99;
+    transition: opacity .3s ease;
   }
   .card__inner > .buttons input#quantity {
     display: none;
