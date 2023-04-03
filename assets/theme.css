@@ -243,6 +243,7 @@ a, p {
 
   .card__inner > .buttons .button {
     min-width: unset;
+    padding: 5px 0;
   }
   
   .card__inner > .buttons .wishlist {
