@@ -237,7 +237,6 @@ a, p {
     top: 0;
     right: 0;
     z-index: 99;
-    transition: opacity .3s ease;
   }
   .card__inner > .buttons input#quantity {
     display: none;
@@ -246,6 +245,7 @@ a, p {
   .card__inner > .buttons .button {
     min-width: unset;
     padding: 0 8px;
+    transition: .3s ease;
   }
 
   .card__inner > .buttons .button:hover {
