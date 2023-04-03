@@ -10,3 +10,8 @@
   margin: auto;
   text-align: center;
 }
+
+.content .text-font-family {
+  font-weight: 300;
+  line-height: 27.2px;
+}
