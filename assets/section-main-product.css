@@ -1528,3 +1528,8 @@ button.product-form__submit:hover  {
   position: relative;
   padding-bottom: 0;
 }
+
+.card__information .card-information {
+  position: absolute;
+  bottom: 0;
+}
