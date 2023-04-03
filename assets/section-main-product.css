@@ -1525,4 +1525,6 @@ button.product-form__submit:hover  {
 
 .card__information {
   padding-top: 16px;
+  position: relative;
+  padding-bottom: 0;
 }
