@@ -229,3 +229,22 @@ a, p {
       padding-left: 15px;
     }
   }
+
+  .card__inner > .buttons {
+    display: flex;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 99;
+  }
+  .card__inner > .buttons input#quantity {
+    display: none;
+  }
+  
+  .card__inner > .buttons .wishlist {
+    background-color: var(--Chocolate);
+  }
+  
+  .card__inner > .buttons .add-to-card {
+    background-color: var(--Brown);
+  }
