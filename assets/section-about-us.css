@@ -31,7 +31,7 @@
   left: -100px;
 }
 
-.content img:not(:first-child,:last-child) {
+.content img:not(:first-child):not(:last-child) {
   margin: 0 8.5px;
 }
 
