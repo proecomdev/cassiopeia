@@ -54,7 +54,7 @@
           <form method="post" action="/cart/add">
             <input type="hidden" name="id" value="{{ product.variants.first.id }}" />
             <input min="1" type="number" id="quantity" name="quantity" value="1"/>
-            <button type="submit" class="add-to-cart"><img src="{{ 'shopping-cart.svg' | asset_url }}"></button>
+            <button type="submit" class="add-to-cart button button--primary"><img src="{{ 'shopping-cart.svg' | asset_url }}"></button>
           </form>
         </div>
         {%- if card_product.featured_media -%}
