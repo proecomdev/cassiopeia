@@ -21,6 +21,10 @@
   margin-bottom: 15px;
 }
 
+.content .text-font-family p strong {
+  font-weight: 400;
+}
+
 .content img {
   position: absolute;
   top: -22px;
