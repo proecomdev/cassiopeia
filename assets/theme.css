@@ -240,6 +240,10 @@ a, p {
   .card__inner > .buttons input#quantity {
     display: none;
   }
+
+  .card__inner > .buttons .button {
+    min-width: unset;
+  }
   
   .card__inner > .buttons .wishlist {
     background-color: var(--Chocolate);
