@@ -1515,6 +1515,7 @@ button.product-form__submit:hover  {
 .full-unstyled-link {
   text-align: left;
   margin-bottom: 9px;
+  font-weight: 400;
 }
 
 .button:after, .shopify-challenge__button:after, .customer button:after, .shopify-payment-button__button--unbranded:after {
@@ -1523,4 +1524,4 @@ button.product-form__submit:hover  {
 
 .card__information {
   padding-top: 16px;
-}}
+}
