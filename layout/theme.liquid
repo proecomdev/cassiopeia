@@ -344,7 +344,7 @@
             var value = $(this).text().toLowerCase();
             console.log(value);
             $('.blog-articles--collage .blog-articles__article').filter(function(){
-              $(this).toggle($(this).toLowercase().indexOf(value) > -1);
+              $(this).toggle($(this).indexOf(value) > -1);
             });
           })
         {%- endif -%}
