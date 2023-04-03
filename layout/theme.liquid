@@ -343,6 +343,9 @@
           $('.article-category a').click(function(){
             var value = $(this).text().toLowerCase();
             console.log(value);
+            if (value == 'all') {
+              $('.blog-articles--collage .blog-articles__article').show();
+            }
             $('.blog-articles--collage .blog-articles__article').filter(function(){
               $(this).toggle($(this).find('p.article-label').text().toLowerCase().indexOf(value) > -1);
             });
