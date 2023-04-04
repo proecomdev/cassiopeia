@@ -9,6 +9,10 @@
   color: #281D15;
 }
 
+.shopify-section {
+  padding-top: 40px;
+}
+
 .page-width--narrow {
   max-width: inherit;
   padding: 0 120px;
