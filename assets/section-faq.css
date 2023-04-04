@@ -34,6 +34,7 @@
   color: #281D15;
   padding: 24px 0;
   border-top: 1px solid #B8B2A6;
+  cursor: pointer;
 }
 
 .faq-item:last-child {
