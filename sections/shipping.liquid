@@ -1,30 +1,8 @@
 {{ 'section-faq.css' | asset_url | stylesheet_tag }}
 
-<div class="page-width--narrow">
-  <h1 class="heading-font-family font-choco">Shipping</h1>
-  <div class="sub_title">
-    <h2 class="heading-font-family font-choco">{{ section.settings.sub_title }}</h2>
-    <p class="text-font-family font-brown">{{ section.settings.content }}</p>
-  </div>
-</div>
-
 {% schema %}
   {
     "name": "Shipping Page",
-    "settings": [
-      {
-        "type": "text",
-        "id": "sub_title",
-        "label": "Shipping Title",
-        "default": "Shipping Policy"
-      },
-      {
-        "type": "text",
-        "id": "content",
-        "label": "Shipping Policy",
-        "default": "Within the UAE, all deliveries use either Emex or Express Courier. Delivery time takes 2 working days. DHL and FedEx are used for international shipments and take 3 to 7 working days to be delivered."
-      }
-    ],
     "presets": [
       {
         "name": "Shipping Page"
