@@ -401,6 +401,10 @@ div.text-font-family {
   margin: 0;
 }
 
+.background-image.landing.full {
+  height: 550px;
+}
+
 @media (min-width: 1600px) {
   .background-image.top6 {
     height: 390px;
