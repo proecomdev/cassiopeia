@@ -4,7 +4,8 @@
       "type": "main-page",
       "custom_css": [
         ".main-page-title {display: none;}",
-        "h1.heading-font-family {font-size: 76px; line-height: 152px;}"
+        "h1.heading-font-family {font-size: 76px; line-height: 152px;}",
+        ".page-width--narrow {max-width: 100%;}"
       ],
       "settings": {
         "padding_top": 28,
