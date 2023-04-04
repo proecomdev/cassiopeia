@@ -45,7 +45,7 @@
   display: block;
   position: absolute;
   right: 0;
-  top: 34px;
+  bottom: 24px;
   width: 22px;
   height: 22px;
   background-image: url('./faq_plus.svg');
