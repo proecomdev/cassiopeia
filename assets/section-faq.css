@@ -9,6 +9,11 @@
   color: #281D15;
 }
 
+.page-width--narrow {
+  max-width: 0;
+  padding: 0 120px;
+}
+
 .faq-item h3.text-font-family {
   margin: 24px 0 20px; 
 }
