@@ -50,7 +50,11 @@
   background-position: center;
   background-repeat: no-repeat;
 }
-
+.faq-item p {
+  display: none;
+  padding-left: 60px;
+  padding-bottom: 24px;
+}
 .faq-item h3.text-font-family:hover {
   background-color: var(--DarkBeige);
 }
@@ -59,7 +63,7 @@
   background-image: url('./faq_minus.svg');
 }
 
-.faq-item h3.text-font-family.active + p {
+.faq-item h3.text-font-family.active ~ p {
   display: block;
 }
 
@@ -71,8 +75,3 @@
   margin-right: 24px; 
 }
 
-.faq-item p {
-  display: none;
-  padding-left: 60px;
-  padding-bottom: 24px;
-}
