@@ -4,7 +4,7 @@
     <a href="javascript:;" class="add-comment"><img src="{{ 'pen.png' | asset_url }}">Add Comment</a>
   </div>
   <div class="comment-body">
-    {% form 'new_comment', article %}
+    {% comment %} {% form 'new_comment', article %}
       {{ form.errors | default_errors }}
 
       <div class="name">
@@ -48,6 +48,6 @@
           </div>
         </div>
       </div>
-    {% endif %}
+    {% endif %} {% endcomment %}
   </div>
 </div>
