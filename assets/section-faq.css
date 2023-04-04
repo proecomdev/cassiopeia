@@ -57,6 +57,10 @@
   background-image: url('./faq_minus.svg');
 }
 
+.faq-item h3.text-font-family.active + p {
+  display: block;
+}
+
 .faq-item:last-child {
   border-bottom: 1px solid #B8B2A6;
 }
@@ -66,6 +70,7 @@
 }
 
 .faq-item p {
+  display: none;
   padding-left: 60px;
   padding-bottom: 24px;
 }
