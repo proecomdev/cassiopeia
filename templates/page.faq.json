@@ -2,7 +2,6 @@
   "sections": {
     "main": {
       "type": "main-page",
-      "disabled": true,
       "settings": {
         "padding_top": 28,
         "padding_bottom": 28
@@ -10,6 +9,7 @@
     },
     "d194ad0f-ff71-4b9a-b058-bec15ffe4e82": {
       "type": "about",
+      "disabled": true,
       "settings": {
         "aboutcassiopeia": "shopify:\/\/shop_images\/Top_6_pearls.svg",
         "quote": "shopify:\/\/shop_images\/1f49151004c207fcd82c8bfdbdffddf1.svg",
