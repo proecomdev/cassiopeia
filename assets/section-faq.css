@@ -38,3 +38,7 @@
 .faq-item h3.text-font-family i {
   margin-right: 24px; 
 }
+
+.faq-item p {
+  padding-left: 60px;
+}
