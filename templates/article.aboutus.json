@@ -1,0 +1,135 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-article",
+      "disabled": true,
+      "blocks": {
+        "featured_image": {
+          "type": "featured_image",
+          "settings": {
+            "image_height": "adapt"
+          }
+        },
+        "title": {
+          "type": "title",
+          "settings": {
+            "blog_show_date": true,
+            "blog_show_author": false
+          }
+        },
+        "share": {
+          "type": "share",
+          "settings": {
+            "share_label": "Share"
+          }
+        },
+        "content": {
+          "type": "content",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "featured_image",
+        "title",
+        "share",
+        "content"
+      ],
+      "settings": {
+      }
+    },
+    "a1a909b5-6216-4828-842a-fe25633828f1": {
+      "type": "custom-article",
+      "blocks": {
+        "cc36fb44-5725-4409-9ce5-54104bb53a64": {
+          "type": "article",
+          "settings": {
+            "catalogue": "news\/unlocking-the-healing-powers-of-amethyst-its-properties"
+          }
+        },
+        "9979a051-612b-404a-bf0a-d3ea5a998afa": {
+          "type": "article",
+          "settings": {
+            "catalogue": "news\/top-6-pearl-jewelry-trends-for-2023"
+          }
+        },
+        "0e11f60c-408d-452b-8680-ef7599d7988a": {
+          "type": "article",
+          "settings": {
+            "catalogue": "news\/all-things-larimar"
+          }
+        },
+        "7b6f2194-2794-4345-8e29-9044b5e08811": {
+          "type": "article",
+          "settings": {
+            "catalogue": "news\/5-simple-ways-to-care-clean-and-store-your-gemstone-jewellery"
+          }
+        }
+      },
+      "block_order": [
+        "cc36fb44-5725-4409-9ce5-54104bb53a64",
+        "9979a051-612b-404a-bf0a-d3ea5a998afa",
+        "0e11f60c-408d-452b-8680-ef7599d7988a",
+        "7b6f2194-2794-4345-8e29-9044b5e08811"
+      ],
+      "settings": {
+        "article_title1": "What Crystals Attract Love?",
+        "article_title2": "",
+        "intro_title": "",
+        "blog_image1": "shopify:\/\/shop_images\/image4_e3b50ec8-7001-41a5-993e-3a83bea54254.jpg",
+        "blog_image2": "shopify:\/\/shop_images\/image6_b61c0217-9f75-4c14-9d7c-359316cda0df.jpg",
+        "blog_image3": "shopify:\/\/shop_images\/image1_415de3be-1580-40f4-ad68-d8b9b3430ff3.jpg",
+        "blog_image4": "shopify:\/\/shop_images\/image3_68893ac1-1c14-439d-b7b1-36677b8767dd.jpg",
+        "blog_image5": "shopify:\/\/shop_images\/image2_2ffec1f3-ba4d-4e38-aa59-42d61686121e.jpg",
+        "blog_image6": "shopify:\/\/shop_images\/image3_74a77609-4f41-4da1-b75e-bebe739149c4.jpg",
+        "title": "Recommended for you",
+        "layout_mode": "col"
+      }
+    },
+    "6b2cf656-2366-42d0-9c14-3c0838987947": {
+      "type": "custom-blog-post",
+      "disabled": true,
+      "blocks": {
+        "893b248c-c64f-4a73-a337-7467810baac9": {
+          "type": "article",
+          "settings": {
+            "catalogue": "symbolism-meaning\/unlocking-the-healing-powers-of-amethyst-physical-emotional-and-metaphysical"
+          }
+        },
+        "ae3d2bbe-cdd5-47e2-ab2a-a8f6dbdfae2b": {
+          "type": "article",
+          "settings": {
+            "catalogue": "fashion-trends-1\/hottest-summer-jewellery-trends-in-2023"
+          }
+        },
+        "ad01aa16-31cf-4d9c-9693-c749bd93729f": {
+          "type": "article",
+          "settings": {
+            "catalogue": "symbolism-meaning\/all-things-larimar"
+          }
+        },
+        "a4d9297d-63b0-4cbb-b08b-feedc6d2742d": {
+          "type": "article",
+          "settings": {
+            "catalogue": "fashion-trends-1\/top-6-pearl-jewelry-trends-for-2023"
+          }
+        }
+      },
+      "block_order": [
+        "893b248c-c64f-4a73-a337-7467810baac9",
+        "ae3d2bbe-cdd5-47e2-ab2a-a8f6dbdfae2b",
+        "ad01aa16-31cf-4d9c-9693-c749bd93729f",
+        "a4d9297d-63b0-4cbb-b08b-feedc6d2742d"
+      ],
+      "settings": {
+        "title": "Recommended for you",
+        "blog_image1": "shopify:\/\/shop_images\/Annotation_2023-04-02_002724.png"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "a1a909b5-6216-4828-842a-fe25633828f1",
+    "6b2cf656-2366-42d0-9c14-3c0838987947"
+  ]
+}
