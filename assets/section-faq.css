@@ -64,10 +64,6 @@
   background-image: url('./faq_minus.svg');
 }
 
-.faq-item:first-child p {
-  display: block;
-}
-
 .faq-item:last-child {
   border-bottom: 1px solid var(--DarkBeige);
 }
