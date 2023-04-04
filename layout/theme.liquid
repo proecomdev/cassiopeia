@@ -362,6 +362,7 @@
         {% if template == 'faq' %}
         console.lgo('faq-');
           $('.faq-item h3').click(function(){
+            console.log('clicked me');
             $(this).toggleClass('active');
           })
         {% endif %}
