@@ -63,7 +63,7 @@
   background-image: url('./faq_minus.svg');
 }
 
-.faq-item h3.text-font-family.active ~ p {
+.faq-item:first-child p {
   display: block;
 }
 
@@ -74,4 +74,3 @@
 .faq-item h3.text-font-family i {
   margin-right: 24px; 
 }
-
