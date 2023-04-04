@@ -13,7 +13,7 @@
         "text": {
           "type": "text",
           "settings": {
-            "text": "Explore our Larimar Collection: The Captivating Blue Stone of the Caribbean",
+            "text": "Explore our Larimar collection on offer or surprise  aloved-one with a selection of three June birthstones: Pearl, Alexandrite and Moonstone.",
             "text_style": "body"
           }
         },
@@ -21,7 +21,7 @@
           "type": "buttons",
           "settings": {
             "button_label_1": "SHOP LARIMAR",
-            "button_link_1": "shopify:\/\/collections\/all",
+            "button_link_1": "shopify:\/\/collections\/blue-stone-collections",
             "button_style_secondary_1": true,
             "button_label_2": "",
             "button_link_2": "",
