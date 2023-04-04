@@ -1,0 +1,52 @@
+{{ 'section-faq.css' | asset_url | stylesheet_tag }}
+
+<div class="page-width--narrow">
+  <div class="sub_title">
+    <h1 class="heading-font-family font-choco">Shipping</h1>
+  </div>
+  {% if section.blocks.size > 0 %}
+    {% for block in section.blocks %}
+      <div class="faq-item">
+        <h3 class="text-font-family font-choco faq-selector"><i>{{ forloop.index }}/</i> {{ block.settings.faq_title }}</h3>
+        <p class="text-font-family font-brown">{{ block.settings.faq_content }}</p>
+      </div>
+    {% endfor %}
+  {% endif %}
+</div>
+
+{% schema %}
+  {
+    "name": "Shipping Page",
+    "settings": [
+      {
+        "type": "text",
+        "id": "sub_title",
+        "label": "Shipping Title",
+        "default": "Shipping Policy"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "faq",
+        "name": "faq",
+        "settings": [
+          {
+            "type": "text",
+            "id": "faq_title",
+            "label": "Faq Title"
+          },
+          {
+            "type": "text",
+            "id": "faq_content",
+            "label": "Faq Title"
+          }
+        ]
+      }
+    ],
+    "presets": [
+      {
+        "name": "Shipping Page"
+      }
+    ]
+  }
+{% endschema %}
