@@ -55,7 +55,7 @@
 }
 
 .faq-item h3.text-font-family:hover {
-  background-color: var(--LightBeige);
+  background-color: var(--DarkBeige);
 }
 
 .faq-item h3.text-font-family.active:after {
