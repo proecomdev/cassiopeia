@@ -359,8 +359,7 @@
           })
         {%- endif -%}
 
-        {{ template }}
-        {% if template == 'faq' %}
+        {% if template == 'page' %}
           $('.faq-item h3').click(function(){
             console.log('clicked me');
             $(this).toggleClass('active');
