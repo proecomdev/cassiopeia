@@ -54,6 +54,10 @@
   transition: .2s ease;
 }
 
+.faq-item h3.text-font-family:hover {
+  background-color: var(--LightBeige);
+}
+
 .faq-item h3.text-font-family.active:after {
   background-image: url('./faq_minus.svg');
 }
