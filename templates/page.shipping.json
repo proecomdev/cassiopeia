@@ -10,6 +10,7 @@
     },
     "d194ad0f-ff71-4b9a-b058-bec15ffe4e82": {
       "type": "about",
+      "disabled": true,
       "settings": {
         "aboutcassiopeia": "shopify:\/\/shop_images\/Top_6_pearls.svg",
         "quote": "shopify:\/\/shop_images\/1f49151004c207fcd82c8bfdbdffddf1.svg",
@@ -20,10 +21,18 @@
         "image_4": "shopify:\/\/shop_images\/4.png",
         "image_5": "shopify:\/\/shop_images\/5.png"
       }
+    },
+    "22a3c79a-4d39-476f-adfa-4f33141cfac1": {
+      "type": "shipping",
+      "settings": {
+        "sub_title": "Shipping Policy",
+        "content": "Within the UAE, all deliveries use either Emex or Express Courier. Delivery time takes 2 working days. DHL and FedEx are used for international shipments and take 3 to 7 working days to be delivered."
+      }
     }
   },
   "order": [
     "main",
-    "d194ad0f-ff71-4b9a-b058-bec15ffe4e82"
+    "d194ad0f-ff71-4b9a-b058-bec15ffe4e82",
+    "22a3c79a-4d39-476f-adfa-4f33141cfac1"
   ]
 }
