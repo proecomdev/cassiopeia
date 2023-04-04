@@ -358,6 +358,12 @@
             }
           })
         {%- endif -%}
+
+        {% if template == 'faq' %}
+          $('.faq-item h3').click(function(){
+            $(this).toggleClass('active');
+          })
+        {% endif %}
       });
     </script>
     {%- if settings.predictive_search_enabled -%}
