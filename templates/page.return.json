@@ -4,9 +4,10 @@
       "type": "main-page",
       "custom_css": [
         ".main-page-title {display: none;}",
-        "h1.heading-font-family {font-size: 76px; line-height: 152px; margin-bottom: 20px;}",
+        "h1.heading-font-family {font-size: 76px; line-height: 152px;}",
         ".page-width--narrow {max-width: 100%;}",
         "h2.text-font-family {font-size: 24px; line-height: 130%; letter-spacing: 0.05em; text-transfont-family: \"Roboto\"; font-style: normal; font-weight: 300; text-transform: uppercase; margin-bottom: 30px;}",
+        "h2.text-font-family:not(:first-child) {padding-top: 30px;}",
         "p.text-font-family {line-height: 170%; margin-bottom: 25px;}"
       ],
       "settings": {
