@@ -27,7 +27,8 @@
 }
 
 .faq-item h3.text-font-family {
-  margin: 24px 0 20px; 
+  padding: 24px 0 20px;
+  border-top: 1px solid #B8B2A6;
 }
 
 .faq-item h3.text-font-family i {
