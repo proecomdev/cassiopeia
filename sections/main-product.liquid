@@ -83,6 +83,11 @@
           </div>
         {%- endif -%}
 
+    {{product.metafields.horoscope}}
+        {% assign icons = product.metafields.horoscope %}
+        <div class="horoscope">
+        </div>
+
         <div class="no-js-hidden" id="price-{{ section.id }}" role="status" {{ block.shopify_attributes }}>
           {%- render 'price',
             product: product,
