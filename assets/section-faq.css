@@ -10,6 +10,11 @@
   margin-bottom: 0;
 }
 
+.sub_title .heading-font-family {
+  font-size: 36px;
+  line-height: 160%;
+}
+
 .shopify-section {
   padding-top: 20px;
 }
