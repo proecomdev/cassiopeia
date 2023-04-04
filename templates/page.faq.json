@@ -51,13 +51,45 @@
             "faq_title": "HOW CAN I MODIFY MY CONTACT INFORMATION & EMAIL PREFERENCES?",
             "faq_content": ""
           }
+        },
+        "0f920461-62e5-4262-a4ce-941aa2c10244": {
+          "type": "faq",
+          "settings": {
+            "faq_title": "HOW to care for your gemstones?",
+            "faq_content": ""
+          }
+        },
+        "f3128e5e-9ef0-4555-a8fe-c87344e14f6c": {
+          "type": "faq",
+          "settings": {
+            "faq_title": "HOW can i track my order after delivery?",
+            "faq_content": ""
+          }
+        },
+        "37b4d53f-0469-43c3-ad71-2f380c23c77b": {
+          "type": "faq",
+          "settings": {
+            "faq_title": "HOW do i deal with lost or stolen jeweLLery?",
+            "faq_content": ""
+          }
+        },
+        "c9eae9e2-9794-46e7-bd5c-b2cabd7680f2": {
+          "type": "faq",
+          "settings": {
+            "faq_title": "what are the terms of your warranty + lifetime repairs service?",
+            "faq_content": ""
+          }
         }
       },
       "block_order": [
         "3246f23a-6c4e-41d3-9413-50b762815abb",
         "73cbb8ee-7d6d-4359-a58d-68d217afecad",
         "13ba4258-0f82-40c8-8567-0eb206fe2239",
-        "672e2198-ec2a-43bd-b7a9-70b3c8eb94e2"
+        "672e2198-ec2a-43bd-b7a9-70b3c8eb94e2",
+        "0f920461-62e5-4262-a4ce-941aa2c10244",
+        "f3128e5e-9ef0-4555-a8fe-c87344e14f6c",
+        "37b4d53f-0469-43c3-ad71-2f380c23c77b",
+        "c9eae9e2-9794-46e7-bd5c-b2cabd7680f2"
       ],
       "settings": {
         "sub_title": "Here are some common questions about cassiopeiA jeweLLery"
