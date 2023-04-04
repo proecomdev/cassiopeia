@@ -20,10 +20,17 @@
         "image_4": "shopify:\/\/shop_images\/4.png",
         "image_5": "shopify:\/\/shop_images\/5.png"
       }
+    },
+    "7545ff15-d742-4aa9-8810-5bfef972a77e": {
+      "type": "faq-content",
+      "settings": {
+        "sub_title": ""
+      }
     }
   },
   "order": [
     "main",
-    "d194ad0f-ff71-4b9a-b058-bec15ffe4e82"
+    "d194ad0f-ff71-4b9a-b058-bec15ffe4e82",
+    "7545ff15-d742-4aa9-8810-5bfef972a77e"
   ]
 }
