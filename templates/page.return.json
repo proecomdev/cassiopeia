@@ -10,8 +10,8 @@
         "p.text-font-family {line-height: 170%; margin-bottom: 25px;}"
       ],
       "settings": {
-        "padding_top": 20,
-        "padding_bottom": 20
+        "padding_top": 28,
+        "padding_bottom": 28
       }
     }
   },
