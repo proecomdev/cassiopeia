@@ -414,3 +414,8 @@ div.text-font-family {
 .larimar-amethyst {
   height: 491px;
 }
+
+
+.comment_form {
+  display: none;
+}
