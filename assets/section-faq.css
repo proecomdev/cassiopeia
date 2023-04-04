@@ -10,7 +10,7 @@
 }
 
 .page-width--narrow {
-  max-width: 0;
+  max-width: inherit;
   padding: 0 120px;
 }
 
