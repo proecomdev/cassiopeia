@@ -83,8 +83,8 @@
           </div>
         {%- endif -%}
 
-    {{product.metafields['horoscope'].value}}
-        {% assign icons = product.metafields.horoscope %}
+    {{product.metafields['horoscope']}}
+        {% assign icons = product.metafields.custom.horoscope %}
         <div class="horoscope">
         </div>
 
