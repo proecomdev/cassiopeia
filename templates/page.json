@@ -8,22 +8,16 @@
         "padding_bottom": 28
       }
     },
-    "d194ad0f-ff71-4b9a-b058-bec15ffe4e82": {
-      "type": "about",
+    "d847283a-c45a-4982-a339-4056cd333362": {
+      "type": "shipping",
       "settings": {
-        "aboutcassiopeia": "shopify:\/\/shop_images\/Top_6_pearls.svg",
-        "quote": "shopify:\/\/shop_images\/1f49151004c207fcd82c8bfdbdffddf1.svg",
-        "content": "<p>Cassiopeia is a semi precious stone jewellery company who understands the fundamentals of what quality jewellery should be. By working hand in hand with our highly skilled silversmiths in Italy along with our mining sources of raw stones, we are able to show you a beautiful and mystical side of nature that you haven't seen before.<\/p><p> Our vast collection of 925 solid silver jewellery is meant to inspire women of all ages to feel even closer to nature, as nature intended. Don't worry gentlemen, we have manly and stylish selections for you as well. <\/p><p><em><strong>Whether you're into crystal energy healing, horoscope astrology, birthstones, or simply intrigued by the science and history of stones, Cassiopeia is here to bring you one step closer to the natural world.<\/strong><\/em><\/p>",
-        "image_1": "shopify:\/\/shop_images\/1.png",
-        "image_2": "shopify:\/\/shop_images\/2.png",
-        "image_3": "shopify:\/\/shop_images\/3.png",
-        "image_4": "shopify:\/\/shop_images\/4.png",
-        "image_5": "shopify:\/\/shop_images\/5.png"
+        "sub_title": "Shipping Policy",
+        "content": "Within the UAE, all deliveries use either Emex or Express Courier. Delivery time takes 2 working days. DHL and FedEx are used for international shipments and take 3 to 7 working days to be delivered."
       }
     }
   },
   "order": [
     "main",
-    "d194ad0f-ff71-4b9a-b058-bec15ffe4e82"
+    "d847283a-c45a-4982-a339-4056cd333362"
   ]
 }
