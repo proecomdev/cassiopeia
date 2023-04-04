@@ -126,6 +126,14 @@ div.text-font-family {
     background-size: auto 100%;
    }
 
+   .background-image.landing {
+    height: 350px;
+   }
+   .background-image.portrait {
+    height: 600px;
+    background-size: auto 100%;
+   }
+
   .left-border {
     border-left: 3px solid #594230;
     padding-left: 24px; }
@@ -140,18 +148,6 @@ div.text-font-family {
   font-size: 76px;
   line-height: 152px;
   letter-spacing: 4%; }
-
-  /* --------------------------------------- */
-        /* .article-heading {
-          font-family: 'Roboto';
-          font-style: normal;
-          font-weight: 300;
-          font-size: 32px;
-          line-height: 130%;
-          letter-spacing: 0.05em;
-          text-transform: uppercase;
-          color: #281D15;
-        } */
 
 .share ul {
   padding-left: 13px;
