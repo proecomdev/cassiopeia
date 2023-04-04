@@ -23,6 +23,18 @@
     },
     "7545ff15-d742-4aa9-8810-5bfef972a77e": {
       "type": "faq-content",
+      "blocks": {
+        "3246f23a-6c4e-41d3-9413-50b762815abb": {
+          "type": "faq",
+          "settings": {
+            "faq_title": "What forms of payment are acceptable?",
+            "faq_content": "After placing your order, you have the option to checkout as a guest or register for an account with us online. You can enjoy a quicker checkout procedure in the future and save your shipping and payment information by creating an online account. You will be able to access your account if you are an existing client. We accept the following for online purchases: Visa, Mastercard, American Express, PayPal. As soon as you place your order, your credit card or debit card will be charged."
+          }
+        }
+      },
+      "block_order": [
+        "3246f23a-6c4e-41d3-9413-50b762815abb"
+      ],
       "settings": {
         "sub_title": ""
       }
