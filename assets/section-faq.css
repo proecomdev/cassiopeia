@@ -36,6 +36,25 @@
   padding: 24px 0;
   border-top: 1px solid #B8B2A6;
   cursor: pointer;
+  position: relative;
+}
+
+.faq-item h3.text-font-family:after {
+  content: '';
+  display: block;
+  position: absolute;
+  right: 0;
+  width: 22px;
+  height: 22px;
+  background-image: url('./faq_plus.svg');
+  background-size: auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  transition: .2s ease;
+}
+
+.faq-item h3.text-font-family.active:after {
+  background-image: url('./faq_minus.svg');
 }
 
 .faq-item:last-child {
