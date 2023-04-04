@@ -360,8 +360,8 @@
         {%- endif -%}
 
         $('.faq-selector').click(function(){
-          console.log('clicked me');
           $(this).toggleClass('active');
+          $(this).next('p').slideToggle();
         })
       });
     </script>
