@@ -359,12 +359,10 @@
           })
         {%- endif -%}
 
-        {% if template == 'page' %}
-          $('.faq-item h3').click(function(){
-            console.log('clicked me');
-            $(this).toggleClass('active');
-          })
-        {% endif %}
+        $('.faq-item h3').click(function(){
+          console.log('clicked me');
+          $(this).toggleClass('active');
+        })
       });
     </script>
     {%- if settings.predictive_search_enabled -%}
