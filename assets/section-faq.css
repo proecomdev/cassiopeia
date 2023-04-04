@@ -13,7 +13,8 @@
 .sub_title .heading-font-family {
   font-size: 36px;
   line-height: 160%;
-  letter-spacing: 0;
+  letter-spacing: 0.03em;
+  text-transform: capitalize;
 }
 
 .shopify-section {
