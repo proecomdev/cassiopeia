@@ -68,7 +68,7 @@
 }
 
 .faq-item:last-child {
-  border-bottom: 1px solid #B8B2A6;
+  border-bottom: 1px solid var(--DarkBeige);
 }
 
 .faq-item h3.text-font-family i {
