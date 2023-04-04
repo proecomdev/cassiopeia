@@ -37,6 +37,7 @@
   border-top: 1px solid #B8B2A6;
   cursor: pointer;
   position: relative;
+  transition: .2s ease;
 }
 
 .faq-item h3.text-font-family:after {
@@ -51,7 +52,6 @@
   background-size: auto;
   background-position: center;
   background-repeat: no-repeat;
-  transition: .2s ease;
 }
 
 .faq-item h3.text-font-family:hover {
