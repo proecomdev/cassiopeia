@@ -44,12 +44,20 @@
             "faq_title": "how should I proceed if i forget my password?",
             "faq_content": ""
           }
+        },
+        "672e2198-ec2a-43bd-b7a9-70b3c8eb94e2": {
+          "type": "faq",
+          "settings": {
+            "faq_title": "HOW CAN I MODIFY MY CONTACT INFORMATION & EMAIL PREFERENCES?",
+            "faq_content": ""
+          }
         }
       },
       "block_order": [
         "3246f23a-6c4e-41d3-9413-50b762815abb",
         "73cbb8ee-7d6d-4359-a58d-68d217afecad",
-        "13ba4258-0f82-40c8-8567-0eb206fe2239"
+        "13ba4258-0f82-40c8-8567-0eb206fe2239",
+        "672e2198-ec2a-43bd-b7a9-70b3c8eb94e2"
       ],
       "settings": {
         "sub_title": "Here are some common questions about cassiopeiA jeweLLery"
