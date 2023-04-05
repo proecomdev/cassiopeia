@@ -83,13 +83,13 @@
           </div>
         {%- endif -%}
 
-        {% assign icons = product.metafields.custom.horoscope | downcase | escape | split: ',' %}
+        {% assign icons = product.metafields.custom.horoscope | downcase | handle | split: ',' %}
         {% if icons.size > 0 %}
           <div class="horoscope">
             <h2 class="text-font-family font-choco">Horoscope</h2>
             <div class="icon">
               {% for icon in icons %}
-                <img url="{{ icon | handle | append: '.svg' | file_url }}" alt="{{ icon }}">
+                <img url="{{ icon  | append: '.svg' | file_url }}" alt="{{ icon }}">
               {% endfor %}
             </div>
           </div>
