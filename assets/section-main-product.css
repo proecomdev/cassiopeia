@@ -1559,11 +1559,14 @@ h3.text-font-family {
   letter-spacing: 0.04em;
   text-transform: uppercase;
   color: #281D15;
-  padding-bottom: 16px;
 }
 
 .product__description p:has(strong):not(:first-child) {
   margin-top: 40px;
+}
+
+.product__description p:has(strong) {
+  margin-bottom: 16px;
 }
 
 .product__description p {
