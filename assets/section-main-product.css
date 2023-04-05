@@ -1561,6 +1561,10 @@ h3.text-font-family {
   color: #281D15;
 }
 
+.product__description p:has(strong):not(:first-child) {
+  margin-top: 40px;
+}
+
 .product__description p {
   font-family: 'Roboto';
   font-style: normal;
