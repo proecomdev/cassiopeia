@@ -265,5 +265,7 @@ a, p {
     padding: 0 120px;
   }
   @meida (max-width) {
-    
+    .page-width--narrow {
+      
+    }
   }
