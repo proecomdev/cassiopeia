@@ -89,7 +89,7 @@
             <h2 class="text-font-family font-choco">Horoscope</h2>
             <div class="icon">
               {% for icon in icons %}
-                <img url="{{ icon | append: '.svg' | img_url: master }}" alt="{{ icon }}">
+                <img url="{{ icon | append: '.svg' | file_url }}" alt="{{ icon }}">
               {% endfor %}
             </div>
           </div>
