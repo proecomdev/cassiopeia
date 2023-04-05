@@ -1537,3 +1537,7 @@ button.product-form__submit:hover  {
 .product-popup-modal__opener {
   display: none;
 }
+
+.horoscope .icon img {
+  width: 100px;
+}
