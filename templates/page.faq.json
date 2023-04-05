@@ -42,7 +42,7 @@
           "type": "faq",
           "settings": {
             "faq_title": "how should I proceed if i forget my password?",
-            "faq_content": ""
+            "faq_content": "<p>If you've forgotten your password, you can reset it by clicking here or by clicking the FORGOTTEN<br\/>PASSWORD link on the My Account page. We'll send a link to the email address you supplied so that you<br\/>may reset your password after you complete the steps and click RESET PASSWORD.<\/p>"
           }
         },
         "672e2198-ec2a-43bd-b7a9-70b3c8eb94e2": {
