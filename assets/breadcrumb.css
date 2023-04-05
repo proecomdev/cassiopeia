@@ -25,7 +25,8 @@
   margin-right: 16.07px;
 }
 
-.breadcrumbs__link {
+.breadcrumbs__link,
+.breadcrumbs__item a {
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 300;
