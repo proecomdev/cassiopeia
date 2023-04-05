@@ -1549,6 +1549,18 @@ h3.text-font-family {
   width: auto;
   margin-right: 40px;
 }
+
+.product__description p strong {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: #281D15;
+}
+
 .product__description p {
   font-family: 'Roboto';
   font-style: normal;
