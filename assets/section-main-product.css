@@ -1559,6 +1559,7 @@ h3.text-font-family {
   letter-spacing: 0.04em;
   text-transform: uppercase;
   color: #281D15;
+  margin-bottom: 16px;
 }
 
 .product__description p:has(strong):not(:first-child) {
