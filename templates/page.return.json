@@ -2,6 +2,7 @@
   "sections": {
     "165977966069cccfd6": {
       "type": "main-page",
+      "disabled": true,
       "settings": {
         "padding_top": 36,
         "padding_bottom": 36
@@ -9,9 +10,9 @@
     },
     "main": {
       "type": "main-page",
-      "disabled": true,
       "custom_css": [
-        "h1.main-page-title {font-family: \"Faberge\"; font-style: normal; font-weight: 400; font-size: 76px; line-height: 152px; letter-spacing: 0.04em; text-transform: uppercase; color: #281d15; margin-bottom: 31px;}"
+        "h1.main-page-title {font-family: \"Faberge\"; font-style: normal; font-weight: 400; font-size: 76px; line-height: 152px; letter-spacing: 0.04em; text-transform: uppercase; color: #281d15; margin-bottom: 31px;}",
+        "h2.text-font-family {font-size: 24px; text-transform: uppercase; margin-bottom: 30px}"
       ],
       "settings": {
         "padding_top": 36,
