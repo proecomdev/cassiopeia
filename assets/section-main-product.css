@@ -1600,3 +1600,9 @@ h3.text-font-family {
 .product-note p {
   line-height: 142.19%;
 }
+
+.price {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
