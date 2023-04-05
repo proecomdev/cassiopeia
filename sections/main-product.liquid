@@ -86,7 +86,7 @@
         {% assign icons = product.metafields.custom.horoscope | downcase | handle | split: '-' %}
         {% if icons.size > 0 %}
           <div class="horoscope">
-            <h2 class="text-font-family font-choco">Horoscope</h2>
+            <h3 class="text-font-family font-choco">Horoscope</h2>
             <div class="icon">
               {% for icon in icons %}
                 {% if icon == 'and' %} 
@@ -99,7 +99,7 @@
         {% endif %}
 
         <div class="product-note">
-          <h2 class="text-font-family font-choco">Note</h2>
+          <h3 class="text-font-family font-choco">Note</h2>
           <p>Due to the fact that all our gemstones are 100% natural, some beads might slightly vary in size, weight & colour.</p>
         </div>
 
