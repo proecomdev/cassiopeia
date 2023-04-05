@@ -92,7 +92,7 @@
                 {% if icon == 'and' %} 
                   {% continue %}
                 {% endif %}
-                <img src="{{ 'horo-' | append: icon | append: '.svg' | file_url }}" alt="{{ icon }}" />
+                <img src="{{ icon | append: '.svg' | file_url }}" alt="{{ icon }}" />
               {% endfor %}
             </div>
           </div>
