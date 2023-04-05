@@ -252,12 +252,6 @@
  <!--end-boost-pfs-filter-css-->
 
  
-
- <!--begin-boost-pfs-filter-css-->
-   {% render 'boost-pfs-style' %}
- <!--end-boost-pfs-filter-css-->
-
- 
 </head>
 
   <body class="gradient">
@@ -365,6 +359,11 @@
           });
         {%- endif -%}
 
+        {%- if template == 'product' -%}
+          console.log($('.product__description .p').text());
+          $('.product__description .p').text();
+        {%- endif -%}
+
         $('.faq-selector').click(function(){
           $(this).toggleClass('active');
           $(this).next('p').slideToggle();
@@ -377,10 +376,6 @@
   
  <!--begin-boost-pfs-js-->
    
- <!--end-boost-pfs-js-->
-
- <!--begin-boost-pfs-js-->
-   {% render 'boost-pfs' %}
  <!--end-boost-pfs-js-->
 </body>
 </html>
