@@ -1538,7 +1538,7 @@ button.product-form__submit:hover  {
   display: none;
 }
 
-h2.text-font-family {
+h3.text-font-family {
   text-transform: uppercase;
   font-weight: 400;
   margin-bottom: 16px;
