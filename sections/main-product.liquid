@@ -83,9 +83,21 @@
           </div>
         {%- endif -%}
 
-    {{product.metafields.custom.horoscope}}
-        {% assign icons = product.metafields.custom.horoscope %}
-        <div class="horoscope">
+        {% assign icons = product.metafields.custom.horoscope | downcase | escape | split: '/' %}
+        {% if icons.size > 0 %}
+          <div class="horoscope">
+            <h2 class="text-font-family font-choco">Horoscope</h2>
+            <div class="icon">
+              {% for icon in icons %}
+                <img url="{{ icon | append: '.svg' | file_url }}" alt="{{ icon }}">
+              {% endfor %}
+            </div>
+          </div>
+        {% endif %}
+
+        <div class="product-note">
+          <h2 class="text-font-family font-choco">Note</h2>
+          <p>Due to the fact that all our gemstones are 100% natural, some beads might slightly vary in size, weight & colour.</p>
         </div>
 
         <div class="no-js-hidden" id="price-{{ section.id }}" role="status" {{ block.shopify_attributes }}>
