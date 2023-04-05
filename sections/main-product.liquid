@@ -88,10 +88,8 @@
           <div class="horoscope">
             <h2 class="text-font-family font-choco">Horoscope</h2>
             <div class="icon">
-                <img url="{{ 'capricorn' | append: '.png' | asset_url }}" alt="{{ icon }}">
-
               {% for icon in icons %}
-                <img url="{{ icon | append: '.svg' | file_url }}" alt="{{ icon }}">
+                <img src="{{ icon | append: '.svg' | file_url }}" alt="{{ icon }}">
               {% endfor %}
             </div>
           </div>
