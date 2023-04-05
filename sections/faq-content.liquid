@@ -8,7 +8,7 @@
     {% for block in section.blocks %}
       <div class="faq-item">
         <h3 class="text-font-family font-choco faq-selector"><i>{{ forloop.index }}/</i> {{ block.settings.faq_title }}</h3>
-        <p class="text-font-family font-brown">{{ block.settings.faq_content }}</p>
+        <div class="text-font-family font-brown">{{ block.settings.faq_content }}</div>
       </div>
     {% endfor %}
   {% endif %}
@@ -37,7 +37,7 @@
           {
             "type": "richtext",
             "id": "faq_content",
-            "label": "Faq Title"
+            "label": "Faq Content"
           }
         ]
       }
