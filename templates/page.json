@@ -2,7 +2,6 @@
   "sections": {
     "main": {
       "type": "main-page",
-      "disabled": true,
       "settings": {
         "padding_top": 28,
         "padding_bottom": 28
@@ -10,7 +9,6 @@
     },
     "d847283a-c45a-4982-a339-4056cd333362": {
       "type": "shipping",
-      "disabled": true,
       "settings": {
         "sub_title": "Shipping Policy",
         "content": "Within the UAE, all deliveries use either Emex or Express Courier. Delivery time takes 2 working days. DHL and FedEx are used for international shipments and take 3 to 7 working days to be delivered."

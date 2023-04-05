@@ -3,12 +3,19 @@
     "165977966069cccfd6": {
       "type": "main-page",
       "settings": {
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     },
     "main": {
       "type": "main-page",
       "disabled": true,
+      "custom_css": [
+        "h1.main-page-title {font-family: \"Faberge\"; font-style: normal; font-weight: 400; font-size: 76px; line-height: 152px; letter-spacing: 0.04em; text-transform: uppercase; color: #281d15; margin-bottom: 31px;}"
+      ],
       "settings": {
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     }
   },
