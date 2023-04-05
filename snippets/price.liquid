@@ -93,6 +93,8 @@
     </span>
   {%- endif -%}
   <p class="text-font-family font-choco">
-    {{ current_variant.inventory_quantity }} items left
+    {% if current_variant %}
+      {{ current_variant.inventory_quantity }} items left
+    {% endif %}
   </p>
 </div>
