@@ -365,7 +365,7 @@
 
         $('.faq-selector').click(function(){
           $(this).toggleClass('active');
-          $('.faq-content').slideToggle();
+          $(this).next('div').slideToggle();
         })
       });
     </script>
