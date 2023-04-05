@@ -89,6 +89,9 @@
             <h2 class="text-font-family font-choco">Horoscope</h2>
             <div class="icon">
               {% for icon in icons %}
+                {% if icon == 'and' %} 
+                  {% continue %}
+                {% endif %}
                 <img src="{{ icon | append: '.svg' | file_url }}" alt="{{ icon }}" />
               {% endfor %}
             </div>
