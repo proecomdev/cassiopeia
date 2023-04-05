@@ -1569,6 +1569,10 @@ h3.text-font-family {
   margin-bottom: 16px;
 }
 
+.product__description {
+  margin-bottom: 40px;
+}
+
 .product__description p {
   font-family: 'Roboto';
   font-style: normal;
