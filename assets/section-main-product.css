@@ -1538,6 +1538,12 @@ button.product-form__submit:hover  {
   display: none;
 }
 
+.horoscope h2.text-font-family {
+  text-transform: uppercase;
+  font-weight: 400;
+  margin-bottom: 16px;
+}
+
 .horoscope .icon img {
   height: 40px;
   width: auto;
