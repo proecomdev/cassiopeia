@@ -1,0 +1,20 @@
+{
+  "sections": {
+    "165977966069cccfd6": {
+      "type": "shipping",
+      "settings": {
+        "content": ""
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+      }
+    }
+  },
+  "order": [
+    "165977966069cccfd6",
+    "main"
+  ]
+}
