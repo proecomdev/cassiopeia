@@ -1558,3 +1558,6 @@ h3.text-font-family {
   letter-spacing: 0.04em;
   color: #281D15;
 }
+.product__description p:last-child {
+  padding-bottom: 40px;
+}
