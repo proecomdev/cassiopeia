@@ -1581,3 +1581,7 @@ h3.text-font-family {
 .product__description p:last-child {
   padding-bottom: 40px;
 }
+
+.horoscope {
+  margin-bottom: 58px;
+}
