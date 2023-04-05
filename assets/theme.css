@@ -264,8 +264,3 @@ a, p {
     width: 100%;
     padding: 0 120px;
   }
-  @meida (max-width) {
-    .page-width--narrow {
-      
-    }
-  }
