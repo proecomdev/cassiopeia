@@ -1585,3 +1585,14 @@ h3.text-font-family {
 .horoscope {
   margin-bottom: 58px;
 }
+
+.product-note {
+  padding: 24px;
+  background-color: var(--Almond);
+}
+.product-note h3 {
+  font-style: italic;
+}
+.product-note p {
+  line-height: 142.19%;
+}
