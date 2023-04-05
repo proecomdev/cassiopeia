@@ -51,7 +51,7 @@
   background-repeat: no-repeat;
   transition: .1s ease;
 }
-.faq-item p {
+.faq-item .faq-content {
   display: none;
   padding-left: 60px;
   padding-bottom: 24px;
