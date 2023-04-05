@@ -1538,6 +1538,11 @@ button.product-form__submit:hover  {
   display: none;
 }
 
+.horoscope .icon {
+  display: flex;
+  align-items: center;
+}
+
 .horoscope .icon img {
   width: 100px;
 }
