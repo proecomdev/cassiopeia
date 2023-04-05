@@ -28,14 +28,14 @@
           "type": "faq",
           "settings": {
             "faq_title": "What forms of payment are acceptable?",
-            "faq_content": "After placing your order, you have the option to checkout as a guest or register for an account with us online. You can enjoy a quicker checkout procedure in the future and save your shipping and payment information by creating an online account. You will be able to access your account if you are an existing client. We accept the following for online purchases: Visa, Mastercard, American Express, PayPal. As soon as you place your order, your credit card or debit card will be charged."
+            "faq_content": "<p>After placing your order, you have the option to checkout as a guest or register for an account with us online. You can enjoy a quicker checkout procedure in the future and save your shipping and payment information by creating an online account. You will be able to access your account if you are an existing client.<\/p><p>We accept the following for online purchases: <\/p><p>Visa, Mastercard, American Express, PayPal. <\/p><p>As soon as you place your order, your credit card or debit card will be charged.<\/p>"
           }
         },
         "73cbb8ee-7d6d-4359-a58d-68d217afecad": {
           "type": "faq",
           "settings": {
             "faq_title": "CAN MY ORDER BE MODIFIED OR CANCELED?",
-            "faq_content": "You will only have a small window to change or cancel your purchase if the item is in stock, at whichpoint we prepare your order right away.Logging into My Account enables you to:o Reject your ordero Modify the delivery addresso Change the way you shipo Add, change, or remove a monogram or engravingIf your request was successful, we will let you know right away."
+            "faq_content": "<p>You will only have a small window to change or cancel your purchase if the item is in stock, at whichpoint we prepare your order right away.Logging into My Account enables you to:o Reject your ordero Modify the delivery addresso Change the way you shipo Add, change, or remove a monogram or engravingIf your request was successful, we will let you know right away.<\/p>"
           }
         },
         "13ba4258-0f82-40c8-8567-0eb206fe2239": {
