@@ -88,6 +88,9 @@
   padding: 15px 75px;
   transition: .2s ease;
 }
+.button:after {
+  box-shadow: unset;
+}
 .contact__button button:hover {
   color: var(--Almond);
   background-color: var(--Brown);
