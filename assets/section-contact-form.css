@@ -26,6 +26,10 @@
   background-size: auto 100%;
 }
 
+.contact.page-width form {
+  padding: 100px 0 86px 
+}
+
 @media screen and (min-width: 750px) {
   .contact .field {
     margin-bottom: 2rem;
