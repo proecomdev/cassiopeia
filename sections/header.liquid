@@ -61,14 +61,6 @@
     margin: 0;
   }
 
-  {% unless template == 'index' %}
-    @media (max-width: 990px) {
-      .list-menu {
-        
-      }
-    }
-  {% endunless %}
-
   .list-menu--inline {
     display: inline-flex;
     flex-wrap: wrap;
@@ -455,7 +447,8 @@
           </div>
         </details>
       </details-modal>
-    {%- endif -%} {% endcomment %}
+    {%- endif -%} 
+{% endcomment %}
 
 
     {%- if section.settings.logo_position != 'middle-center' -%}
