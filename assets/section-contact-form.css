@@ -54,6 +54,12 @@
   border-bottom: 1px solid var(--Almond);
   padding-left: 0;
   padding-right: 0;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 170%;
+  color: #F0EAD2;
 }
 
 .field:after {
