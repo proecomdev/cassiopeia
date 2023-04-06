@@ -139,4 +139,7 @@
   .collection-header {
     justify-content: flex-end;
   }
+  .page-width {
+    max-width: calc(100% - 120px);
+  }
  }
