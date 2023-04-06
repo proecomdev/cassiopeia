@@ -49,3 +49,7 @@
   margin-top: 52px;
   text-align: right;
 }
+
+.field:after {
+  box-shadow: unset;
+}
