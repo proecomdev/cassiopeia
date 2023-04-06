@@ -15,7 +15,7 @@
       "type": "contact-form",
       "settings": {
         "right_side": "shopify:\/\/shop_images\/pic_1.png",
-        "heading": "",
+        "heading": "Have any questions?Send us a messAge.",
         "padding_top": 0,
         "padding_bottom": 0
       }
