@@ -3,7 +3,8 @@
     "main": {
       "type": "main-page",
       "custom_css": [
-        "h1.main-page-title{margin-bottom: 0;}"
+        "h1.main-page-title {margin-bottom: 0;}",
+        ".page-width--narrow {padding-top: 0; padding-bottom: 0;}"
       ],
       "settings": {
         "padding_top": 36,
