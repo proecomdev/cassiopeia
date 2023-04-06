@@ -53,3 +53,7 @@
 .field:after {
   box-shadow: unset;
 }
+
+.field__input:focus {
+  box-shadow: unset;
+}
