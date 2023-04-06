@@ -39,37 +39,41 @@
 {%- paginate collection.products by section.settings.products_per_page -%}
 <div class="section-{{ section.id }}-padding">
   <div class="page-width collection-filters" id="main-collection-filters" data-id="{{ section.id }}">
-    <div class="boost-pfs-container-default boost-pfs-filter-wrapper-page facets facets-container">
-      {%- comment -%} TOOLBAR TOP MOBILE {%- endcomment -%}
-      {% if boost_in_collection_search == 'true' %}
-        <div class="boost-pfs-in-collection-search">
-          {% render 'boost-pfs-filter-skeleton', width: 4 %}
-        </div>
-      {% endif %}
-      <div class="facets__form {% if enable_filter_tree_button_desktop_v and enable_filter_sticky_d  %} boost-pfs-filter-tree-desktop-button-sticky-wrapper {% endif %}">
-        <div class="facets__wrapper">
-          {%- if enable_filter_tree_button_desktop_v -%}
-            <div class="boost-pfs-filter-tree-desktop-button">{%- render 'boost-pfs-filter-skeleton', type: 'button' -%}</div>
-          {%- endif -%}
-        </div>
-        {%- if section.settings.enable_sorting -%}
-          <div class="facet-filters sorting caption">
-            <div class="facet-filters__field">
-              <label class="facet-filters__label caption-large" for="SortBy">{{ 'products.facets.sort_by_label' | t }}</label>
-              <div class="select boost-pfs-filter-custom-sorting boost-pfs-filter-top-sorting">
-                {%- render 'boost-pfs-filter-skeleton' -%}
+    <h2 class="heading-font-family font-choco filter-title">Filter</h2>
+    <div class="colletion-header">
+      <h2 class="heading-font-family font-choco">Products</h2>
+      <div class="boost-pfs-container-default boost-pfs-filter-wrapper-page facets facets-container">
+        {%- comment -%} TOOLBAR TOP MOBILE {%- endcomment -%}
+        {% if boost_in_collection_search == 'true' %}
+          <div class="boost-pfs-in-collection-search">
+            {% render 'boost-pfs-filter-skeleton', width: 4 %}
+          </div>
+        {% endif %}
+        <div class="facets__form {% if enable_filter_tree_button_desktop_v and enable_filter_sticky_d  %} boost-pfs-filter-tree-desktop-button-sticky-wrapper {% endif %}">
+          <div class="facets__wrapper">
+            {%- if enable_filter_tree_button_desktop_v -%}
+              <div class="boost-pfs-filter-tree-desktop-button">{%- render 'boost-pfs-filter-skeleton', type: 'button' -%}</div>
+            {%- endif -%}
+          </div>
+          {%- if section.settings.enable_sorting -%}
+            <div class="facet-filters sorting caption">
+              <div class="facet-filters__field">
+                <label class="facet-filters__label caption-large" for="SortBy">{{ 'products.facets.sort_by_label' | t }}</label>
+                <div class="select boost-pfs-filter-custom-sorting boost-pfs-filter-top-sorting">
+                  {%- render 'boost-pfs-filter-skeleton' -%}
+                </div>
               </div>
             </div>
-          </div>
-        {%- endif -%}
-      </div>
-
-      <div class="boost-pfs-filter-toolbar-top-mobile">
-        <div class="boost-pfs-filter-tree-mobile-button">
-          {%- render 'boost-pfs-filter-skeleton', type: 'button' -%}
+          {%- endif -%}
         </div>
+
+        <div class="boost-pfs-filter-toolbar-top-mobile">
+          <div class="boost-pfs-filter-tree-mobile-button">
+            {%- render 'boost-pfs-filter-skeleton', type: 'button' -%}
+          </div>
+        </div>
+        {%- comment -%} END TOOLBAR TOP MOBILE {%- endcomment -%}
       </div>
-      {%- comment -%} END TOOLBAR TOP MOBILE {%- endcomment -%}
     </div>
   </div>
   <div id="CollectionProductGrid">
