@@ -20,6 +20,7 @@
 <div class="color-{{ section.settings.color_scheme }} gradient">
   <div class="contact page-width page-width--narrow section-{{ section.id }}-padding">
     {%- form 'contact', id: 'ContactForm', class: 'isolate' -%}
+      <h2 class="text-font-family font-almond"></h2>
       {%- if form.posted_successfully? -%}
         <h2 class="form-status form-status-list form__message" tabindex="-1" autofocus>
           {% render 'icon-success' %}
