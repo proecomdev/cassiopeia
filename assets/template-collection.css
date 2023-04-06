@@ -99,3 +99,7 @@
   line-height: 64px;
   letter-spacing: 0.04em;
 }
+.collection-filters {
+  display: flex;
+  align-items: center;
+}
