@@ -85,7 +85,7 @@
           </div>
         {%- endif -%}
 
-        {%- if product.variants.size > 0 -%}
+        {%- if product.variants.size > 1 -%}
           {% render 'product-variant-picker', product: product, block: block, product_form_id: product_form_id %}
         {%- endif -%}
 
