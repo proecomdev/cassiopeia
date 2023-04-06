@@ -240,7 +240,7 @@
             {{- block.settings.text -}}
           </a>
 
-            {% comment %} {%- when 'inventory' -%}
+{% comment %} {%- when 'inventory' -%}
               
             {%- when 'sku' -%}
               <p
@@ -418,7 +418,8 @@
             {%- when 'icon-with-text' -%}
               {% render 'icon-with-text',
                 block: block
-              %} {% endcomment %}
+              %} 
+{% endcomment %}
         <a href="{{ product.url }}" class="link product__view-details animate-arrow">
           {{ 'products.product.view_full_details' | t }}
           {% render 'icon-arrow' %}
