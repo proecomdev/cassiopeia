@@ -50,6 +50,10 @@
   text-align: right;
 }
 
+.field__input {
+  border-bottom: 1px solid var(--Chocolate);
+}
+
 .field:after {
   box-shadow: unset;
 }
