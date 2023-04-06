@@ -99,7 +99,6 @@
   line-height: 64px;
   letter-spacing: 0.04em;
   width: 20%;
-  min-width: 242px;
 }
 .collection-filters {
   display: flex;
@@ -110,5 +109,5 @@
   align-items: center;
   justify-content: space-between;
   padding-left: 30px;
-  width: 100%;
+  width: 80%;
 }
