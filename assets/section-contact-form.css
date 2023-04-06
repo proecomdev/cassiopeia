@@ -16,6 +16,8 @@
 
 .contact.page-width {
   background-color: var(--Brown);
+  display: grid;
+  grid-template-columns: 6fr 5fr;
 }
 
 @media screen and (min-width: 750px) {
