@@ -56,13 +56,14 @@
   padding-right: 0;
 }
 
-input.field__label {
+.field__label {
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 300;
   font-size: 16px;
   line-height: 170%;
   color: #F0EAD2;
+  left: 0;
 }
 
 .field:after {
