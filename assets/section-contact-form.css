@@ -54,6 +54,7 @@
   border-bottom: 1px solid var(--Almond);
   padding-left: 0;
   padding-right: 0;
+  min-height: unset;
 }
 
 .field__label {
