@@ -54,8 +54,8 @@
             class="swym-button swym-add-to-wishlist wishlist button button--primary"
             data-with-epi="true"
             data-swaction="addToWishlist"
-            data-product-id="{{ product.id }}"
-            data-variant-id="{{ product.variants[0].id }}"
+            data-product-id="{{ card_product.id }}"
+            data-variant-id="{{ card_product.variants[0].id }}"
             data-product-url="{{ shop.url }}{{ product.url }}"
             ><img src="{{ 'heart.svg' | asset_url }}"></a>
           <form method="post" action="/cart/add">
