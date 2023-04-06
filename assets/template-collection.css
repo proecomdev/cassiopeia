@@ -103,6 +103,7 @@
 .collection-filters {
   display: flex;
   align-items: center;
+  margin-bottom: 48px;
 }
 .collection-header {
   display: flex;
