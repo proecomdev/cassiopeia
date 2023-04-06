@@ -51,7 +51,9 @@
 }
 
 .field__input {
-  border-bottom: 1px solid var(--Chocolate);
+  border-bottom: 1px solid var(--Almond);
+  padding-left: 0;
+  padding-right: 0;
 }
 
 .field:after {
