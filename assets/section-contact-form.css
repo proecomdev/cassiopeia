@@ -87,6 +87,7 @@
   color: var(--Brown);
   padding: 15px 75px;
   transition: .2s ease;
+  border: 1px solid var(--Almond);
 }
 .button:after {
   box-shadow: unset;
