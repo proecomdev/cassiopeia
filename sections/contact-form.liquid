@@ -12,6 +12,9 @@
       padding-bottom: {{ section.settings.padding_bottom }}px;
     }
   }
+  .right-side {
+    background-image: url({{ section.settings.right_img | img_url: 'master' }});
+  }
 {%- endstyle -%}
 
 <div class="color-{{ section.settings.color_scheme }} gradient">
