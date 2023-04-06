@@ -74,3 +74,15 @@
 .field__input:focus {
   box-shadow: unset;
 }
+
+.contact__button button {
+  background-color: var(--Almond);
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 130%;
+  letter-spacing: 0.23em;
+  text-transform: uppercase;
+  color: var(--Brown);
+}
