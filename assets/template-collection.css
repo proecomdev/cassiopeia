@@ -111,3 +111,22 @@
   padding-left: 30px;
   width: 80%;
 }
+
+.collection-header .heading-font-family {
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 96px;
+  letter-spacing: 0.04em;
+}
+
+.facet-filters__label,
+.facet-filters__field .select__select {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 130;
+  letter-spacing: 0.23em;
+  text-transform: uppercase;
+  color: #281D15;
+}
