@@ -36,6 +36,7 @@
   line-height: 130%;
   letter-spacing: 0.05em;
   text-transform: uppercase;
+  margin-bottom: 78px;
 }
 
 @media screen and (min-width: 750px) {
