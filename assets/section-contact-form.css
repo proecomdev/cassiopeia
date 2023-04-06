@@ -30,6 +30,14 @@
   padding: 100px 0 86px 
 }
 
+.contact.page-width form > .form-heading {
+  font-weight: 200;
+  font-size: 60px;
+  line-height: 130%;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+
 @media screen and (min-width: 750px) {
   .contact .field {
     margin-bottom: 2rem;
