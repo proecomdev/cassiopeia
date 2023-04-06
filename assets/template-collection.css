@@ -136,4 +136,7 @@
   .collection-header .heading-font-family {
     display: none;
   }
+  .collection-header {
+    justify-content: flex-end;
+  }
  }
