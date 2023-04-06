@@ -93,3 +93,9 @@
 .facets__disclosure-vertical {
   border-top: 0 !important;
 }
+.filter-title {
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 64px;
+  letter-spacing: 0.04em;
+}
