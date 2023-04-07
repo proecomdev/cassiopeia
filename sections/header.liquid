@@ -83,9 +83,15 @@
     color: #F0EAD2;
     margin-left: 44px;
   }
+  .header__icon--menu .icon {
+    color: var(--Almond);
+  }
   {% unless template == 'index' %}
     .list-menu__item {
       color: #281D15;
+    }
+    .header__icon--menu .icon {
+      color: var(--Chocolate);
     }
   {% endunless %}
   .list-menu__item:hover {
@@ -135,6 +141,10 @@
   sticky-header.gradient:has(.mega-menu[open]) .scrolled-header-hidden,
   sticky-header.gradient:has(.menu-opening) .scrolled-header-hidden {
     display: block;
+  }
+
+  sticky-header.gradient:has(.menu-opening) .header__icon--menu .icon {
+    color: var(--Chocolate);
   }
 
   sticky-header.gradient:has(.menu-opening) .header__heading-link.logo {
