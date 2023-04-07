@@ -39,11 +39,6 @@
 {%- paginate collection.products by section.settings.products_per_page -%}
 <div class="section-{{ section.id }}-padding">
   <div class="page-width collection-filters" id="main-collection-filters" data-id="{{ section.id }}">
-    <div class="boost-pfs-filter-toolbar-top-mobile">
-      <div class="boost-pfs-filter-tree-mobile-button">
-        {%- render 'boost-pfs-filter-skeleton', type: 'button' -%}
-      </div>
-    </div>
     <h2 class="heading-font-family font-choco filter-title">Filter</h2>
     <div class="collection-header">
       <h2 class="heading-font-family font-choco">Products</h2>
@@ -52,6 +47,11 @@
         {% if boost_in_collection_search == 'true' %}
           <div class="boost-pfs-in-collection-search">
             {% render 'boost-pfs-filter-skeleton', width: 4 %}
+          </div>
+          <div class="boost-pfs-filter-toolbar-top-mobile">
+            <div class="boost-pfs-filter-tree-mobile-button">
+              {%- render 'boost-pfs-filter-skeleton', type: 'button' -%}
+            </div>
           </div>
         {% endif %}
         <div class="facets__form {% if enable_filter_tree_button_desktop_v and enable_filter_sticky_d  %} boost-pfs-filter-tree-desktop-button-sticky-wrapper {% endif %}">
