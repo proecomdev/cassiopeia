@@ -137,4 +137,7 @@
   .page-width--narrow {
     padding: 0 15px;
   }
+  .contact__button {
+    text-align: center;
+  }
 }
