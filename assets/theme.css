@@ -334,3 +334,9 @@ a, p {
     margin-bottom: 40px;
   }
 }
+
+
+.boost-pfs-filter-scroll-to-top {
+  background-color: var(--Brown);
+  box-shadow: 0 0 3px 3px var(--Chocolate);
+}
