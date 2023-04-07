@@ -274,6 +274,8 @@ a, p {
   }
   .header__inline-menu.mobile .list-menu__item {
     color: var(--Chocolate);
+    margin-left: 22px;
+    margin-right: 22px;
   }
   .header__inline-menu.mobile .mega-menu__content {
     top: 55px;
