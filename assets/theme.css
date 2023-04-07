@@ -284,7 +284,7 @@ a, p {
 
   @media (max-width: 990px) {
     .header {
-      grid-template-columns: repeat(3, 1fr);
+      grid-template-columns: 2fr 8fr 2fr;
     }
     .header__icons a {
       display: none;
