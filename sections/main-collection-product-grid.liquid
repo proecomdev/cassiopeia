@@ -39,6 +39,11 @@
 {%- paginate collection.products by section.settings.products_per_page -%}
 <div class="section-{{ section.id }}-padding">
   <div class="page-width collection-filters" id="main-collection-filters" data-id="{{ section.id }}">
+    <div class="boost-pfs-filter-toolbar-top-mobile">
+      <div class="boost-pfs-filter-tree-mobile-button">
+        {%- render 'boost-pfs-filter-skeleton', type: 'button' -%}
+      </div>
+    </div>
     <h2 class="heading-font-family font-choco filter-title">Filter</h2>
     <div class="collection-header">
       <h2 class="heading-font-family font-choco">Products</h2>
@@ -65,12 +70,6 @@
               </div>
             </div>
           {%- endif -%}
-        </div>
-
-        <div class="boost-pfs-filter-toolbar-top-mobile">
-          <div class="boost-pfs-filter-tree-mobile-button">
-            {%- render 'boost-pfs-filter-skeleton', type: 'button' -%}
-          </div>
         </div>
         {%- comment -%} END TOOLBAR TOP MOBILE {%- endcomment -%}
       </div>
