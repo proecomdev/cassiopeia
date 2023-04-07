@@ -289,4 +289,7 @@ a, p {
     .header__icons a {
       display: none;
     }
+    sticky-header.gradient:has(.menu-opening) .header__icons a {
+      display: block;
+    }
   }
