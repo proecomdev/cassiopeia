@@ -276,7 +276,7 @@ a, p {
     color: var(--Chocolate);
   }
   .header__inline-menu.mobile .mega-menu__content {
-    top: 0;
+    top: 55px;
   }
   .header__inline-menu.mobile .mega-menu__list {
     grid-template-columns: auto;
