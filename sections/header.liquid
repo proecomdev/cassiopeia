@@ -121,7 +121,7 @@
     box-shadow: 0px 0px 3px 0px #000;
   }
   sticky-header.gradient:has(.mega-menu[open]),
-  sticky-header.gradient:has(.menu-opening) {
+  sticky-header.gradient:has(.menu-opening[open]) {
     background-color: #F0EAD2;
   }
   .shopify-section-header-hidden sticky-header.gradient {
@@ -152,21 +152,21 @@
     display: none;
   }
   @media (max-width: 990px) {4
-    sticky-header.gradient:has(.menu-opening) {
+    sticky-header.gradient:has(.menu-opening[open]) {
       background-color: #F0EAD2;
     }
-    sticky-header.gradient:has(.menu-opening) .scrolled-header-hidden {
+    sticky-header.gradient:has(.menu-opening[open]) .scrolled-header-hidden {
       display: block;
     }
-    sticky-header.gradient:has(.menu-opening) .scrolled-header-show {
+    sticky-header.gradient:has(.menu-opening[open]) .scrolled-header-show {
       display: none;
     }
-    sticky-header.gradient:has(.menu-opening) .header__icon--menu .icon,
+    sticky-header.gradient:has(.menu-opening[open]) .header__icon--menu .icon,
     .scrolled-past-header .header__icon--menu .icon {
       color: var(--Chocolate);
     }
 
-    sticky-header.gradient:has(.menu-opening) .header__heading-link.logo {
+    sticky-header.gradient:has(.menu-opening[open]) .header__heading-link.logo {
       display: none;
     }
   }
