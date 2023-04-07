@@ -166,4 +166,9 @@
   background-color: var(--Brown);
   box-shadow: 0 0 6px -2px var(--Chocolate);
   display: none;
+  top: unset;
+  bottom: 100px;
+  border-radius: 3px;
+  -ms-border-radius: 3px;
+  -webkit-border-before: 3px;
 }
