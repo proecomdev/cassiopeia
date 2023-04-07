@@ -106,7 +106,7 @@
   height: auto;
   line-height: calc(1 + 0.5 / var(--font-body-scale));
   margin: 0;
-  padding: 15px 57px 15px 17px;
+  padding: 8px 10px;
 }
 
 .facet-filters__sort + .icon-caret {
@@ -167,6 +167,7 @@
 .facets {
   display: flex;
   align-items: center;
+  margin-bottom: 68px;
 }
 
 .facet-main {
@@ -178,6 +179,7 @@
 
 .facets__form {
   display: grid;
+  gap: 0 3.5rem;
   grid-template-columns: 1fr max-content max-content;
   margin-bottom: 0.5rem;
 }
@@ -800,11 +802,11 @@ details.menu-opening .mobile-facets__close svg {
   display: flex;
   flex-direction: column;
 }
-
+/* 
 .js details[open] > .mobile-facets__submenu {
   transition: transform 0.4s cubic-bezier(0.29, 0.63, 0.44, 1),
     visibility 0.4s cubic-bezier(0.29, 0.63, 0.44, 1);
-}
+} */
 
 .js details[open].menu-opening > .mobile-facets__submenu {
   transform: translateX(0);
