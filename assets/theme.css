@@ -268,3 +268,7 @@ a, p {
   .header__inline-menu.mobile {
     display: block;
   }
+
+  .header__inline-menu.mobile .list-menu__item {
+    color: var(--Chocolate);
+  }
