@@ -58,14 +58,9 @@
 
 .mega-menu__link--level-2:not(:only-child) {
   margin-bottom: 24px;
-  font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 300;
   font-size: 16px;
   line-height: 19px;
-  letter-spacing: 0.1em;
   text-transform: uppercase;
-  color: #594230;
 }
 
 .header--top-center .mega-menu__list {
