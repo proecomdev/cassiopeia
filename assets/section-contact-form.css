@@ -134,4 +134,7 @@
   .contact.page-width {
     display: block;
   }
+  .contact.page-width .right-side {
+    height: 100vw;
+  }
 }
