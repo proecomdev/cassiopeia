@@ -320,5 +320,6 @@ a, p {
   .main-page-title.page-title.h0 {
     font-size: 32px;
     line-height: 64px;
+    margin-bottom: 40px;
   }
 }
