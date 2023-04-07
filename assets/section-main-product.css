@@ -1607,3 +1607,10 @@ h3.text-font-family {
   justify-content: space-between;
   align-items: center;
 }
+
+@media (max-width: 990px) {
+  .grid__item {
+    width: calc(50% - var(--grid-desktop-horizontal-spacing) * 3 / 4);
+    max-width: calc(50% - var(--grid-desktop-horizontal-spacing) / 2);
+  }
+}
