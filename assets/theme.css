@@ -19,7 +19,6 @@
 .font-lightbeige { color: var(--Lightbeige); }
 .font-cream { color: var(--Cream); }
 .font-brown { color: var(--Brown); }
-.font-almond { color: var(--Almond) }
 /* END HEADER */
 
 /* START BACKGROUND COLOR */
@@ -264,16 +263,8 @@ a, p {
   .page-width--narrow {
     width: 100%;
     padding: 0 120px;
-    max-width: 100%;
   }
-  .main-page-title {
-    font-family: 'Faberge';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 76px;
-    line-height: 152px;
-    letter-spacing: 0.04em;
-    text-transform: uppercase;
-    color: #281D15;
-    margin-top: 50px;
+
+  .header__inline-menu.mobile {
+    display: block;
   }
