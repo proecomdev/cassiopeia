@@ -84,11 +84,12 @@ a, p {
   background: var(--Almond); 
 }
 ::-webkit-scrollbar-thumb {
-  background: var(--Brown); 
+  background: var(--Brown);
+  opacity: 0.7;
 }
-
 ::-webkit-scrollbar-thumb:hover {
-  background: var(--Chocolate); 
+  background: var(--Brown); 
+  opacity: 1;
 }
   .slick-container {
     width: 100%;
