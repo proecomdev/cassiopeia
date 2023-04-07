@@ -148,6 +148,10 @@
   .page-width {
     max-width: calc(100% - 30px);
   }
+  .grid__item {
+    width: calc(50% - var(--grid-desktop-horizontal-spacing) * 2);
+    max-width: calc(50% - var(--grid-desktop-horizontal-spacing) / 2);
+  }
  }
 
  @media (max-width: 767px) {
