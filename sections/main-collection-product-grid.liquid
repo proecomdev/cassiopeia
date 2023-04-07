@@ -50,11 +50,11 @@
           </div>
         {% endif %}
         <div class="facets__form {% if enable_filter_tree_button_desktop_v and enable_filter_sticky_d  %} boost-pfs-filter-tree-desktop-button-sticky-wrapper {% endif %}">
-          <div class="facets__wrapper">
+          {% comment %} <div class="facets__wrapper">
             {%- if enable_filter_tree_button_desktop_v -%}
               <div class="boost-pfs-filter-tree-desktop-button">{%- render 'boost-pfs-filter-skeleton', type: 'button' -%}</div>
             {%- endif -%}
-          </div>
+          </div> {% endcomment %}
           {%- if section.settings.enable_sorting -%}
             <div class="boost-pfs-filter-toolbar-top-mobile">
               <div class="boost-pfs-filter-tree-mobile-button">
