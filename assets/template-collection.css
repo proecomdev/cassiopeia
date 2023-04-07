@@ -143,14 +143,15 @@
     max-width: calc(100% - 120px);
   }
  }
- @media (max-width: 767px) {
-  .filter-title {
-    display: none;
-  }
- }
 
  @media (max-width: 990px) {
   .page-width {
     max-width: calc(100% - 30px);
+  }
+ }
+
+ @media (max-width: 767px) {
+  .filter-title {
+    display: none;
   }
  }
