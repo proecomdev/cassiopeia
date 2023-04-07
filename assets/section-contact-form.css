@@ -129,3 +129,9 @@
     margin-right: 0;
   }
 }
+
+@media (max-width: 990px) {
+  .contact.page-width {
+    display: block;
+  }
+}
