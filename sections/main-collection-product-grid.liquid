@@ -57,15 +57,15 @@
           </div>
           {%- if section.settings.enable_sorting -%}
             <div class="facet-filters sorting caption">
-              <div class="boost-pfs-filter-toolbar-top-mobile">
-                <div class="boost-pfs-filter-tree-mobile-button">
-                  {%- render 'boost-pfs-filter-skeleton', type: 'button' -%}
-                </div>
-              </div>
               <div class="facet-filters__field">
                 <label class="facet-filters__label caption-large" for="SortBy">{{ 'products.facets.sort_by_label' | t }}</label>
                 <div class="select boost-pfs-filter-custom-sorting boost-pfs-filter-top-sorting">
                   {%- render 'boost-pfs-filter-skeleton' -%}
+                </div>
+              </div>
+              <div class="boost-pfs-filter-toolbar-top-mobile">
+                <div class="boost-pfs-filter-tree-mobile-button">
+                  {%- render 'boost-pfs-filter-skeleton', type: 'button' -%}
                 </div>
               </div>
             </div>
