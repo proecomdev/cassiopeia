@@ -583,12 +583,12 @@ table:not([class]) th {
   padding: 1em;
   border: 0.1rem solid rgba(var(--color-foreground), 0.2);
 }
-
+/* 
 @media screen and (max-width: 749px) {
   .small-hide {
     display: none !important;
   }
-}
+} */
 
 @media screen and (min-width: 750px) and (max-width: 989px) {
   .medium-hide {
@@ -2572,7 +2572,6 @@ details[open] .modal-overlay::after {
   opacity: 1;
   transform: scale(1);
   transition: transform 150ms ease, opacity 150ms ease;
-  color: var(--Brown);
 }
 
 details:not([open]) > .header__icon--menu .icon-close,
@@ -2985,7 +2984,7 @@ html, body {
   font-weight: 300;
   font-size: 18px;
   line-height: 130%;
-  text-align: left;
+  text-align: center;
   letter-spacing: 0.05em;
   text-transform: uppercase;
   color: #281D15;
