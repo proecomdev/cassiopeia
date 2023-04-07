@@ -157,4 +157,7 @@
   .facets__form {
     grid: none;
   }
+  .collection-filters {
+    justify-content: space-between;
+  }
  }
