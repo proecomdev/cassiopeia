@@ -125,4 +125,7 @@
   .contact .field {
     max-width: 100%;
   }
+  .contact__button {
+    margin-right: 0;
+  }
 }
