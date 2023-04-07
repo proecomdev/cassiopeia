@@ -286,7 +286,7 @@ a, p {
     .header {
       grid-template-columns: 1fr 8fr 1fr;
     }
-    .header__icons a {
+    .header__icons {
       display: none;
     }
     sticky-header.gradient:has(.menu-opening) .header__icons a {
