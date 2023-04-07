@@ -146,4 +146,7 @@
   .page-width--narrow {
     padding: 0 15px;
   }
+  .main-page-title.page-title.h0 {
+    margin-bottom: 40px;
+  }
 }
