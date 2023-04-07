@@ -137,6 +137,9 @@
   .contact.page-width {
     display: block;
   }
+  .contact.page-width form {
+    margin-bottom: 56px;
+  }
   .contact.page-width .right-side {
     height: 100vw;
     background-position: center;
