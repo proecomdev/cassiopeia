@@ -76,8 +76,20 @@ a, p {
 }
 .col-md-6 { width: 50%; }
 .col-md-12 { width: 100%; }
-/* END DEFAULT SETTINGS */
 
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: var(--Almond); 
+}
+::-webkit-scrollbar-thumb {
+  background: var(--Brown); 
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--Chocolate); 
+}
   .slick-container {
     width: 100%;
     padding-left: 120px;
