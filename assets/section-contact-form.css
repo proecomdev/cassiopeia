@@ -14,6 +14,18 @@
   margin-bottom: 1.5rem;
 }
 
+.main-page-title.page-title.h0 {
+  font-family: 'Faberge';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 64px;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: #281D15;
+  margin-bottom: 40px;
+}
+
 .contact.page-width {
   background-color: var(--Brown);
   display: grid;
