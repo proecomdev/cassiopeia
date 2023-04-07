@@ -283,14 +283,14 @@ a, p {
   }
 
   @media (max-width: 990px) {
-    
+    .header {
+      grid-template-columns: 1fr 8fr 1fr;
+    }
     .header__icons {
       display: none;
     }
     sticky-header.gradient:has(.menu-opening) .header__icons {
       display: block;
     }
-    sticky-header.gradient:has(.menu-opening) .header {
-      grid-template-columns: 1fr 1fr 8fr;
-    }
+    
   }
