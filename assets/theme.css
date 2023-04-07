@@ -286,4 +286,7 @@ a, p {
     .header {
       grid-template-columns: repeat(3, 1fr);
     }
+    .header__icons a {
+      display: none;
+    }
   }
