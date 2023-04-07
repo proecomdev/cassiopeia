@@ -136,6 +136,9 @@
   sticky-header.gradient:has(.menu-opening) .scrolled-header-hidden {
     display: block;
   }
+
+  sticky-header.gradient:has(.menu-opening) 
+  
   #MegaMenu-Content-1 {
     padding-top: 0;
   }
@@ -473,7 +476,7 @@
 
 
     {%- if section.settings.logo_position != 'middle-center' -%}
-      <a href="{{ routes.root_url }}" class="header__heading-link link link--text focus-inset">
+      <a href="{{ routes.root_url }}" class="header__heading-link link link--text focus-inset logo">
         <img src="{{ 'Logo.svg' | asset_url }}" class="{% if template == 'index' %} scrolled-header-show {% else %} d-none {% endif %}"/>
         <img src="{{ 'Logo2.svg' | asset_url }}" class="{%- if template == 'index' -%}scrolled-header-hidden {%- endif -%}"/>
       </a>
