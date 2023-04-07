@@ -267,24 +267,23 @@ a, p {
 
 
 
-  .header__inline-menu.mobile {
-    display: block;
-    text-align: center;
-    margin-top: 24px;
-  }
-  .header__inline-menu.mobile .list-menu__item {
-    color: var(--Chocolate);
-    margin-left: 22px;
-    margin-right: 22px;
-  }
-  .header__inline-menu.mobile .mega-menu__content {
-    top: 55px;
-  }
-  .header__inline-menu.mobile .mega-menu__list {
-    grid-template-columns: auto;
-  }
-
   @media (max-width: 990px) {
+    .header__inline-menu.mobile {
+      display: block;
+      text-align: center;
+      margin-top: 24px;
+    }
+    .header__inline-menu.mobile .list-menu__item {
+      color: var(--Chocolate);
+      margin-left: 22px;
+      margin-right: 22px;
+    }
+    .header__inline-menu.mobile .mega-menu__content {
+      top: 55px;
+    }
+    .header__inline-menu.mobile .mega-menu__list {
+      grid-template-columns: auto;
+    }
     .header {
       grid-template-columns: 1fr 1fr 1fr;
     }
