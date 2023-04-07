@@ -39,7 +39,7 @@
         {% endfor %}
       </div>
     {% when 'button' %}
-      <button class="boost-pfs-filter-skeleton-button" role="status" aria-label="Loading"><button class="boost-pfs-filter-skeleton-button" role="status"><img src="{{ 'sliders.svg' | asset_url }}"></button></button>
+      <button class="boost-pfs-filter-skeleton-button" role="status" aria-label="Loading"><img src="{{ 'sliders.svg' | asset_url }}"></button>
     {% else %}
       <span class="boost-pfs-filter-skeleton-text boost-pfs-filter-skeleton-width{{- width -}}"></span>
   {% endcase %}
