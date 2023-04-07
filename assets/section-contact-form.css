@@ -131,6 +131,8 @@
   .contact.page-width .right-side {
     height: 100vw;
     background-position: center;
+    background-size: auto calc(100% - 56px);
+    background-position: center top;
   }
   .page-width--narrow {
     padding: 0 15px;
