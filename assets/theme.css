@@ -291,10 +291,10 @@ a, p {
     .header__icons {
       display: none;
     }
-    sticky-header.gradient:has(.menu-opening) .header__icons {
+    sticky-header.gradient:has(.menu-opening[open]) .header__icons {
       display: flex;
     }
-    sticky-header.gradient:has(.menu-opening) .header {
+    sticky-header.gradient:has(.menu-opening[open]) .header {
       grid-template-columns: 1fr 1fr 8fr;
     }
   }
