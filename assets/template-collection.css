@@ -143,9 +143,9 @@
     max-width: calc(100% - 120px);
   }
  }
- @media (max-width: 640px) {
-  .collection-filters {
-    display: block;
+ @media (max-width: 767px) {
+  .filter-title {
+    display: none;
   }
  }
 
