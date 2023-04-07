@@ -151,8 +151,7 @@
  }
 
  @media (max-width: 767px) {
-  .filter-title,
-  .facet-filters__label {
+  .filter-title {
     display: none;
   }
   .facets__form {
