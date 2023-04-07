@@ -137,7 +137,7 @@
     display: block;
   }
   .contact.page-width form {
-    padding: 0 56px;
+    padding: 56px 0;
   }
   .contact.page-width .right-side {
     height: 100vw;
