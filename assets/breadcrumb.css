@@ -49,3 +49,8 @@
   text-decoration: underline;
 }
 
+@media (max-width: 767px) {
+  .breadcrumbs {
+    margin: 25px 0 26.6px;
+  }
+} 
