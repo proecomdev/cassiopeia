@@ -266,9 +266,10 @@ a, p {
   }
 
 
-  
+
   .header__inline-menu.mobile {
     display: block;
+    text-align: center;
   }
   .header__inline-menu.mobile .list-menu__item {
     color: var(--Chocolate);
