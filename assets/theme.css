@@ -298,3 +298,20 @@ a, p {
       grid-template-columns: 1fr 1fr 8fr;
     }
   }
+
+
+
+/* TEMPLATE PAGES */
+
+.main-page-title.page-title.h0 {
+  font-family: 'Faberge';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 76px;
+  line-height: 152px;
+  letter-spacing: 4%;
+  text-transform: uppercase;
+  color: #281D15;
+  margin-top: 30px;
+  margin-bottom: 17px;
+}
