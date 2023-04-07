@@ -23,7 +23,6 @@
   letter-spacing: 0.04em;
   text-transform: uppercase;
   color: #281D15;
-  margin-bottom: 40px;
 }
 
 .contact.page-width {
@@ -146,5 +145,8 @@
   }
   .page-width--narrow {
     padding: 0 15px;
+  }
+  .main-page-title.page-title.h0 {
+    margin-bottom: 40px;
   }
 }
