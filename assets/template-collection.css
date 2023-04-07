@@ -143,3 +143,14 @@
     max-width: calc(100% - 120px);
   }
  }
+ @media (max-width: 640px) {
+  .collection-filters {
+    display: block;
+  }
+ }
+
+ @media (max-width: 990px) {
+  .page-width {
+    max-width: calc(100% - 30px);
+  }
+ }
