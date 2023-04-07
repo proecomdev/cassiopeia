@@ -290,7 +290,7 @@ a, p {
       display: none;
     }
     sticky-header.gradient:has(.menu-opening) .header__icons {
-      display: block;
+      display: flex;
     }
     
   }
