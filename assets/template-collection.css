@@ -165,4 +165,5 @@
 .boost-pfs-filter-scroll-to-top {
   background-color: var(--Brown);
   box-shadow: 0 0 6px -2px var(--Chocolate);
+  display: none;
 }
