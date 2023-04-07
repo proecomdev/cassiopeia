@@ -190,7 +190,9 @@
 
 @media (max-width: 767px) {
   .facets__form {
-    display: block;
+    display: flex;
+    align-items: center;
+    gap: 0;
   }
 }
 
