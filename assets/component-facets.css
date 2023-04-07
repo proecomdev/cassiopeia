@@ -51,6 +51,12 @@
   margin: 0 2rem 0 0;
 }
 
+@media (max-width: 767px) {
+  .facet-filters__label {
+    display: none;
+  }
+}
+
 .facet-filters__summary {
   display: flex;
   align-items: center;
