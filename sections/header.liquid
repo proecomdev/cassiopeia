@@ -205,6 +205,71 @@
             </span>
           </summary>
           <div id="menu-drawer" class="gradient menu-drawer motion-reduce" tabindex="-1">
+            <div class="mobile-nav">
+              <div class="nav-header">
+                <ul class="nav-link has-submenu" role="list">
+                  {%- for link in section.settings.menu.links -%}
+                    {% if link.links.size > 0 %}
+                      <li class="nav-item h3 has-submenu">
+                        <a href="{{ link.url }}" class="nav-link submenu-btn">{{ link.title | escape }}</a>
+                        {% comment %} <div class="submenu-content">
+                          <ul class="submenu">
+                            {%- for childlink in link.links -%}
+                              {%- if childlink.links == blank -%}
+                                <li class="nav-item"><a href="{{ children.url }}">{{ childlink.title }}</a></li>
+                              {%- else -%}
+                                
+                              {%- endif -%}
+                            {%- endfor -%}
+                          </ul>
+                        </div> {% endcomment %}
+                      </li>
+                    {% else %}
+                      <li class="nav-item h3"><a href="{{ link.url }}">{{ link.title | escape }}</a></li>
+                    {% endif %}
+                  {%- endfor -%}
+                </ul>
+              </div>
+              {% comment %} <div class="nav-list">
+                <nav class="nav-content">
+                  <ul class="menu-drawer__menu has-submenu list-menu" role="list">
+                    {%- for link in section.settings.menu.links -%}
+                      <li>
+                        {%- if link.links != blank -%}
+                          <h3 class="text-font-family">{{ link.title | escape }}</h3>
+                          <ul class="menu-drawer__menu list-menu" role="list" tabindex="-1">
+                            {%- for childlink in link.links -%}
+                              <li>
+                                {%- if childlink.links == blank -%}
+                                  <a href="{{ childlink.url }}" class="menu-drawer__menu-item link link--text list-menu__item focus-inset{% if childlink.current %} menu-drawer__menu-item--active{% endif %}"{% if childlink.current %} aria-current="page"{% endif %}>
+                                    {{ childlink.title | escape }}
+                                  </a>
+                                {%- else -%}
+                                  <h3 class="text-font-family">{{ childlink.title | escape }}</h3>
+                                  <ul class="menu-drawer__menu list-menu" role="list" tabindex="-1">
+                                    {%- for grandchildlink in childlink.links -%}
+                                      <li>
+                                        <a href="{{ grandchildlink.url }}" class="menu-drawer__menu-item link link--text list-menu__item focus-inset{% if grandchildlink.current %} menu-drawer__menu-item--active{% endif %}"{% if grandchildlink.current %} aria-current="page"{% endif %}>
+                                          {{ grandchildlink.title | escape }}
+                                        </a>
+                                      </li>
+                                    {%- endfor -%}
+                                  </ul>
+                                {%- endif -%}
+                              </li>
+                            {%- endfor -%}
+                          </ul>
+                        {%- else -%}
+                          <a href="{{ link.url }}" class="menu-drawer__menu-item list-menu__item link link--text focus-inset{% if link.current %} menu-drawer__menu-item--active{% endif %}"{% if link.current %} aria-current="page"{% endif %}>
+                            {{ link.title | escape }}
+                          </a>
+                        {%- endif -%}
+                      </li>
+                    {%- endfor -%}
+                  </ul>
+                </nav>
+              </div> {% endcomment %}
+            </div>
             <div class="menu-drawer__inner-container">
               <div class="menu-drawer__navigation-container">
                 <nav class="menu-drawer__navigation">
