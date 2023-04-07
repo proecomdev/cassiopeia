@@ -127,11 +127,13 @@
   }
   .scrolled-past-header .scrolled-header-show,
   sticky-header.gradient:has(.mega-menu[open]) .scrolled-header-show,
-  .scrolled-header-hidden {
+  .scrolled-header-hidden,
+  sticky-header.gradient:has(.menu-opening) .scrolled-header-show {
     display: none;
   }
   .scrolled-past-header .scrolled-header-hidden,
-  sticky-header.gradient:has(.mega-menu[open]) .scrolled-header-hidden {
+  sticky-header.gradient:has(.mega-menu[open]) .scrolled-header-hidden,
+  sticky-header.gradient:has(.menu-opening) .scrolled-header-hidden {
     display: block;
   }
   #MegaMenu-Content-1 {
