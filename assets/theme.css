@@ -4,7 +4,7 @@
   --DarkBeige: #B8B2A6;
   --LightBeige: #EDECE7;
   --Cream: #D5CEC4;
-  --Brown: #594230;
+  --Brown: rgb(89, 66, 48);
   --Almond: #F0EAD2;
 
 
@@ -84,12 +84,10 @@ a, p {
   background: var(--Almond); 
 }
 ::-webkit-scrollbar-thumb {
-  background: var(--Brown);
-  opacity: 0.7;
+  background: rgb(89, 66, 48, 0.5);
 }
 ::-webkit-scrollbar-thumb:hover {
-  background: var(--Brown); 
-  opacity: 1;
+  background: var(--Brown);
 }
   .slick-container {
     width: 100%;
