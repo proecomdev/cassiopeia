@@ -322,6 +322,10 @@ a, p {
     }
   }
 
+/* Wishlist Customize */
+.swym-ui-component.swym-wishlist-page {
+  max-width: calc(100% - 240px);
+}
 
 
 /* TEMPLATE PAGES */
@@ -394,3 +398,4 @@ a, p {
     margin-top: 40px !important;
   }
 }
+
