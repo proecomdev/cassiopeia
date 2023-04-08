@@ -442,4 +442,7 @@ div.text-font-family {
     font-size: 28px;
     line-height: 26.4px;
   }
+  .header-introduction {
+    padding: 0;
+  }
 }
