@@ -521,6 +521,9 @@ div.text-font-family {
   .faq-item h3.text-font-family i {
     margin-right: 10px;
   }
+  .faq-item p.text-font-family {
+    padding-left: 34px;
+  }
 }
 
 @media (max-width: 450px) {
