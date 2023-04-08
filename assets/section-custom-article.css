@@ -437,4 +437,7 @@ div.text-font-family {
   .article-template {
     padding-top: 20px;
   }
+  h1.heading-font-family {
+    padding: 0;
+  }
 }
