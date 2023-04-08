@@ -518,6 +518,9 @@ div.text-font-family {
     font-size: 18px;
     margin: 24px 0 10px;
   }
+  .faq-item h3.text-font-family span {
+    margin-right: 10px;
+  }
 }
 
 @media (max-width: 450px) {
