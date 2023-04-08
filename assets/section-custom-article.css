@@ -408,6 +408,9 @@ div.text-font-family {
   .background-image.top6 {
     height: 390px;
   }
+}
+
+@media (max-width: 1500px) {
   .background-image.landing.full,
   .article-banner.desktop {
     height: 557px;
