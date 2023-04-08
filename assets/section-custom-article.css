@@ -461,6 +461,7 @@ div.text-font-family {
   }
   .col-md-6 {
     width: 100%;
+    margin-bottom: 24px;
   }
   .col-md-6:has(img) {
     min-width: 350px;
