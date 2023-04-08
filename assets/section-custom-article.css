@@ -410,7 +410,7 @@ div.text-font-family {
   }
   .background-image.landing.full,
   .article-banner.desktop {
-    width: 557px;
+    height: 557px;
   }
 }
 
