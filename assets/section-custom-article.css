@@ -514,6 +514,10 @@ div.text-font-family {
     padding: 15px 0 0;
     line-height: 36.5px;
   }
+  .faq-item h3.text-font-family {
+    font-size: 18px;
+    margin: 24px 0 10px;
+  }
 }
 
 @media (max-width: 450px) {
