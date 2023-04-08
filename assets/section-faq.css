@@ -90,6 +90,10 @@
   .faq-item h3.text-font-family {
     font-size: 18px;
   }
+  .faq-item h3.text-font-family:after {
+    bottom: unset;
+    top: 28px;
+  }
   .faq-item h3.text-font-family i {
     margin-right: 10px;
   }
