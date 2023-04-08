@@ -188,14 +188,6 @@
   margin-bottom: 0.5rem;
 }
 
-@media (max-width: 767px) {
-  .facets__form {
-    display: flex;
-    align-items: center;
-    gap: 0;
-  }
-}
-
 .facets__wrapper {
   align-items: center;
   align-self: flex-start;
