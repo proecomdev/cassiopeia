@@ -450,7 +450,7 @@ div.text-font-family {
     margin: 24px 0;
   }
   h2.text-font-family, h3.text-font-family {
-    font-size: 24p;
+    font-size: 24px;
     line-height: 31.2px;
   }
   .article-grid {
