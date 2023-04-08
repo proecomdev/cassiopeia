@@ -496,4 +496,10 @@ div.text-font-family {
   .article-buttons {
     margin: 0;
   }
+  .title-wrapper {
+    margin-bottom: 24p
+  }
+  .slick-container .slick-next, .slick-container .slick-prev {
+    top: -30px;
+  }
 }
