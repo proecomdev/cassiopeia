@@ -438,7 +438,8 @@ div.text-font-family {
 
 @media (max-width: 820px) {
   .article-banner.desktop,
-  .background-image.landing.full {
+  .background-image.landing.full,
+  .two-background-image {
     height: 70vw;
   }
   .mobile-blog-img {
