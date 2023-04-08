@@ -71,3 +71,9 @@
 .faq-item h3.text-font-family i {
   margin-right: 24px; 
 }
+
+@media (max-width: 990px) {
+  .page-width--narrow {
+    padding: 0;
+  }
+}
