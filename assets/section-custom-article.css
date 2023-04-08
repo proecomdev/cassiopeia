@@ -39,7 +39,7 @@
 }
 .article-banner.desktop {
   margin: 48px 0 74px;
-  height: 70vw;
+  height: 557px;
 }
 .article-banner.mobile {
   margin: 0;
@@ -425,6 +425,9 @@ div.text-font-family {
 }
 
 @media (max-width: 820px) {
+  .article-banner.desktop {
+    width: 70vw;
+  }
   .mobile-blog-img {
     display: block;
     height: 70vw;
