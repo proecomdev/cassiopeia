@@ -422,13 +422,11 @@ div.text-font-family {
 
 @media (max-width: 820px) {
   .mobile-blog-img {
-    position: relative;
-    overflow: hidden;
-    height: 80vw;
-  }
-
-  .mobile-blog-img img {
-    width: 100%;
+    display: block;
+    height: 70vw;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
   }
 
   .article-template {
