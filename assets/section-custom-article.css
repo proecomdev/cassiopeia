@@ -150,8 +150,8 @@ div.text-font-family {
   padding: 98px 0 20px;
   text-align: left;
   font-size: 76px;
-  line-height: 152px;
-  letter-spacing: 4%; }
+  line-height: 152px; 
+}
 
 .share ul {
   padding-left: 13px;
@@ -505,6 +505,13 @@ div.text-font-family {
   .background-image.portrait {
     background-size: cover;
     margin-bottom: 24px;
+  }
+  .background-image.portrait:last-child {
+    margin-bottom: 0;
+  }
+  .article-template .Heading-faq {
+    font-size: 28px;
+    
   }
 }
 
