@@ -503,3 +503,9 @@ div.text-font-family {
     top: -30px;
   }
 }
+
+@media (max-width: 450px) {
+  .col-md-6 .background-image {
+    min-width: none;
+  }
+}
