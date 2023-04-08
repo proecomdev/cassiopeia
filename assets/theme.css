@@ -304,6 +304,7 @@ a, p {
     }
     sticky-header.gradient:has(.menu-opening[open]) .header__icons {
       display: flex;
+      align-items: center;
     }
     sticky-header.gradient:has(.menu-opening[open]) .header {
       grid-template-columns: 1fr 1fr 8fr;
