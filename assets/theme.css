@@ -348,6 +348,10 @@ a, p {
   color: var(--Brown) !important;
 }
 
+.currency-converter-chooser-item:hover {
+  background-color: var(--Cream) !important;
+}
+
 .cbb-currency-updown-icon {
   display: none !important;
 }
