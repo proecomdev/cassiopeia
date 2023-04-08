@@ -265,4 +265,7 @@
   .blog-articles {
     grid-template-columns: 1fr;
   }
+  .card__information .article-label {
+    margin: 20px 0 16px;
+  }
 }
