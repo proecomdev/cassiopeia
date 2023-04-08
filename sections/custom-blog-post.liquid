@@ -85,6 +85,9 @@
 </style>
 <article class="article-template" itemscope itemtype="http://schema.org/BlogPosting">
   <div class="page-width">
+    <div class="mobile-blog-img">
+      <img src="{{ article.image }}">
+    </div>
     <div class="article-info d-flex justify-content-between align-center w-100">
       <div class="author-info d-flex justify-content-between align-center">
         <img src="{{ article.user.image | img_url: '30x' }}">
