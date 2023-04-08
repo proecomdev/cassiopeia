@@ -197,5 +197,17 @@
 @media (max-width: 990px) {
   .main-blog .title--primary {
     text-align: center;
+    margin-bottom: 20px;
+  }
+  .grid-wraper {
+    display: block;
+  }
+  .grid-item:nth-child(2) {
+    padding-left: 0;
+    padding-top: 30px;
+  }
+  .grid-item:nth-child(2) .button.button--primary {
+    position: relative;
+    bottom: auto;
   }
 }
