@@ -357,3 +357,7 @@ a, p {
 .cbb-currency-updown-icon {
   display: none !important;
 }
+
+.cbb-currency-flag {
+  margin-right: 8px;
+}
