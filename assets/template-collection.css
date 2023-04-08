@@ -177,7 +177,7 @@
  @media (max-width: 400px) {
   .collection-header {
     display: block;
-    text-align: center0;
+    text-align: center;
   }
   .facets__form {
     margin: auto;
