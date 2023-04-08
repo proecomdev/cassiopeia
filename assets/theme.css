@@ -336,6 +336,9 @@ a, p {
   }
 }
 
+.currency-converter-currency-button.cbb-desktop-view.skiptranslate.notranslate {
+  margin-right: 9px !important;
+}
 
 .currency-converter-chooser.skiptranslate.notranslate {
   background-color: var(--Almond);
@@ -359,5 +362,5 @@ a, p {
 }
 
 .cbb-currency-flag {
-  margin-right: 8px !important
+  margin-right: 8px !important;
 }
