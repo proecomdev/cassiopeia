@@ -178,7 +178,7 @@ div.text-font-family {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 100;
+  width: 100%;
   margin-top: 64px;
 }
 
@@ -488,5 +488,8 @@ div.text-font-family {
   .share ul li:first-child {
     margin-left: 0;
     margin-right: auto;
+  }
+  .article-buttons {
+    margin: 0;
   }
 }
