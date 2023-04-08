@@ -211,4 +211,7 @@
     position: relative;
     bottom: auto;
   }
+  .mb-172 {
+    margin-bottom: 72px;
+  }
 }
