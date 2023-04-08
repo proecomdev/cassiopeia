@@ -471,7 +471,7 @@ div.text-font-family {
   .mb-top {
     margin-bottom: 0;
   }
-  .mb-24 {
+  .mb-24,.mb-36 {
     margin-bottom: 9px;
   }
   .share ul {
@@ -496,14 +496,10 @@ div.text-font-family {
   .article-buttons {
     margin: 0;
   }
-  .title-wrapper,
-  .mb-36 {
+  .title-wrapper {
     margin-bottom: 24p
   }
   .slick-container .slick-next, .slick-container .slick-prev {
     top: -30px;
-  }
-  .comment-head {
-    padding: 
   }
 }
