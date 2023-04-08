@@ -153,7 +153,9 @@
     display: none;
   }
   .facets__form {
-    grid: none;
+    grid: flex;
+    align-items: center;
+    gap: 0;
   }
   .collection-header {
     width: 100%;
