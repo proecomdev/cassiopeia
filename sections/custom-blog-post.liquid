@@ -86,7 +86,6 @@
     }
   }
 
-  }
   .mobile-blog-img {
     background-image: url({{ article.image | img_url: "master" }});
   }
@@ -94,7 +93,7 @@
 </style>
 <article class="article-template" itemscope itemtype="http://schema.org/BlogPosting">
   <div class="page-width">
-    <div class="mobile-blog-img" style="background-image: url({{ article.image | img_url: "master" }});"></div>
+    <div class="mobile-blog-img"></div>
     <div class="article-info d-flex justify-content-between align-center w-100">
       <div class="author-info d-flex justify-content-between align-center">
         <img src="{{ article.user.image | img_url: '30x' }}">
