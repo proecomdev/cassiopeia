@@ -82,4 +82,15 @@
   .main-page-title.page-title.h0 {
     text-align: center;
   }
+  .sub_title .heading-font-family {
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 24px;
+  }
+  .faq-item h3.text-font-family {
+    font-size: 18px;
+  }
+  .faq-item h3.text-font-family i {
+    margin-right: 10px;
+  }
 }
