@@ -101,11 +101,11 @@ h1.heading-font-family {
   }
   .image_block .d-flex img:last-child,
   .image_block .d-flex img:first-child {
-    height: 150px;
+    height: 230px;
   }
   .image_block .d-flex img:nth-child(2), 
   .image_block .d-flex img:nth-child(4) {
-    height: 230px;
+    height: 150px;
   }
   .image_block .d-flex img:not(:first-child):not(:last-child) {
     margin: 0 5px;
