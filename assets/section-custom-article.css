@@ -486,5 +486,6 @@ div.text-font-family {
   }
   .share ul li {
     padding: 0;
+    margin-left: 19px;
   }
 }
