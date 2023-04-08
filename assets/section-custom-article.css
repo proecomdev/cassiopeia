@@ -463,7 +463,7 @@ div.text-font-family {
     width: 100%;
     margin-bottom: 24px;
   }
-  .col-md-6:has(img) {
+  .col-md-6:has(.background-image) {
     min-width: 350px;
     width: 50%;
     margin: auto;
