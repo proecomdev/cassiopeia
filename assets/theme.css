@@ -345,13 +345,14 @@ a, p {
   border-radius: 0 !important;
   border: 1px solid var(--Brown) !important;
   padding: 0 !important;
+  min-width: 92px !important;
 }
 
 .currency-converter-chooser-item {
   color: var(--Brown) !important;
   padding-left: 11px !important;
   padding-right: 13px !important;
-  min-width: 82px !important;
+  min-width: 92px !important;
 }
 
 .currency-converter-chooser-item:hover {
