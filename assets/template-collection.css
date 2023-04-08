@@ -174,7 +174,7 @@
   }
  }
 
- @media (max-width: 400px) {
+ @media (max-width: 390px) {
   .collection-header {
     display: block;
     text-align: center;
