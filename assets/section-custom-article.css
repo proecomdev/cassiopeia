@@ -459,4 +459,7 @@ div.text-font-family {
   .article-grid .share {
     order: 1;
   }
+  .col-md-6 {
+    width: 100%;
+  }
 }
