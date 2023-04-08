@@ -246,4 +246,20 @@
   .article-excerpt-wraper {
     margin-bottom: 24px;
   }
+  .mb-172 {
+    margin-bottom: 64px;
+  }
+  .list-title {
+    font-size: 32px;
+    line-height: 64px;
+  }
+  .article-category {
+    margin-top: 16px;
+    margin-bottom: 40px;  
+  }
+  .article-category a.text-font-family {
+    font-size: 14px;
+    line-height: 16.41px;
+    margin-right: 24px;
+  }
 }
