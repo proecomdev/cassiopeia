@@ -527,21 +527,6 @@ div.text-font-family {
   }
 }
 
-@media (max-width: 640px) {
-  .slick-container .slick-next, .slick-container .slick-prev {
-    top: unset;
-    bottom: 58px;
-    width: 31px;
-  }
-  .slick-container .slick-prev {
-    right: unset;
-    left: calc(50% - 50px);
-  }
-  .slick-container .slick-next {
-    right: calc(50% - 50px);
-  }
-}
-
 @media (max-width: 450px) {
   .col-md-6 .background-image {
     min-width: auto;
