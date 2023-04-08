@@ -133,9 +133,6 @@
 }
 
  @media (max-width: 1200px) {
-  .collection-header .heading-font-family {
-    
-  }
   .page-width {
     max-width: calc(100% - 120px);
   }
@@ -157,6 +154,14 @@
   }
   .facets__form {
     grid: none;
+  }
+  .collection-header {
+    width: 100%;
+    padding-left: 0;
+  }
+  .collection-header .heading-font-family {
+    font-size: 32px;
+    line-height: 64px;
   }
   .collection-filters {
     justify-content: space-between;
