@@ -193,3 +193,9 @@
     margin-bottom: 50px
   }
 }
+
+@media (max-width: 990px) {
+  .main-blog .title--primary {
+    text-align: center;
+  }
+}
