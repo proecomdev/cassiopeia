@@ -366,3 +366,9 @@ a, p {
 .cbb-currency-flag {
   margin-right: 8px !important;
 }
+
+@media (max-width: 640px) {
+  .page-width--narrow {
+    margin-bottom: 114px;
+  }
+}
