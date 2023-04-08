@@ -441,6 +441,7 @@ div.text-font-family {
     padding: 24px 0 16px;
     font-size: 28px;
     line-height: 26.4px;
+    text-align: left;
   }
   .header-introduction {
     padding: 0;
