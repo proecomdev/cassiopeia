@@ -79,3 +79,10 @@ h1.heading-font-family {
     height: 300px;
   }
 }
+
+@media screen and (max-width: 900px) {
+  .about-cassiopeia {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
