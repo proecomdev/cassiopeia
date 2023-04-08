@@ -153,9 +153,9 @@
     display: none;
   }
   .facets__form {
-    grid: flex;
+    grid: flex !important;
     align-items: center;
-    gap: 0;
+    gap: 0 !important;
   }
   .collection-header {
     width: 100%;
