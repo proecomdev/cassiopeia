@@ -506,6 +506,7 @@ div.text-font-family {
 
 @media (max-width: 450px) {
   .col-md-6 .background-image {
-    min-width: none;
+    min-width: auto;
+    width: auto;
   }
 }
