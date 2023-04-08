@@ -415,8 +415,12 @@ div.text-font-family {
   height: 491px;
 }
 
-
 .comment_form {
+  display: none;
+}
+
+
+.mobile-blog-img {
   display: none;
 }
 
