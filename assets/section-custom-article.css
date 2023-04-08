@@ -438,6 +438,8 @@ div.text-font-family {
     padding-top: 20px;
   }
   h1.heading-font-family {
-    padding: 24px 0;
+    padding: 24px 0 16px;
+    font-size: 28px;
+    line-height: 26.4px;
   }
 }
