@@ -262,4 +262,7 @@
     line-height: 16.41px;
     margin-right: 24px;
   }
+  .blog-articles {
+    grid-template-columns: 1fr;
+  }
 }
