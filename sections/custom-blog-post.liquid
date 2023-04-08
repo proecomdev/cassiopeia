@@ -76,16 +76,16 @@
       font-size: 28px;
       line-height: 129%;
     }
+    #shopify-section-{{ section.id }} .collection {
+      padding-top: 72px;
+    }
   }
   @media (max-width: 640px) {
     #shopify-section-{{ section.id }} .collection__title h2.title {
       text-align: center;
     }
-    #shopify-section-{{ section.id }} .collection {
-    padding-top: 116px;
-    background-color: #EDECE7;
   }
-  
+
   }
   .mobile-blog-img {
     background-image: url({{ article.image | img_url: "master" }});
