@@ -185,7 +185,7 @@
   background-position:center;
 }
 
-.mobile_title {
+.mobile-title {
   display: none;
 }
 
@@ -228,7 +228,8 @@
   .main-blog .title--primary {
     display: none;
   }
-  .mobile_title {
+  .mobile-title {
     display: block;
+    text-align: center;
   }
 }
