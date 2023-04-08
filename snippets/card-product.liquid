@@ -49,7 +49,6 @@
         class="card__inner {% if settings.card_style == 'standard' %}color-{{ settings.card_color_scheme }} gradient{% endif %}{% if card_product.featured_media or settings.card_style == 'standard' %} ratio{% endif %}"
         style="--ratio-percent: {{ 1 | divided_by: ratio | times: 100 }}%;"
       >
-        {%- if template == 'product' -%}
           <div class="buttons">
             <a href="javascript:;"
               class="swym-button swym-add-to-wishlist wishlist button button--primary"
@@ -65,7 +64,6 @@
               <button type="submit" class="add-to-cart button button--primary"><img src="{{ 'shopping-cart.svg' | asset_url }}"></button>
             </form>
           </div>
-        {%- endif -%}
         {%- if card_product.featured_media -%}
           <div class="card__media">
             <div class="media media--transparent media--hover-effect">
