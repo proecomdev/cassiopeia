@@ -19,6 +19,7 @@
 
 <div class="main-blog page-width section-{{ section.id }}-padding">
   <h1 class="title--primary">Cassiopeia Blog</h1>
+  <img class="mobile-title" src="{{ 'mobile_blog.svg' | file_url }}">
   {%- for article in blog.articles limit: 1 -%}
     <div class="grid-wraper grid-row-2 mb-172">
       <div class="grid-item">
