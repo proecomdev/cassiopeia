@@ -181,6 +181,16 @@
   }
   .facets__form {
     margin: auto;
+    display: block;
+  }
+  .boost-pfs-filter-toolbar-top-mobile {
+    margin-bottom: 10px;
+  }
+  .boost-pfs-filter-tree-mobile-button button {
+    margin: auto;
+  }
+  .facet-filters {
+    padding-left: 0 !important;
   }
  }
 
