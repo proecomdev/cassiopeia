@@ -93,4 +93,7 @@
   .faq-item h3.text-font-family i {
     margin-right: 10px;
   }
+  .faq-item .faq-content {
+    padding-left: 34px;
+  }
 }
