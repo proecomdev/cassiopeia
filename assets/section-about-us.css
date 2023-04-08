@@ -117,3 +117,10 @@ h1.heading-font-family {
     margin-left: 5px;
   }
 }
+
+@media (max-width: 640px) {
+  .about-cassiopeia {
+    padding-top: 25px;
+    padding-bottom: 20px;
+  }
+}
