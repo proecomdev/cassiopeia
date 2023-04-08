@@ -404,6 +404,19 @@ div.text-font-family {
   margin: 0;
 }
 
+
+.larimar-amethyst {
+  height: 491px;
+}
+
+.comment_form {
+  display: none;
+}
+
+
+.mobile-blog-img {
+  display: none;
+}
 @media (min-width: 1600px) {
   .background-image.top6 {
     height: 390px;
@@ -417,17 +430,10 @@ div.text-font-family {
   }
 }
 
-.larimar-amethyst {
-  height: 491px;
-}
-
-.comment_form {
-  display: none;
-}
-
-
-.mobile-blog-img {
-  display: none;
+@media (max-width: 1200px) {
+  .header-introduction {
+    padding: 0;
+  }
 }
 
 @media (max-width: 820px) {
@@ -452,9 +458,6 @@ div.text-font-family {
     font-size: 28px;
     line-height: 26.4px;
     text-align: left;
-  }
-  .header-introduction {
-    padding: 0;
   }
   .article-banner.desktop {
     margin: 24px 0;
