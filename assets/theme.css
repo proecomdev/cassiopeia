@@ -346,8 +346,8 @@ a, p {
 
 .currency-converter-chooser-item {
   color: var(--Brown) !important;
-  padding-left: 8px !important;
-  padding-right: 11px !important;
+  padding-left: 11px !important;
+  padding-right: 13px !important;
 }
 
 .currency-converter-chooser-item:hover {
@@ -359,5 +359,5 @@ a, p {
 }
 
 .cbb-currency-flag {
-  margin-right: 8px;
+  margin-right: 8px !important
 }
