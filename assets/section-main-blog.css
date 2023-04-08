@@ -219,3 +219,12 @@
     row-gap: 30px;
   }
 }
+
+@media (max-width: 640px) {
+  .main-blog .title--primary {
+    display: none;
+  }
+  .mobile_title {
+    display: block;
+  }
+}
