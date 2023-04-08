@@ -480,6 +480,8 @@ div.text-font-family {
     padding: 0;
     width: 100%;
     margin: 32px 0 24px;
+    padding-bottom: 24px;
+    border-bottom: 1px solid var(--DarkBeighe);
   }
   .share ul li {
     padding: 0;
