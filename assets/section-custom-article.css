@@ -453,4 +453,10 @@ div.text-font-family {
     font-size: 24p;
     line-height: 31.2px;
   }
+  .article-grid {
+    grid-template-columns: 1fr;
+  }
+  .article-grid .share {
+    order: 1;
+  }
 }
