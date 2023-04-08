@@ -162,6 +162,7 @@
   .collection-header .heading-font-family {
     font-size: 32px;
     line-height: 64px;
+    margin-bottom: 36px;
   }
   .collection-filters {
     justify-content: space-between;
