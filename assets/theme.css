@@ -379,7 +379,7 @@ a, p {
 }
 
 #shopify-section-template--16184683266216__main h1.main-page-title {
-  font-size: 32px;
-  margin-top: 8px;
-  margin-bottom: 16px;
+  font-size: 32px !important;
+  margin-top: 8px !important;
+  margin-bottom: 16px !important;
 }
