@@ -268,7 +268,7 @@
   .card__information .article-label {
     margin: 20px 0 16px;
   }
-  .card__information .card__heading {
+  .card__information .card__heading a {
     text-align: center;
   }
 }
