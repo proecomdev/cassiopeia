@@ -541,6 +541,9 @@ div.text-font-family {
   .faq-item p.text-font-family {
     padding-left: 34px;
   }
+  .blog_img2 {
+    height: 400px;
+  }
 }
 
 @media (max-width: 450px) {
