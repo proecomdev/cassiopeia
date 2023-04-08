@@ -460,7 +460,8 @@ div.text-font-family {
     line-height: 26.4px;
     text-align: left;
   }
-  .article-banner.desktop {
+  .article-banner.desktop,
+  .two-background-image {
     margin: 24px 0;
   }
   h2.text-font-family, h3.text-font-family {
