@@ -285,6 +285,7 @@ a, p {
   @media (max-width: 640px) {
     .page-width--narrow {
       padding: 0 15px;
+      margin-bottom: 114px;
     }
   }
 
@@ -377,8 +378,8 @@ a, p {
   margin-right: 8px !important;
 }
 
-@media (max-width: 640px) {
-  .page-width--narrow {
-    margin-bottom: 114px;
-  }
+#shopify-section-template--16184683266216__main h1.main-page-title {
+  font-size: 32px;
+  margin-top: 8px;
+  margin-bottom: 16px;
 }
