@@ -390,4 +390,7 @@ a, p {
     font-size: 20px !important;
     margin-bottom: 16px !important;
   } 
+  #shopify-section-template--16184683266216__main .rte h2.text-font-family:not(:first-child) {
+    margin-top: 40px !important;
+  }
 }
