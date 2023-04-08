@@ -502,6 +502,10 @@ div.text-font-family {
   .slick-container .slick-next, .slick-container .slick-prev {
     top: -30px;
   }
+  .background-image.portrait {
+    background-size: cover;
+    margin-bottom: 24px;
+  }
 }
 
 @media (max-width: 450px) {
