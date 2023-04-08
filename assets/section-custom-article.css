@@ -544,6 +544,9 @@ div.text-font-family {
   .blog_img2 {
     height: 400px;
   }
+  .page-width >.blog_img6 {
+    display: none;
+  }
 }
 
 @media (max-width: 450px) {
