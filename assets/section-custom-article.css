@@ -468,4 +468,7 @@ div.text-font-family {
     width: 50%;
     margin: auto;
   }
+  .mb-top {
+    margin-bottom: 0;
+  }
 }
