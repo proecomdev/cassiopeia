@@ -486,6 +486,7 @@ div.text-font-family {
   .share ul li {
     padding: 0;
     margin-left: 19px;
+    margin-bottom: 0;
   }
   .share ul li:first-child {
     margin-left: 0;
