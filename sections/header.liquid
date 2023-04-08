@@ -631,7 +631,7 @@
     {%- endif -%}
 
     <div class="header__icons">
-      <a href="{%- if customer -%}{{ routes.account_url }}{%- else -%}{{ routes.account_login_url }}{%- endif -%}" class="header__icon header__icon--account link focus-inset{% if section.settings.menu != blank %} small-hide{% endif %}">
+      <a href="{%- if customer -%}{{ routes.account_url }}{%- else -%}{{ routes.account_login_url }}{%- endif -%}" class="header__icon header__icon--account link focus-inset{% if section.settings.menu != blank %} small-hide{% endif %}" id="account-icon-bubble">
         <img src="{{ 'user.svg' | asset_url }}" class="{%- if template == 'index' -%}scrolled-header-show {%- else -%} d-none {%- endif -%}">
         <img src="{{ 'user2.svg' | asset_url }}" class="{%- if template == 'index' -%}scrolled-header-hidden {%- endif -%}">
       </a>
