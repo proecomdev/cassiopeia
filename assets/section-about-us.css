@@ -94,3 +94,26 @@ h1.heading-font-family {
     padding-right: 15px;
   }
 }
+
+@media (max-width: 820px) {
+  .image_block .d-flex img:nth-child(3) {
+    height: 290px;
+  }
+  .image_block .d-flex img:last-child,
+  .image_block .d-flex img:first-child {
+    height: 150px;
+  }
+  .image_block .d-flex img:nth-child(2), 
+  .image_block .d-flex img:nth-child(4) {
+    height: 230px;
+  }
+  .image_block .d-flex img:not(:first-child):not(:last-child) {
+    margin: 0 5px;
+  }
+  .image_block .d-flex img:first-child {
+    margin-right: 5px;
+  }
+  .image_block .d-flex img:last-child {
+    margin-left: 5px;
+  }
+}
