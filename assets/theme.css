@@ -343,6 +343,6 @@ a, p {
   border: 1px solid var(--Brown);
 }
 
-.currency-converter-chooser-item.cbb-currency-code-refresh {
+.currency-converter-chooser-item {
   color: var(--Brown) !important;
 }
