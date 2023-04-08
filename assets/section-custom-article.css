@@ -471,4 +471,7 @@ div.text-font-family {
   .mb-top {
     margin-bottom: 0;
   }
+  .mb-24 {
+    margin-bottom: 9px;
+  }
 }
