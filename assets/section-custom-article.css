@@ -481,11 +481,12 @@ div.text-font-family {
     width: 100%;
     margin: 32px 0 24px;
   }
-  .share ul li:first-child {
-    margin-right: auto;
-  }
   .share ul li {
     padding: 0;
     margin-left: 19px;
+  }
+  .share ul li:first-child {
+    margin-left: 0;
+    margin-right: auto;
   }
 }
