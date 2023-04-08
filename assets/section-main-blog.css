@@ -185,6 +185,10 @@
   background-position:center;
 }
 
+.mobile_title {
+  display: none;
+}
+
 @media screen and (max-width: 1625px) {
   .article-title {
     margin: 15px 0 25px;
