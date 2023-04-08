@@ -9,7 +9,7 @@
   width: 100%;
 }
 
-@media screen and (min-width: 750px) {
+@media screen and (min-width: 991px) {
   .blog-articles {
     grid-template-columns: 1fr 1fr 1fr;
     column-gap: var(--grid-desktop-horizontal-spacing);
@@ -212,6 +212,10 @@
     bottom: auto;
   }
   .mb-172 {
-    margin-bottom: 72px;
+    margin-bottom: 100px;
+  }
+  .blog-articles {
+    grid-template-columns: 1fr 1fr;
+    row-gap: 30px;
   }
 }
