@@ -346,6 +346,7 @@ a, p {
 
 .currency-converter-chooser-item {
   color: var(--Brown) !important;
+  padding: 1px 15px !important;
 }
 
 .currency-converter-chooser-item:hover {
