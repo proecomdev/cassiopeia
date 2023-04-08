@@ -446,4 +446,11 @@ div.text-font-family {
   .header-introduction {
     padding: 0;
   }
+  .article-banner.desktop {
+    margin: 24px 0;
+  }
+  h2.text-font-family, h3.text-font-family {
+    font-size: 24p;
+    line-height: 31.2px;
+  }
 }
