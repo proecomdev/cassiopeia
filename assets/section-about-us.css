@@ -94,7 +94,8 @@ h1.heading-font-family {
     padding-right: 30px;
   }
   .content img {
-    left: 0;
+    left: 15px;
+    width: 24px;
   }
 }
 
