@@ -478,7 +478,11 @@ div.text-font-family {
     display: flex;
     align-items: center;
     padding: 0;
+    width: 100%;
     margin: 32px 0 24px;
+  }
+  .share ul li:first-child {
+    margin-right: auto;
   }
   .share ul li {
     padding: 0;
