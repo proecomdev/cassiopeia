@@ -82,6 +82,9 @@
       text-align: center;
     }
   }
+  .mobile-blog-img {
+    background-image: url({{ article.image | img_url: "master" }});
+  }
 </style>
 <article class="article-template" itemscope itemtype="http://schema.org/BlogPosting">
   <div class="page-width">
